@@ -12,6 +12,11 @@ https://www.postgresql.org/docs/9.4/functions-json.html
 jsonb_array_elements(jsonb): Expands a JSON array to a set of JSON values.
 */
 
+
+-- Test to see where Hanna is
+SELECT * from istingruppe where email = 'Hanna.Schmidt@gmx.net';
+
+-- Query from myFiles/jsonb
 SELECT grp.groups->'title' AS title, grp.groups->'owner' AS owner -- select groups and owners
 FROM (
     SELECT jsonb_array_elements(content->'groups') AS groups FROM myfiles

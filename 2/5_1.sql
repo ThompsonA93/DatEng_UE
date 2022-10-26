@@ -3,18 +3,18 @@ Create a recursive SQL query that returns the name and number of employees of al
 F&E departments (F&E department and all its descendants).
 **/
 -- Assuming: Name of the department + Employee count ?
-WITH RECURSIVE employeeoverview(deptId, name, parentId, numEmpl) AS
+WITH RECURSIVE emplEnum(deptId, name, parentId, numEmpl) AS
     ( -- Non-recursive part
     SELECT d."deptId", d.name, d."parentId", d."numEmpl"
     FROM department d
     WHERE d.name='F&E'
     UNION -- Recursive part
         SELECT dd."deptId", dd.name, dd."parentId", dd."numEmpl"
-        FROM department dd, employeeoverview eo -- Refer to recursion table expression
+        FROM department dd, emplEnum eo -- Refer to recursion table expression
         WHERE dd."parentId" = eo.deptId
     )
 
-select * from employeeoverview;
+select * from emplEnum;
 
 
 /**
