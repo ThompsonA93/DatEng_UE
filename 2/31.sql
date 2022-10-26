@@ -3,7 +3,7 @@ Create a new table myFiles(key,content), where key is a unique string and conten
 Insert a new file into myfiles with key = groups and content is the result of the query from Exercise 2.
 **/
 
-drop table myFiles;
+drop table if exists myFiles;
 
 create table myFiles(
     key varchar(255) unique,

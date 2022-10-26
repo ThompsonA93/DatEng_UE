@@ -1,8 +1,8 @@
 /**
 Create an SQL query that exports all groups with their group owners and their members in the following XML format
 <groups>
-    <group name=”CSI Miami” owner=”OwnerName”>
-        <membername=”someMemberName” email=”someMemberEmail”>
+    <group title=”CSI Miami” owner=”OwnerName”>
+        <member name=”someMemberName” email=”someMemberEmail”>
         ...
     </group>
     ...
@@ -19,4 +19,3 @@ from
         from istingruppe iig join person p on p.email = iig.email where iig.gruppename = g.name)) as pe -- aggregate the singular group on members and owners within group
     from person p, gruppe g, istingruppe iig
     where p.email = g.emailowner and iig.gruppename = g.name) as pq; -- aggregate the groups
-

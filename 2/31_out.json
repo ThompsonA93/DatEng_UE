@@ -1,0 +1,576 @@
+{
+  "groups": [
+    {
+      "name": "Desperate Housewives",
+      "owner": "Schmitz Maja",
+      "members": [
+        {
+          "name": "Schneider Leoni",
+          "email": "L.Schneider@live.at"
+        },
+        {
+          "name": "Wagner Leah",
+          "email": "L.Wagner@gmx.net"
+        },
+        {
+          "name": "Becker Anna",
+          "email": "Anna.Becker@live.at"
+        },
+        {
+          "name": "Schulz Emma",
+          "email": "E.Schulz@sms.at"
+        },
+        {
+          "name": "Hoffmann Emily",
+          "email": "Emily.Hoffmann@gmail.com"
+        },
+        {
+          "name": "Sch�fer Emilie",
+          "email": "E.Schaefer@yahoo.com"
+        },
+        {
+          "name": "Koch Marie",
+          "email": "Marie.Koch@gmx.net"
+        },
+        {
+          "name": "Richter Lilly",
+          "email": "Lilly.Richter@sms.at"
+        },
+        {
+          "name": "Schr�der Sara",
+          "email": "S.Schroeder@gmx.net"
+        },
+        {
+          "name": "Neumann Lara",
+          "email": "Lara.Neumann@live.at"
+        },
+        {
+          "name": "Schmitt Neele",
+          "email": "Neele.Schmitt@yahoo.com"
+        },
+        {
+          "name": "Werner Johanna",
+          "email": "J.Werner@gmx.net"
+        },
+        {
+          "name": "Meier Amelie",
+          "email": "Amelie.Meier@gmail.com"
+        },
+        {
+          "name": "Herrmann Luca",
+          "email": "Luca.Herrmann@yahoo.com"
+        },
+        {
+          "name": "K�nig Luka",
+          "email": "L.Koenig@gmx.net"
+        },
+        {
+          "name": "Mayer Felix",
+          "email": "F.Mayer@sms.at"
+        },
+        {
+          "name": "Lang Timm",
+          "email": "Timm.Lang@sms.at"
+        },
+        {
+          "name": "Jung Max",
+          "email": "Max.Jung@live.at"
+        },
+        {
+          "name": "Vogel Niclas",
+          "email": "N.Vogel@yahoo.com"
+        },
+        {
+          "name": "Friedrich Niklas",
+          "email": "Niklas.Friedrich@gmx.net"
+        },
+        {
+          "name": "Berger Philipp",
+          "email": "Philipp.Berger@yahoo.com"
+        },
+        {
+          "name": "Winkler Phillip",
+          "email": "P.Winkler@gmx.net"
+        },
+        {
+          "name": "Roth Moritz",
+          "email": "Moritz.Roth@live.at"
+        },
+        {
+          "name": "Schuster Leoni",
+          "email": "Leoni.Schuster@sms.at"
+        },
+        {
+          "name": "B�hm Lea",
+          "email": "L.Boehm@gmx.net"
+        },
+        {
+          "name": "Winter Leah",
+          "email": "Leah.Winter@live.at"
+        },
+        {
+          "name": "Kraus Anna",
+          "email": "A.Kraus@sms.at"
+        },
+        {
+          "name": "Martin Emma",
+          "email": "Emma.Martin@gmail.com"
+        },
+        {
+          "name": "Kr�mer Emilie",
+          "email": "Emilie.Kraemer@gmx.net"
+        },
+        {
+          "name": "Gro� Sara",
+          "email": "Sara.Gross@live.at"
+        },
+        {
+          "name": "Seidel Lara",
+          "email": "L.Seidel@sms.at"
+        },
+        {
+          "name": "Schulte Lina",
+          "email": "L.Schulte@gmail.com"
+        },
+        {
+          "name": "Voigt Jonas",
+          "email": "Jonas.Voigt@yahoo.com"
+        },
+        {
+          "name": "Sauer Luca",
+          "email": "L.Sauer@gmx.net"
+        },
+        {
+          "name": "Wolff Paul",
+          "email": "P.Wolff@sms.at"
+        },
+        {
+          "name": "Pfeiffer Felix",
+          "email": "Felix.Pfeiffer@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Villach",
+      "owner": "Scholz Ben",
+      "members": [
+        {
+          "name": "Schmidt Hanna",
+          "email": "Hanna.Schmidt@gmx.net"
+        },
+        {
+          "name": "Schneider Leoni",
+          "email": "L.Schneider@live.at"
+        },
+        {
+          "name": "Becker Anna",
+          "email": "Anna.Becker@live.at"
+        },
+        {
+          "name": "Schulz Emma",
+          "email": "E.Schulz@sms.at"
+        },
+        {
+          "name": "Richter Lilly",
+          "email": "Lilly.Richter@sms.at"
+        },
+        {
+          "name": "Wolf Sarah",
+          "email": "Sarah.Wolf@yahoo.com"
+        },
+        {
+          "name": "Schr�der Sara",
+          "email": "S.Schroeder@gmx.net"
+        },
+        {
+          "name": "Schwarz Laura",
+          "email": "L.Schwarz@sms.at"
+        },
+        {
+          "name": "Schmitt Neele",
+          "email": "Neele.Schmitt@yahoo.com"
+        },
+        {
+          "name": "Schmitz Maja",
+          "email": "Maja.Schmitz@live.at"
+        },
+        {
+          "name": "Schmid Leon",
+          "email": "Leon.Schmid@gmx.net"
+        },
+        {
+          "name": "Maier Lukas",
+          "email": "Lukas.Maier@sms.at"
+        },
+        {
+          "name": "K�nig Luka",
+          "email": "L.Koenig@gmx.net"
+        },
+        {
+          "name": "Mayer Felix",
+          "email": "F.Mayer@sms.at"
+        },
+        {
+          "name": "Fuchs Fynn",
+          "email": "Fynn.Fuchs@gmx.net"
+        },
+        {
+          "name": "Jung Max",
+          "email": "Max.Jung@live.at"
+        },
+        {
+          "name": "Vogel Niclas",
+          "email": "N.Vogel@yahoo.com"
+        },
+        {
+          "name": "Friedrich Niklas",
+          "email": "Niklas.Friedrich@gmx.net"
+        },
+        {
+          "name": "Berger Philipp",
+          "email": "Philipp.Berger@yahoo.com"
+        },
+        {
+          "name": "Winkler Phillip",
+          "email": "P.Winkler@gmx.net"
+        },
+        {
+          "name": "Roth Moritz",
+          "email": "Moritz.Roth@live.at"
+        },
+        {
+          "name": "Lorenz Yannick",
+          "email": "Yannick.Lorenz@gmail.com"
+        },
+        {
+          "name": "B�hm Lea",
+          "email": "L.Boehm@gmx.net"
+        },
+        {
+          "name": "Kraus Anna",
+          "email": "A.Kraus@sms.at"
+        },
+        {
+          "name": "Martin Emma",
+          "email": "Emma.Martin@gmail.com"
+        },
+        {
+          "name": "Schumacher Emily",
+          "email": "E.Schumacher@yahoo.com"
+        },
+        {
+          "name": "Gro� Sara",
+          "email": "Sara.Gross@live.at"
+        },
+        {
+          "name": "Seidel Lara",
+          "email": "L.Seidel@sms.at"
+        },
+        {
+          "name": "Heinrich Laura",
+          "email": "Laura.Heinrich@gmail.com"
+        },
+        {
+          "name": "Schreiber Sophia",
+          "email": "S.Schreiber@live.at"
+        },
+        {
+          "name": "Sauer Luca",
+          "email": "L.Sauer@gmx.net"
+        },
+        {
+          "name": "Pfeiffer Felix",
+          "email": "Felix.Pfeiffer@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "CSI Miami",
+      "owner": "Hoffmann Emily",
+      "members": [
+        {
+          "name": "Schmidt Hanna",
+          "email": "Hanna.Schmidt@gmx.net"
+        },
+        {
+          "name": "Wagner Leah",
+          "email": "L.Wagner@gmx.net"
+        },
+        {
+          "name": "Becker Anna",
+          "email": "Anna.Becker@live.at"
+        },
+        {
+          "name": "Schulz Emma",
+          "email": "E.Schulz@sms.at"
+        },
+        {
+          "name": "Sch�fer Emilie",
+          "email": "E.Schaefer@yahoo.com"
+        },
+        {
+          "name": "Bauer Lilli",
+          "email": "L.Bauer@live.at"
+        },
+        {
+          "name": "Richter Lilly",
+          "email": "Lilly.Richter@sms.at"
+        },
+        {
+          "name": "Klein Lili",
+          "email": "L.Klein@gmail.com"
+        },
+        {
+          "name": "Wolf Sarah",
+          "email": "Sarah.Wolf@yahoo.com"
+        },
+        {
+          "name": "Schwarz Laura",
+          "email": "L.Schwarz@sms.at"
+        },
+        {
+          "name": "Kr�ger Sophia",
+          "email": "Sophia.Krueger@gmx.net"
+        },
+        {
+          "name": "Werner Johanna",
+          "email": "J.Werner@gmx.net"
+        },
+        {
+          "name": "Schmitz Maja",
+          "email": "Maja.Schmitz@live.at"
+        },
+        {
+          "name": "Meier Amelie",
+          "email": "Amelie.Meier@gmail.com"
+        },
+        {
+          "name": "Schmid Leon",
+          "email": "Leon.Schmid@gmx.net"
+        },
+        {
+          "name": "Maier Lukas",
+          "email": "Lukas.Maier@sms.at"
+        },
+        {
+          "name": "Herrmann Luca",
+          "email": "Luca.Herrmann@yahoo.com"
+        },
+        {
+          "name": "K�nig Luka",
+          "email": "L.Koenig@gmx.net"
+        },
+        {
+          "name": "Mayer Felix",
+          "email": "F.Mayer@sms.at"
+        },
+        {
+          "name": "Fuchs Fynn",
+          "email": "Fynn.Fuchs@gmx.net"
+        },
+        {
+          "name": "Wei� Louis",
+          "email": "L.Weiss@gmx.net"
+        },
+        {
+          "name": "Jung Max",
+          "email": "Max.Jung@live.at"
+        },
+        {
+          "name": "Vogel Niclas",
+          "email": "N.Vogel@yahoo.com"
+        },
+        {
+          "name": "Winkler Phillip",
+          "email": "P.Winkler@gmx.net"
+        },
+        {
+          "name": "Roth Moritz",
+          "email": "Moritz.Roth@live.at"
+        },
+        {
+          "name": "Schuster Leoni",
+          "email": "Leoni.Schuster@sms.at"
+        },
+        {
+          "name": "Martin Emma",
+          "email": "Emma.Martin@gmail.com"
+        },
+        {
+          "name": "Schumacher Emily",
+          "email": "E.Schumacher@yahoo.com"
+        },
+        {
+          "name": "Gro� Sara",
+          "email": "Sara.Gross@live.at"
+        },
+        {
+          "name": "Seidel Lara",
+          "email": "L.Seidel@sms.at"
+        },
+        {
+          "name": "Schreiber Sophia",
+          "email": "S.Schreiber@live.at"
+        },
+        {
+          "name": "Schulte Lina",
+          "email": "L.Schulte@gmail.com"
+        },
+        {
+          "name": "Kuhn Johanna",
+          "email": "Johanna.Kuhn@live.at"
+        },
+        {
+          "name": "Pohl Maya",
+          "email": "Maya.Pohl@gmail.com"
+        },
+        {
+          "name": "Voigt Jonas",
+          "email": "Jonas.Voigt@yahoo.com"
+        },
+        {
+          "name": "Wolff Paul",
+          "email": "P.Wolff@sms.at"
+        }
+      ]
+    },
+    {
+      "name": "Klagenfurt",
+      "owner": "Gro� Sara",
+      "members": [
+        {
+          "name": "Schmidt Hanna",
+          "email": "Hanna.Schmidt@gmx.net"
+        },
+        {
+          "name": "Schneider Leoni",
+          "email": "L.Schneider@live.at"
+        },
+        {
+          "name": "Schulz Emma",
+          "email": "E.Schulz@sms.at"
+        },
+        {
+          "name": "Hoffmann Emily",
+          "email": "Emily.Hoffmann@gmail.com"
+        },
+        {
+          "name": "Sch�fer Emilie",
+          "email": "E.Schaefer@yahoo.com"
+        },
+        {
+          "name": "Koch Marie",
+          "email": "Marie.Koch@gmx.net"
+        },
+        {
+          "name": "Bauer Lilli",
+          "email": "L.Bauer@live.at"
+        },
+        {
+          "name": "Richter Lilly",
+          "email": "Lilly.Richter@sms.at"
+        },
+        {
+          "name": "Klein Lili",
+          "email": "L.Klein@gmail.com"
+        },
+        {
+          "name": "Wolf Sarah",
+          "email": "Sarah.Wolf@yahoo.com"
+        },
+        {
+          "name": "Schwarz Laura",
+          "email": "L.Schwarz@sms.at"
+        },
+        {
+          "name": "Schmitt Neele",
+          "email": "Neele.Schmitt@yahoo.com"
+        },
+        {
+          "name": "Werner Johanna",
+          "email": "J.Werner@gmx.net"
+        },
+        {
+          "name": "Schulze Lucas",
+          "email": "L.Schulze@live.at"
+        },
+        {
+          "name": "Maier Lukas",
+          "email": "Lukas.Maier@sms.at"
+        },
+        {
+          "name": "K�nig Luka",
+          "email": "L.Koenig@gmx.net"
+        },
+        {
+          "name": "Mayer Felix",
+          "email": "F.Mayer@sms.at"
+        },
+        {
+          "name": "Lang Timm",
+          "email": "Timm.Lang@sms.at"
+        },
+        {
+          "name": "Jung Max",
+          "email": "Max.Jung@live.at"
+        },
+        {
+          "name": "Friedrich Niklas",
+          "email": "Niklas.Friedrich@gmx.net"
+        },
+        {
+          "name": "Berger Philipp",
+          "email": "Philipp.Berger@yahoo.com"
+        },
+        {
+          "name": "Roth Moritz",
+          "email": "Moritz.Roth@live.at"
+        },
+        {
+          "name": "B�hm Lea",
+          "email": "L.Boehm@gmx.net"
+        },
+        {
+          "name": "Winter Leah",
+          "email": "Leah.Winter@live.at"
+        },
+        {
+          "name": "Schumacher Emily",
+          "email": "E.Schumacher@yahoo.com"
+        },
+        {
+          "name": "Kr�mer Emilie",
+          "email": "Emilie.Kraemer@gmx.net"
+        },
+        {
+          "name": "Seidel Lara",
+          "email": "L.Seidel@sms.at"
+        },
+        {
+          "name": "Schreiber Sophia",
+          "email": "S.Schreiber@live.at"
+        },
+        {
+          "name": "Kuhn Johanna",
+          "email": "Johanna.Kuhn@live.at"
+        },
+        {
+          "name": "Pohl Maya",
+          "email": "Maya.Pohl@gmail.com"
+        },
+        {
+          "name": "Sauer Luca",
+          "email": "L.Sauer@gmx.net"
+        },
+        {
+          "name": "Arnold Luka",
+          "email": "Luka.Arnold@live.at"
+        },
+        {
+          "name": "Pfeiffer Felix",
+          "email": "Felix.Pfeiffer@gmail.com"
+        }
+      ]
+    }
+  ]
+}

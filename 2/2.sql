@@ -2,7 +2,7 @@
 Create an SQL query that exports all groups with their group owners and all members in the following JSON format:
 {
     "groups”:[
-        {“name”: “CSI Miami”,“owner”: ”OwnerName”, “members”: [
+        {“title”: “CSI Miami”,“owner”: ”OwnerName”, “members”: [
             {“name” : “someMemberName”, “email” : “someMemberEmail”},
             ...
             ]
@@ -12,7 +12,6 @@ Create an SQL query that exports all groups with their group owners and all memb
 }
   **/
 
-  -- Not quite working as expected. Fixme: Every group has everyone as owner with each set of members
 select to_json(groupsq)
 from (
 select json_agg(gr) as groups

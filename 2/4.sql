@@ -1,5 +1,6 @@
 /**
 Execute the script department.sql from the moodle course to create the department table.
+
 Write an SQL query returning all department names, the number of employees and the average number of employees of all sister-departments.
 Sister departments have the same parent. The number of employees per department should only contain employees that are direct assigned to the specific department.
 Therefore,no recursion is required.
