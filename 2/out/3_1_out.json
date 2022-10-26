@@ -1,8 +1,8 @@
 {
   "groups": [
     {
-      "name": "Desperate Housewives",
       "owner": "Schmitz Maja",
+      "title": "Desperate Housewives",
       "members": [
         {
           "name": "Schneider Leoni",
@@ -151,8 +151,8 @@
       ]
     },
     {
-      "name": "Villach",
       "owner": "Scholz Ben",
+      "title": "Villach",
       "members": [
         {
           "name": "Schmidt Hanna",
@@ -285,8 +285,8 @@
       ]
     },
     {
-      "name": "CSI Miami",
       "owner": "Hoffmann Emily",
+      "title": "CSI Miami",
       "members": [
         {
           "name": "Schmidt Hanna",
@@ -435,8 +435,8 @@
       ]
     },
     {
-      "name": "Klagenfurt",
       "owner": "Gro� Sara",
+      "title": "Klagenfurt",
       "members": [
         {
           "name": "Schmidt Hanna",

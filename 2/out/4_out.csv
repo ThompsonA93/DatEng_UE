@@ -1,0 +1,14 @@
+1,Headquarter,10,1,25
+2,Sales,15,1,25
+3,Logistics,25,1,25
+4,F&E,11,1,25
+5,Marketing,25,1,25
+6,Basic Research,70,4,190
+7,Field Research,90,4,190
+8,Project Developement,190,4,190
+9,3D Printing,10,8,75
+10,Software Developemnet,75,8,75
+11,Direct Sales,7,2,10
+12,Indirect Sales,10,2,10
+13,Phone Sales,50,11,50
+14,Online Sales,25,11,50
