@@ -12,7 +12,6 @@ https://www.postgresql.org/docs/9.4/functions-json.html
 jsonb_array_elements(jsonb): Expands a JSON array to a set of JSON values.
 */
 
-
 -- Test to see where Hanna is
 SELECT * from istingruppe where email = 'Hanna.Schmidt@gmx.net';
 

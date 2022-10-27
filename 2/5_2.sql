@@ -16,6 +16,8 @@ WITH RECURSIVE employeecount(deptId, name, parentId, numEmpl) AS (
 
 -- WORKING Example with CROSS JOIN LATERAL
 -- Lateral required for reference of inner recursive function to outerdept
+-- See: https://www.geeksforgeeks.org/lateral-keyword-in-sql/
+-- "The output rows returned by the inner subquery are then added to the result of the join with the outer query. Without Lateral, each subquery would be evaluated independent of each others and could not refer to the items in the table referenced in the outer query. "
 SELECT * FROM department outerDept CROSS JOIN LATERAL(
     WITH RECURSIVE department_children("deptId", "numEmpl") AS (
         SELECT "deptId", "numEmpl"

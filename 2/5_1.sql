@@ -2,6 +2,7 @@
 Create a recursive SQL query that returns the name and number of employees of all
 F&E departments (F&E department and all its descendants).
 **/
+
 -- Assuming: Name of the department + Employee count ?
 WITH RECURSIVE emplEnum(deptId, name, parentId, numEmpl) AS
     ( -- Non-recursive part
