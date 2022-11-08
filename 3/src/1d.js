@@ -1,0 +1,1 @@
+// d) Write a query returning all movies directed by “Curt McDowell” in 1980.

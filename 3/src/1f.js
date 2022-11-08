@@ -1,0 +1,1 @@
+// f) Write a query returning all movies where Will Smith and Martin Lawrence played together.

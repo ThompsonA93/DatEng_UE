@@ -1,0 +1,1 @@
+// h) Write a query returning all movies where Will Smith and Martin Lawrence played together that won at least 3 awards.
