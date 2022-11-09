@@ -1,0 +1,144 @@
+[
+  {
+    "_id": {"$oid": "569190cc24de1e0ce2dfcd59"},
+    "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Peter Cushing"],
+    "awards": {
+      "wins": 38,
+      "nominations": 27,
+      "text": "Won 6 Oscars. Another 38 wins & 27 nominations."
+    },
+    "countries": ["USA"],
+    "director": "George Lucas",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "imdb": {
+      "id": "tt0076759",
+      "rating": 8.7,
+      "votes": 822849
+    },
+    "metacritic": 92,
+    "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a wookiee and two droids to save the universe from the Empire's world-destroying battle-station, while also attempting to rescue Princess Leia from the evil Darth Vader.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTU4NTczODkwM15BMl5BanBnXkFtZTcwMzEyMTIyMw@@._V1_SX300.jpg",
+    "rated": "PG",
+    "released": {"$date": "1977-05-25T04:00:00.000Z"},
+    "runtime": 121,
+    "title": "Star Wars: Episode IV - A New Hope",
+    "tomato": {
+      "meter": 94,
+      "image": "certified",
+      "rating": 8.5,
+      "reviews": 99,
+      "fresh": 93,
+      "consensus": "A legendarily expansive and ambitious start to the sci-fi saga, George Lucas opened our eyes to the possibilities of blockbuster filmmaking and things have never been the same.",
+      "userMeter": 96,
+      "userRating": 4.1,
+      "userReviews": 851120
+    },
+    "type": "movie",
+    "writers": ["George Lucas"],
+    "year": 1977
+  },
+  {
+    "_id": {"$oid": "569190cc24de1e0ce2dfcd5c"},
+    "actors": ["Liam Neeson", "Ewan McGregor", "Natalie Portman", "Jake Lloyd"],
+    "awards": {
+      "wins": 17,
+      "nominations": 59,
+      "text": "Nominated for 3 Oscars. Another 17 wins & 59 nominations."
+    },
+    "countries": ["USA"],
+    "director": "George Lucas",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "imdb": {
+      "id": "tt0120915",
+      "rating": 6.5,
+      "votes": 494267
+    },
+    "metacritic": 51,
+    "plot": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ4NjEwNDA2Nl5BMl5BanBnXkFtZTcwNDUyNDQzNw@@._V1_SX300.jpg",
+    "rated": "PG",
+    "released": {"$date": "1999-05-19T04:00:00.000Z"},
+    "runtime": 136,
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "tomato": null,
+    "type": "movie",
+    "writers": ["George Lucas"],
+    "year": 1999
+  },
+  {
+    "_id": {"$oid": "569190cd24de1e0ce2dfcd5d"},
+    "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Ian McDiarmid"],
+    "awards": {
+      "wins": 21,
+      "nominations": 49,
+      "text": "Nominated for 1 Oscar. Another 21 wins & 49 nominations."
+    },
+    "countries": ["USA"],
+    "director": "George Lucas",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "imdb": {
+      "id": "tt0121766",
+      "rating": 7.6,
+      "votes": 483613
+    },
+    "metacritic": 68,
+    "plot": "Three years after the onset of the Clone Wars; the noble Jedi Knights are spread out across the galaxy leading a massive clone army in the war against the Separatists. After Chancellor ...",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
+    "rated": "PG-13",
+    "released": {"$date": "2005-05-19T04:00:00.000Z"},
+    "runtime": 140,
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "tomato": {
+      "meter": 79,
+      "image": "certified",
+      "rating": 7.3,
+      "reviews": 282,
+      "fresh": 222,
+      "consensus": "With Episode III: Revenge of the Sith, George Lucas brings his second Star Wars trilogy to a suitably thrilling and often poignant -- if still a bit uneven -- conclusion.",
+      "userMeter": 65,
+      "userRating": 3.1,
+      "userReviews": 33674396
+    },
+    "type": "movie",
+    "writers": ["George Lucas"],
+    "year": 2005
+  },
+  {
+    "_id": {"$oid": "569190cd24de1e0ce2dfcd5f"},
+    "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Christopher Lee"],
+    "awards": {
+      "wins": 13,
+      "nominations": 47,
+      "text": "Nominated for 1 Oscar. Another 13 wins & 47 nominations."
+    },
+    "countries": ["USA"],
+    "director": "George Lucas",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "imdb": {
+      "id": "tt0121765",
+      "rating": 6.7,
+      "votes": 425728
+    },
+    "metacritic": 54,
+    "plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé, while Obi-Wan investigates an assassination attempt on the Senator and discovers a secret clone army crafted for the Jedi.",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTY5MjI5NTIwNl5BMl5BanBnXkFtZTYwMTM1Njg2._V1_SX300.jpg",
+    "rated": "PG",
+    "released": {"$date": "2002-05-16T04:00:00.000Z"},
+    "runtime": 142,
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "tomato": {
+      "meter": 66,
+      "image": "fresh",
+      "rating": 6.7,
+      "reviews": 242,
+      "fresh": 159,
+      "consensus": "Star Wars Episode II: Attack of the Clones benefits from an increased emphasis on thrilling action, although they're once again undercut by ponderous plot points and underdeveloped characters.",
+      "userMeter": 58,
+      "userRating": 3.3,
+      "userReviews": 844634
+    },
+    "type": "movie",
+    "writers": ["George Lucas", "Jonathan Hales", "George Lucas"],
+    "year": 2002
+  }
+]

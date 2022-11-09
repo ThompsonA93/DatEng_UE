@@ -1,0 +1,30 @@
+[
+  {
+    "actors": ["Will Smith", "Kevin Kline", "Kenneth Branagh", "Salma Hayek"],
+    "title": "Wild Wild West"
+  },
+  {
+    "actors": ["Tim Allen", "John Travolta", "Martin Lawrence", "William H. Macy"],
+    "title": "Wild Hogs"
+  },
+  {
+    "actors": ["Jaden Smith", "Will Smith", "Sophie Okonedo", "Zoë Kravitz"],
+    "title": "After Earth"
+  },
+  {
+    "actors": ["Martin Lawrence", "Nia Long", "Paul Giamatti", "Jascha Washington"],
+    "title": "Big Momma's House"
+  },
+  {
+    "actors": ["Will Smith", "Bill Pullman", "Jeff Goldblum", "Mary McDonnell"],
+    "title": "Independence Day"
+  },
+  {
+    "actors": ["Tommy Lee Jones", "Will Smith", "Rip Torn", "Lara Flynn Boyle"],
+    "title": "Men in Black II"
+  },
+  {
+    "actors": ["Will Smith", "Alice Braga", "Charlie Tahan", "Salli Richardson-Whitfield"],
+    "title": "I Am Legend"
+  }
+]

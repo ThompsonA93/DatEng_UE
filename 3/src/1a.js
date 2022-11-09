@@ -1,4 +1,5 @@
-// Write a query returning all movies directed by “George Lucas”.
+// a) Write a query returning all movies directed by “George Lucas”.
+
 use video;
 
-db.video_movies.findOne();
+db.video_movieDetails.find({director: "George Lucas"})

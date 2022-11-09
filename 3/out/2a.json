@@ -1,0 +1,7482 @@
+[
+  {
+    "_id": null,
+    "count": 182
+  },
+  {
+    "_id": "David Mallet",
+    "count": 7
+  },
+  {
+    "_id": "Jay Sin",
+    "count": 6
+  },
+  {
+    "_id": "Sam Raimi",
+    "count": 6
+  },
+  {
+    "_id": "Louis C.K.",
+    "count": 6
+  },
+  {
+    "_id": "Steven Spielberg",
+    "count": 6
+  },
+  {
+    "_id": "Robert Rodriguez",
+    "count": 5
+  },
+  {
+    "_id": "Tim Burton",
+    "count": 5
+  },
+  {
+    "_id": "Syamsul Yusof",
+    "count": 4
+  },
+  {
+    "_id": "Takashi Shimizu",
+    "count": 4
+  },
+  {
+    "_id": "Mircea Dragan",
+    "count": 4
+  },
+  {
+    "_id": "George Lucas",
+    "count": 4
+  },
+  {
+    "_id": "Knut Bohwim",
+    "count": 4
+  },
+  {
+    "_id": "James H. White",
+    "count": 4
+  },
+  {
+    "_id": "Wai-Keung Lau",
+    "count": 4
+  },
+  {
+    "_id": "Tom Dallis",
+    "count": 3
+  },
+  {
+    "_id": "Petr Soukup",
+    "count": 3
+  },
+  {
+    "_id": "Osman F. Seden",
+    "count": 3
+  },
+  {
+    "_id": "Jack Neo",
+    "count": 3
+  },
+  {
+    "_id": "Zoran Calic",
+    "count": 3
+  },
+  {
+    "_id": "Jean-Pierre Jeunet",
+    "count": 3
+  },
+  {
+    "_id": "Takashi Otsuka",
+    "count": 3
+  },
+  {
+    "_id": "Kevin Dunn",
+    "count": 3
+  },
+  {
+    "_id": "Katsuhiko Nishijima",
+    "count": 3
+  },
+  {
+    "_id": "Raj Kanwar",
+    "count": 3
+  },
+  {
+    "_id": "Shawn Levy",
+    "count": 3
+  },
+  {
+    "_id": "John Lasseter",
+    "count": 3
+  },
+  {
+    "_id": "Franco Castellano, Giuseppe Moccia",
+    "count": 3
+  },
+  {
+    "_id": "Luc Besson",
+    "count": 3
+  },
+  {
+    "_id": "Roland Emmerich",
+    "count": 3
+  },
+  {
+    "_id": "David Fincher",
+    "count": 3
+  },
+  {
+    "_id": "Penelope Spheeris",
+    "count": 3
+  },
+  {
+    "_id": "Peter Weir",
+    "count": 3
+  },
+  {
+    "_id": "Jon Favreau",
+    "count": 3
+  },
+  {
+    "_id": "George A. Romero",
+    "count": 3
+  },
+  {
+    "_id": "Jean-Pierre Melville",
+    "count": 3
+  },
+  {
+    "_id": "Eldar Ryazanov",
+    "count": 3
+  },
+  {
+    "_id": "Federico Fellini",
+    "count": 3
+  },
+  {
+    "_id": "David Lynch",
+    "count": 3
+  },
+  {
+    "_id": "Lasse Hallström",
+    "count": 3
+  },
+  {
+    "_id": "Dave Fleischer",
+    "count": 3
+  },
+  {
+    "_id": "Carlo Verdone",
+    "count": 3
+  },
+  {
+    "_id": "Bing Wang",
+    "count": 3
+  },
+  {
+    "_id": "Carlos Sama",
+    "count": 2
+  },
+  {
+    "_id": "Vladimír Vobrátilek",
+    "count": 2
+  },
+  {
+    "_id": "Michele Massimo Tarantini",
+    "count": 2
+  },
+  {
+    "_id": "Péter Gárdos",
+    "count": 2
+  },
+  {
+    "_id": "Emeka Rodstick",
+    "count": 2
+  },
+  {
+    "_id": "Peter Elfelt",
+    "count": 2
+  },
+  {
+    "_id": "Alfonso Cuarón",
+    "count": 2
+  },
+  {
+    "_id": "Sergio Garrone",
+    "count": 2
+  },
+  {
+    "_id": "Andy Wing-Keung Chin",
+    "count": 2
+  },
+  {
+    "_id": "Paul Fielding",
+    "count": 2
+  },
+  {
+    "_id": "Aki Kaurismäki",
+    "count": 2
+  },
+  {
+    "_id": "Ngai Choi Lam",
+    "count": 2
+  },
+  {
+    "_id": "Lee A. Sloan",
+    "count": 2
+  },
+  {
+    "_id": "G.M. Whiting",
+    "count": 2
+  },
+  {
+    "_id": "Sergey Snezhkin",
+    "count": 2
+  },
+  {
+    "_id": "Yûji Moriyama",
+    "count": 2
+  },
+  {
+    "_id": "Saket Chaudhary",
+    "count": 2
+  },
+  {
+    "_id": "Safa Önal",
+    "count": 2
+  },
+  {
+    "_id": "Jon Brewer",
+    "count": 2
+  },
+  {
+    "_id": "Daniel Cubillo",
+    "count": 2
+  },
+  {
+    "_id": "Ridley Scott",
+    "count": 2
+  },
+  {
+    "_id": "Mathieu Kassovitz",
+    "count": 2
+  },
+  {
+    "_id": "Francis Ford Coppola",
+    "count": 2
+  },
+  {
+    "_id": "J.J. Abrams",
+    "count": 2
+  },
+  {
+    "_id": "Lino Brocka",
+    "count": 2
+  },
+  {
+    "_id": "Cris D'Amato",
+    "count": 2
+  },
+  {
+    "_id": "Lawrence Jordan",
+    "count": 2
+  },
+  {
+    "_id": "Pedro Almodóvar",
+    "count": 2
+  },
+  {
+    "_id": "Don Hertzfeldt",
+    "count": 2
+  },
+  {
+    "_id": "Aman Chang",
+    "count": 2
+  },
+  {
+    "_id": "Terence Young",
+    "count": 2
+  },
+  {
+    "_id": "Géza von Cziffra",
+    "count": 2
+  },
+  {
+    "_id": "Ratko Orozovic",
+    "count": 2
+  },
+  {
+    "_id": "Clifton Ko",
+    "count": 2
+  },
+  {
+    "_id": "Piotr Szulkin",
+    "count": 2
+  },
+  {
+    "_id": "Craig Gillespie",
+    "count": 2
+  },
+  {
+    "_id": "Simon Curtis",
+    "count": 2
+  },
+  {
+    "_id": "Ron Clements, John Musker",
+    "count": 2
+  },
+  {
+    "_id": "Nick Cassavetes",
+    "count": 2
+  },
+  {
+    "_id": "Jim Jarmusch",
+    "count": 2
+  },
+  {
+    "_id": "John Lasseter, Andrew Stanton",
+    "count": 2
+  },
+  {
+    "_id": "Frank Capra",
+    "count": 2
+  },
+  {
+    "_id": "Ted Post",
+    "count": 2
+  },
+  {
+    "_id": "Mark Griffiths",
+    "count": 2
+  },
+  {
+    "_id": "Trent Harris",
+    "count": 2
+  },
+  {
+    "_id": "David Zucker",
+    "count": 2
+  },
+  {
+    "_id": "Luis Estrada",
+    "count": 2
+  },
+  {
+    "_id": "Fritz Lang",
+    "count": 2
+  },
+  {
+    "_id": "Ryan Polito",
+    "count": 2
+  },
+  {
+    "_id": "Steven Brill",
+    "count": 2
+  },
+  {
+    "_id": "Kjell Sundvall",
+    "count": 2
+  },
+  {
+    "_id": "Barry Sonnenfeld",
+    "count": 2
+  },
+  {
+    "_id": "Constantine Nasr",
+    "count": 2
+  },
+  {
+    "_id": "Guy Hamilton",
+    "count": 2
+  },
+  {
+    "_id": "Sidney Lumet",
+    "count": 2
+  },
+  {
+    "_id": "Lee Unkrich",
+    "count": 2
+  },
+  {
+    "_id": "George Roy Hill",
+    "count": 2
+  },
+  {
+    "_id": "John Erick Dowdle",
+    "count": 2
+  },
+  {
+    "_id": "John Sturges",
+    "count": 2
+  },
+  {
+    "_id": "Simon Wincer",
+    "count": 2
+  },
+  {
+    "_id": "Michael Moore",
+    "count": 2
+  },
+  {
+    "_id": "Paul Thomas Anderson",
+    "count": 2
+  },
+  {
+    "_id": "Danny Leiner",
+    "count": 2
+  },
+  {
+    "_id": "Jean-Marc Vallée",
+    "count": 2
+  },
+  {
+    "_id": "Irwin Winkler",
+    "count": 2
+  },
+  {
+    "_id": "Edgar Wright",
+    "count": 2
+  },
+  {
+    "_id": "Marc Webb",
+    "count": 2
+  },
+  {
+    "_id": "Nicholas Meyer",
+    "count": 2
+  },
+  {
+    "_id": "Ivan Reitman",
+    "count": 2
+  },
+  {
+    "_id": "Dennis Dugan",
+    "count": 2
+  },
+  {
+    "_id": "Michael Bay",
+    "count": 2
+  },
+  {
+    "_id": "Tony Scott",
+    "count": 2
+  },
+  {
+    "_id": "Sergio Leone",
+    "count": 2
+  },
+  {
+    "_id": "Kartal Tibet",
+    "count": 2
+  },
+  {
+    "_id": "Ingmar Bergman",
+    "count": 2
+  },
+  {
+    "_id": "John G. Avildsen",
+    "count": 2
+  },
+  {
+    "_id": "James Mangold",
+    "count": 2
+  },
+  {
+    "_id": "Luke Greenfield",
+    "count": 2
+  },
+  {
+    "_id": "Stanley Kubrick",
+    "count": 2
+  },
+  {
+    "_id": "Tobe Hooper",
+    "count": 2
+  },
+  {
+    "_id": "Howard Hawks",
+    "count": 2
+  },
+  {
+    "_id": "Jingle Ma",
+    "count": 2
+  },
+  {
+    "_id": "Nate Camponi",
+    "count": 2
+  },
+  {
+    "_id": "Alan Gibson",
+    "count": 2
+  },
+  {
+    "_id": "F. Gary Gray",
+    "count": 2
+  },
+  {
+    "_id": "Zack Snyder",
+    "count": 2
+  },
+  {
+    "_id": "Walter Hugo Khouri",
+    "count": 2
+  },
+  {
+    "_id": "Anil Sharma",
+    "count": 2
+  },
+  {
+    "_id": "Paul Weitz",
+    "count": 2
+  },
+  {
+    "_id": "Hitoshi Iwamoto",
+    "count": 2
+  },
+  {
+    "_id": "Marcel Carné",
+    "count": 2
+  },
+  {
+    "_id": "Joseph McConnell",
+    "count": 2
+  },
+  {
+    "_id": "Daniel Alfredson",
+    "count": 2
+  },
+  {
+    "_id": "Jim Enright",
+    "count": 2
+  },
+  {
+    "_id": "John Carpenter",
+    "count": 2
+  },
+  {
+    "_id": "Joel Schumacher",
+    "count": 2
+  },
+  {
+    "_id": "Curt McDowell",
+    "count": 2
+  },
+  {
+    "_id": "Rob Minkoff",
+    "count": 2
+  },
+  {
+    "_id": "Steve Paley",
+    "count": 2
+  },
+  {
+    "_id": "Chris Columbus",
+    "count": 2
+  },
+  {
+    "_id": "Guillermo del Toro",
+    "count": 2
+  },
+  {
+    "_id": "Lasse Åberg",
+    "count": 2
+  },
+  {
+    "_id": "Mark L. Lester",
+    "count": 2
+  },
+  {
+    "_id": "Paolo Sorrentino",
+    "count": 2
+  },
+  {
+    "_id": "Marc Forster",
+    "count": 2
+  },
+  {
+    "_id": "Wilson Yip",
+    "count": 2
+  },
+  {
+    "_id": "Chris Kula",
+    "count": 2
+  },
+  {
+    "_id": "Doug Liman",
+    "count": 2
+  },
+  {
+    "_id": "Luv Ranjan",
+    "count": 2
+  },
+  {
+    "_id": "Lav Diaz",
+    "count": 2
+  },
+  {
+    "_id": "Nicolás López",
+    "count": 2
+  },
+  {
+    "_id": "Jean-Marie Poiré",
+    "count": 2
+  },
+  {
+    "_id": "Robert Bresson",
+    "count": 2
+  },
+  {
+    "_id": "Alberto De Martino",
+    "count": 2
+  },
+  {
+    "_id": "Michael Curtiz",
+    "count": 2
+  },
+  {
+    "_id": "Wenn V. Deramas",
+    "count": 2
+  },
+  {
+    "_id": "Xiaogang Feng",
+    "count": 2
+  },
+  {
+    "_id": "Lewis Teague",
+    "count": 2
+  },
+  {
+    "_id": "Wes Anderson",
+    "count": 2
+  },
+  {
+    "_id": "Gil D. Reyes",
+    "count": 2
+  },
+  {
+    "_id": "Dino Risi",
+    "count": 2
+  },
+  {
+    "_id": "Aditya Chopra",
+    "count": 2
+  },
+  {
+    "_id": "Luis Prieto",
+    "count": 2
+  },
+  {
+    "_id": "Ryan White",
+    "count": 2
+  },
+  {
+    "_id": "Hugh Harman",
+    "count": 2
+  },
+  {
+    "_id": "Kresimir Golik",
+    "count": 2
+  },
+  {
+    "_id": "John Woo",
+    "count": 2
+  },
+  {
+    "_id": "Farah Khan",
+    "count": 2
+  },
+  {
+    "_id": "Cam Archer",
+    "count": 2
+  },
+  {
+    "_id": "Shaudi Wang",
+    "count": 2
+  },
+  {
+    "_id": "Greg Costa",
+    "count": 2
+  },
+  {
+    "_id": "Joaquim Dos Santos",
+    "count": 2
+  },
+  {
+    "_id": "Tom McLoughlin",
+    "count": 2
+  },
+  {
+    "_id": "Randall Wilson",
+    "count": 1
+  },
+  {
+    "_id": "Richard Cranor",
+    "count": 1
+  },
+  {
+    "_id": "Kazuhiro Yokoyama",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Lajoie",
+    "count": 1
+  },
+  {
+    "_id": "Hiroshi Ando",
+    "count": 1
+  },
+  {
+    "_id": "Michele Emmer",
+    "count": 1
+  },
+  {
+    "_id": "Tetsuo Shinohara",
+    "count": 1
+  },
+  {
+    "_id": "Mayumi Nishimoto",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Mausert-Mooney",
+    "count": 1
+  },
+  {
+    "_id": "Baby",
+    "count": 1
+  },
+  {
+    "_id": "Anghus Houvouras",
+    "count": 1
+  },
+  {
+    "_id": "Carlos Romero",
+    "count": 1
+  },
+  {
+    "_id": "H. Lee Waters",
+    "count": 1
+  },
+  {
+    "_id": "Sandra Prechtel, François Rossier",
+    "count": 1
+  },
+  {
+    "_id": "Cristina Nichitus",
+    "count": 1
+  },
+  {
+    "_id": "Christophe Honoré",
+    "count": 1
+  },
+  {
+    "_id": "Sylwester Checinski",
+    "count": 1
+  },
+  {
+    "_id": "Nicolas Cuche",
+    "count": 1
+  },
+  {
+    "_id": "Tyler Hickman",
+    "count": 1
+  },
+  {
+    "_id": "Julio Salvador",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Flora",
+    "count": 1
+  },
+  {
+    "_id": "Lordan Zafranovic",
+    "count": 1
+  },
+  {
+    "_id": "Joshua Stephen Buckner",
+    "count": 1
+  },
+  {
+    "_id": "Leonardo Pascual",
+    "count": 1
+  },
+  {
+    "_id": "Peter Radovich",
+    "count": 1
+  },
+  {
+    "_id": "Dante Pangilinan",
+    "count": 1
+  },
+  {
+    "_id": "Alexander Kluge",
+    "count": 1
+  },
+  {
+    "_id": "George Albert Smith",
+    "count": 1
+  },
+  {
+    "_id": "Raj Babu",
+    "count": 1
+  },
+  {
+    "_id": "Rupert Wainwright",
+    "count": 1
+  },
+  {
+    "_id": "Ming Jin Woo",
+    "count": 1
+  },
+  {
+    "_id": "Per Berglund",
+    "count": 1
+  },
+  {
+    "_id": "Terje André Nymark",
+    "count": 1
+  },
+  {
+    "_id": "Muhsin Parari",
+    "count": 1
+  },
+  {
+    "_id": "Darren Curtis, Pat Kiely",
+    "count": 1
+  },
+  {
+    "_id": "Simon Kuruvilla",
+    "count": 1
+  },
+  {
+    "_id": "Abdullah Al-Eyaf",
+    "count": 1
+  },
+  {
+    "_id": "Carlos Marques-Marcet",
+    "count": 1
+  },
+  {
+    "_id": "Rigoberto Castañeda",
+    "count": 1
+  },
+  {
+    "_id": "Sooraj R. Barjatya",
+    "count": 1
+  },
+  {
+    "_id": "Hemant Madhukar",
+    "count": 1
+  },
+  {
+    "_id": "Ashima Chibber",
+    "count": 1
+  },
+  {
+    "_id": "Shashank Khaitan",
+    "count": 1
+  },
+  {
+    "_id": "Sanjay Gadhvi",
+    "count": 1
+  },
+  {
+    "_id": "Ali Abbas Zafar",
+    "count": 1
+  },
+  {
+    "_id": "Alain Resnais",
+    "count": 1
+  },
+  {
+    "_id": "Ricky Lau",
+    "count": 1
+  },
+  {
+    "_id": "Smeep Kang",
+    "count": 1
+  },
+  {
+    "_id": "Madhur Bhandarkar",
+    "count": 1
+  },
+  {
+    "_id": "Stacey Palmer",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Grant",
+    "count": 1
+  },
+  {
+    "_id": "Solveig Nordlund",
+    "count": 1
+  },
+  {
+    "_id": "Pedro Masó",
+    "count": 1
+  },
+  {
+    "_id": "Joona Tena",
+    "count": 1
+  },
+  {
+    "_id": "Eric Wirix",
+    "count": 1
+  },
+  {
+    "_id": "Rob Zombie",
+    "count": 1
+  },
+  {
+    "_id": "Bibo Bergeron, Don Paul, Jeffrey Katzenberg",
+    "count": 1
+  },
+  {
+    "_id": "Carlos Carrera",
+    "count": 1
+  },
+  {
+    "_id": "Rod Blackhurst, Brian McGinn",
+    "count": 1
+  },
+  {
+    "_id": "Janusz Majewski",
+    "count": 1
+  },
+  {
+    "_id": "Steven J. Santos",
+    "count": 1
+  },
+  {
+    "_id": "M. David Melvin",
+    "count": 1
+  },
+  {
+    "_id": "Wild Will",
+    "count": 1
+  },
+  {
+    "_id": "Sudevan",
+    "count": 1
+  },
+  {
+    "_id": "Frédéric Guillaume, Samuel Guillaume",
+    "count": 1
+  },
+  {
+    "_id": "Roman Coppola",
+    "count": 1
+  },
+  {
+    "_id": "Serge Gainsbourg",
+    "count": 1
+  },
+  {
+    "_id": "S. Sylvan Simon",
+    "count": 1
+  },
+  {
+    "_id": "Kaushik Ghatak",
+    "count": 1
+  },
+  {
+    "_id": "Jiang Xiao",
+    "count": 1
+  },
+  {
+    "_id": "Piti Jaturaphat",
+    "count": 1
+  },
+  {
+    "_id": "Stanislaw Bareja",
+    "count": 1
+  },
+  {
+    "_id": "Annie Wood",
+    "count": 1
+  },
+  {
+    "_id": "Sam Wood",
+    "count": 1
+  },
+  {
+    "_id": "King Hu",
+    "count": 1
+  },
+  {
+    "_id": "Kang Gyeon-Hang",
+    "count": 1
+  },
+  {
+    "_id": "Carmen Castillo",
+    "count": 1
+  },
+  {
+    "_id": "Kiyoshi Kurosawa",
+    "count": 1
+  },
+  {
+    "_id": "Marcos Loayza",
+    "count": 1
+  },
+  {
+    "_id": "William Witney",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Shea",
+    "count": 1
+  },
+  {
+    "_id": "Ahmed Nader Galal",
+    "count": 1
+  },
+  {
+    "_id": "Katrina Kerr",
+    "count": 1
+  },
+  {
+    "_id": "Srdjan Vuletic",
+    "count": 1
+  },
+  {
+    "_id": "Frank McDonald",
+    "count": 1
+  },
+  {
+    "_id": "Alex Warth",
+    "count": 1
+  },
+  {
+    "_id": "Judit Szakall",
+    "count": 1
+  },
+  {
+    "_id": "Róbert Alföldi",
+    "count": 1
+  },
+  {
+    "_id": "Bill Fiala, Tibor Szakaly",
+    "count": 1
+  },
+  {
+    "_id": "Müjde Arslan",
+    "count": 1
+  },
+  {
+    "_id": "Marc Reardon",
+    "count": 1
+  },
+  {
+    "_id": "Rémi Bezançon",
+    "count": 1
+  },
+  {
+    "_id": "Woo-sang Park",
+    "count": 1
+  },
+  {
+    "_id": "Francis J. Sampier",
+    "count": 1
+  },
+  {
+    "_id": "Rik Sinkeldam",
+    "count": 1
+  },
+  {
+    "_id": "Stijn Coninx",
+    "count": 1
+  },
+  {
+    "_id": "Kazuo Hara",
+    "count": 1
+  },
+  {
+    "_id": "Héctor Olivera",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Graham-Brown",
+    "count": 1
+  },
+  {
+    "_id": "Serif Gören",
+    "count": 1
+  },
+  {
+    "_id": "Sermiyan Midyat",
+    "count": 1
+  },
+  {
+    "_id": "Demetres Anagnostopoulos",
+    "count": 1
+  },
+  {
+    "_id": "Gilberto Martínez Solares",
+    "count": 1
+  },
+  {
+    "_id": "Çigdem Vitrinel",
+    "count": 1
+  },
+  {
+    "_id": "Reha Erdem",
+    "count": 1
+  },
+  {
+    "_id": "Shinichi Nishitani",
+    "count": 1
+  },
+  {
+    "_id": "Cameron McCasland",
+    "count": 1
+  },
+  {
+    "_id": "Claude Desrosiers",
+    "count": 1
+  },
+  {
+    "_id": "Shannon Hartman",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Paul Salomé",
+    "count": 1
+  },
+  {
+    "_id": "Hans Herbots",
+    "count": 1
+  },
+  {
+    "_id": "CC Perkinson",
+    "count": 1
+  },
+  {
+    "_id": "Bo Burnham, Christopher Storer",
+    "count": 1
+  },
+  {
+    "_id": "Ketche",
+    "count": 1
+  },
+  {
+    "_id": "Annie Sakellar",
+    "count": 1
+  },
+  {
+    "_id": "Kinya Ogawa",
+    "count": 1
+  },
+  {
+    "_id": "Holly Cocker",
+    "count": 1
+  },
+  {
+    "_id": "William Barker",
+    "count": 1
+  },
+  {
+    "_id": "Seymour Robbie",
+    "count": 1
+  },
+  {
+    "_id": "Rob Norton",
+    "count": 1
+  },
+  {
+    "_id": "Mariana Miranda",
+    "count": 1
+  },
+  {
+    "_id": "Bernard Miller",
+    "count": 1
+  },
+  {
+    "_id": "Ralph T. Niemeyer",
+    "count": 1
+  },
+  {
+    "_id": "Akhil Khithani",
+    "count": 1
+  },
+  {
+    "_id": "Pep Figueiredo",
+    "count": 1
+  },
+  {
+    "_id": "Piyush Srivastav",
+    "count": 1
+  },
+  {
+    "_id": "Mikhail Ugarov",
+    "count": 1
+  },
+  {
+    "_id": "Aviana Easter",
+    "count": 1
+  },
+  {
+    "_id": "Viktor Ivchenko",
+    "count": 1
+  },
+  {
+    "_id": "Ian Bolt",
+    "count": 1
+  },
+  {
+    "_id": "Tommy O'Haver",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Schlamme",
+    "count": 1
+  },
+  {
+    "_id": "Don Bluth",
+    "count": 1
+  },
+  {
+    "_id": "Ravindra Peepat",
+    "count": 1
+  },
+  {
+    "_id": "Allard Westenbrink",
+    "count": 1
+  },
+  {
+    "_id": "Chu Huang Chen",
+    "count": 1
+  },
+  {
+    "_id": "Sophie Chiarello",
+    "count": 1
+  },
+  {
+    "_id": "Andrea Zaccariello",
+    "count": 1
+  },
+  {
+    "_id": "Peter Jackson",
+    "count": 1
+  },
+  {
+    "_id": "Alan Vydra",
+    "count": 1
+  },
+  {
+    "_id": "Annette K. Olesen, Charlotte Sieling",
+    "count": 1
+  },
+  {
+    "_id": "Luciano Melchionna",
+    "count": 1
+  },
+  {
+    "_id": "Georges Lautner",
+    "count": 1
+  },
+  {
+    "_id": "Bernard Émond",
+    "count": 1
+  },
+  {
+    "_id": "Olivier Baroux",
+    "count": 1
+  },
+  {
+    "_id": "Lucian Pintilie",
+    "count": 1
+  },
+  {
+    "_id": "Corbin Tomkinson",
+    "count": 1
+  },
+  {
+    "_id": "Rabah Ameur-Zaïmeche",
+    "count": 1
+  },
+  {
+    "_id": "Craig Vance, Matthew Weng",
+    "count": 1
+  },
+  {
+    "_id": "Ágnes Sós",
+    "count": 1
+  },
+  {
+    "_id": "Gilles Grangier",
+    "count": 1
+  },
+  {
+    "_id": "Arvin Chen",
+    "count": 1
+  },
+  {
+    "_id": "Louis Malle",
+    "count": 1
+  },
+  {
+    "_id": "Michael Dudok de Wit",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Jacques Vierne",
+    "count": 1
+  },
+  {
+    "_id": "Charles Binamé",
+    "count": 1
+  },
+  {
+    "_id": "Philippe Muyl",
+    "count": 1
+  },
+  {
+    "_id": "Winfried Bonengel",
+    "count": 1
+  },
+  {
+    "_id": "Joe Dante",
+    "count": 1
+  },
+  {
+    "_id": "Sammo Hung Kam-Bo",
+    "count": 1
+  },
+  {
+    "_id": "Fausto Brizzi",
+    "count": 1
+  },
+  {
+    "_id": "Jesse Peretz",
+    "count": 1
+  },
+  {
+    "_id": "Arnaud Viard",
+    "count": 1
+  },
+  {
+    "_id": "Ahmad Reza Mo'tamedi",
+    "count": 1
+  },
+  {
+    "_id": "Ebrahim Hatamikia",
+    "count": 1
+  },
+  {
+    "_id": "István Bujtor",
+    "count": 1
+  },
+  {
+    "_id": "Max Hattler",
+    "count": 1
+  },
+  {
+    "_id": "Kazim Öz",
+    "count": 1
+  },
+  {
+    "_id": "Timothy Asch, Napoleon Chagnon",
+    "count": 1
+  },
+  {
+    "_id": "Zoltán Kamondi",
+    "count": 1
+  },
+  {
+    "_id": "Stuart Wahlin",
+    "count": 1
+  },
+  {
+    "_id": "Costa-Gavras",
+    "count": 1
+  },
+  {
+    "_id": "Francis Delia, Janet Greek, Jay Levey, Scott Nordlund, Mark Osborne, Dror Soref, Robert K. Weiss, 'Weird Al' Yankovic",
+    "count": 1
+  },
+  {
+    "_id": "Tahmineh Milani",
+    "count": 1
+  },
+  {
+    "_id": "Jay Levey, 'Weird Al' Yankovic, Francis Delia, Janet Greek, Scott Nordlund, Mark Osborne, Dror Soref, Robert K. Weiss",
+    "count": 1
+  },
+  {
+    "_id": "Sherif Arafa",
+    "count": 1
+  },
+  {
+    "_id": "Richard Wilson",
+    "count": 1
+  },
+  {
+    "_id": "Michael Coulombe",
+    "count": 1
+  },
+  {
+    "_id": "Mikhail Kalatozov",
+    "count": 1
+  },
+  {
+    "_id": "Michael Pavone",
+    "count": 1
+  },
+  {
+    "_id": "Tommy Faircloth",
+    "count": 1
+  },
+  {
+    "_id": "D.J. Caruso",
+    "count": 1
+  },
+  {
+    "_id": "Carlo Vanzina",
+    "count": 1
+  },
+  {
+    "_id": "Peter Ristau",
+    "count": 1
+  },
+  {
+    "_id": "Jim Wynorski",
+    "count": 1
+  },
+  {
+    "_id": "Francis Lawrence",
+    "count": 1
+  },
+  {
+    "_id": "Chuck Jones, Maurice Noble",
+    "count": 1
+  },
+  {
+    "_id": "Daniel Lee",
+    "count": 1
+  },
+  {
+    "_id": "Clarence Brown",
+    "count": 1
+  },
+  {
+    "_id": "Orhan Aksoy",
+    "count": 1
+  },
+  {
+    "_id": "Ernst Lubitsch",
+    "count": 1
+  },
+  {
+    "_id": "Jamie Uys",
+    "count": 1
+  },
+  {
+    "_id": "Subas Das",
+    "count": 1
+  },
+  {
+    "_id": "Werner Düggelin",
+    "count": 1
+  },
+  {
+    "_id": "Pat Bishow",
+    "count": 1
+  },
+  {
+    "_id": "Tanit Jitnukul, Seree Phongnithi",
+    "count": 1
+  },
+  {
+    "_id": "Ken Hess",
+    "count": 1
+  },
+  {
+    "_id": "Mario Av Guzman",
+    "count": 1
+  },
+  {
+    "_id": "Raam Shetty",
+    "count": 1
+  },
+  {
+    "_id": "Izô Hashimoto",
+    "count": 1
+  },
+  {
+    "_id": "Dario Troiani",
+    "count": 1
+  },
+  {
+    "_id": "Thunder Levin",
+    "count": 1
+  },
+  {
+    "_id": "Hara Patnaik",
+    "count": 1
+  },
+  {
+    "_id": "Melis Ubukeyev",
+    "count": 1
+  },
+  {
+    "_id": "Ole Roos",
+    "count": 1
+  },
+  {
+    "_id": "Lars Movin, Steen Møller Rasmussen",
+    "count": 1
+  },
+  {
+    "_id": "Peter Eszterhas",
+    "count": 1
+  },
+  {
+    "_id": "Yu-Hsien Lin",
+    "count": 1
+  },
+  {
+    "_id": "Claude Chabrol",
+    "count": 1
+  },
+  {
+    "_id": "Hirohisa Sasaki",
+    "count": 1
+  },
+  {
+    "_id": "Maurizio Pradeaux",
+    "count": 1
+  },
+  {
+    "_id": "Corrado Guzzanti, Igor Skofic",
+    "count": 1
+  },
+  {
+    "_id": "Anders Rønnow Klarlund",
+    "count": 1
+  },
+  {
+    "_id": "Hiroshi Ishikawa",
+    "count": 1
+  },
+  {
+    "_id": "Charles Grosvenor",
+    "count": 1
+  },
+  {
+    "_id": "Kevin Greutert",
+    "count": 1
+  },
+  {
+    "_id": "Hope Perello",
+    "count": 1
+  },
+  {
+    "_id": "Atif Yilmaz",
+    "count": 1
+  },
+  {
+    "_id": "Hrafn Gunnlaugsson",
+    "count": 1
+  },
+  {
+    "_id": "Ali Yorgancioglu, Uluc Ali Kilic, Gonenc Uyanik",
+    "count": 1
+  },
+  {
+    "_id": "Dervis Zaim",
+    "count": 1
+  },
+  {
+    "_id": "Ertem Göreç",
+    "count": 1
+  },
+  {
+    "_id": "Jake Kasdan",
+    "count": 1
+  },
+  {
+    "_id": "Fredrik Lindström",
+    "count": 1
+  },
+  {
+    "_id": "Ertekin Akpinar",
+    "count": 1
+  },
+  {
+    "_id": "Emilio Martínez Lázaro",
+    "count": 1
+  },
+  {
+    "_id": "Karl Konnry",
+    "count": 1
+  },
+  {
+    "_id": "Teoman",
+    "count": 1
+  },
+  {
+    "_id": "H. Haile Chace",
+    "count": 1
+  },
+  {
+    "_id": "Les Clark",
+    "count": 1
+  },
+  {
+    "_id": "Kevin McKeever",
+    "count": 1
+  },
+  {
+    "_id": "Philippe Condroyer",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Winn",
+    "count": 1
+  },
+  {
+    "_id": "Sam Maccarone",
+    "count": 1
+  },
+  {
+    "_id": "Volfango De Biasi",
+    "count": 1
+  },
+  {
+    "_id": "Ishu Patel",
+    "count": 1
+  },
+  {
+    "_id": "Stéphane Lafleur",
+    "count": 1
+  },
+  {
+    "_id": "Makrand Deshpande",
+    "count": 1
+  },
+  {
+    "_id": "Shukhrat Abbasov",
+    "count": 1
+  },
+  {
+    "_id": "José Bénazéraf",
+    "count": 1
+  },
+  {
+    "_id": "Aleksandr Seryj",
+    "count": 1
+  },
+  {
+    "_id": "Dmitriy Astrakhan",
+    "count": 1
+  },
+  {
+    "_id": "Rino Di Silvestro",
+    "count": 1
+  },
+  {
+    "_id": "Chantal Akerman",
+    "count": 1
+  },
+  {
+    "_id": "Bruno Mattei",
+    "count": 1
+  },
+  {
+    "_id": "Matías Bize",
+    "count": 1
+  },
+  {
+    "_id": "Vladimir Levin",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Tolle",
+    "count": 1
+  },
+  {
+    "_id": "Larisa Shepitko",
+    "count": 1
+  },
+  {
+    "_id": "Tetsurô Amino",
+    "count": 1
+  },
+  {
+    "_id": "Caleb Kuntz",
+    "count": 1
+  },
+  {
+    "_id": "Mehmet Dinler",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Garrison",
+    "count": 1
+  },
+  {
+    "_id": "Shane Mok",
+    "count": 1
+  },
+  {
+    "_id": "Edward Tyndall",
+    "count": 1
+  },
+  {
+    "_id": "David de Vries",
+    "count": 1
+  },
+  {
+    "_id": "Andrés Ormaechea",
+    "count": 1
+  },
+  {
+    "_id": "Fung Wong",
+    "count": 1
+  },
+  {
+    "_id": "Tyler Remmert",
+    "count": 1
+  },
+  {
+    "_id": "Raúl de la Fuente, Pablo Iraburu, Harkaitz Martinez de San Vicente, Igor Otxoa",
+    "count": 1
+  },
+  {
+    "_id": "Zdenek Troska",
+    "count": 1
+  },
+  {
+    "_id": "Weronika Migon",
+    "count": 1
+  },
+  {
+    "_id": "Paris Barclay",
+    "count": 1
+  },
+  {
+    "_id": "Adam Dobrzycki",
+    "count": 1
+  },
+  {
+    "_id": "Marcel Lozinski",
+    "count": 1
+  },
+  {
+    "_id": "John Eng",
+    "count": 1
+  },
+  {
+    "_id": "Hanni Welter",
+    "count": 1
+  },
+  {
+    "_id": "Robert Buncher",
+    "count": 1
+  },
+  {
+    "_id": "Fruit Chan",
+    "count": 1
+  },
+  {
+    "_id": "Don Bluth, Gary Goldman, Art Vitello",
+    "count": 1
+  },
+  {
+    "_id": "Robert Baldwin",
+    "count": 1
+  },
+  {
+    "_id": "Len Lye",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Louis Trintignant",
+    "count": 1
+  },
+  {
+    "_id": "Richard Stanton, Charles Swickard, Gilbert P. Hamilton",
+    "count": 1
+  },
+  {
+    "_id": "Umetsugu Inoue, Masahiro Iwashimizu",
+    "count": 1
+  },
+  {
+    "_id": "Martin Reinhart, Virgil Widrich",
+    "count": 1
+  },
+  {
+    "_id": "Tokuzô Tanaka",
+    "count": 1
+  },
+  {
+    "_id": "Lauren Millar",
+    "count": 1
+  },
+  {
+    "_id": "Krystal Javier",
+    "count": 1
+  },
+  {
+    "_id": "Theo Mezger",
+    "count": 1
+  },
+  {
+    "_id": "Sergey Shalygin",
+    "count": 1
+  },
+  {
+    "_id": "Yumi Yoshiyuki",
+    "count": 1
+  },
+  {
+    "_id": "Jacques Becker",
+    "count": 1
+  },
+  {
+    "_id": "Felipe Sholl",
+    "count": 1
+  },
+  {
+    "_id": "James Vasquez",
+    "count": 1
+  },
+  {
+    "_id": "Mani Ratnam",
+    "count": 1
+  },
+  {
+    "_id": "Alexander Singer",
+    "count": 1
+  },
+  {
+    "_id": "Brandon Cole",
+    "count": 1
+  },
+  {
+    "_id": "Kôichi Ôhata",
+    "count": 1
+  },
+  {
+    "_id": "Marianna Kaat",
+    "count": 1
+  },
+  {
+    "_id": "Koen Mortier",
+    "count": 1
+  },
+  {
+    "_id": "Michael Verhoeven",
+    "count": 1
+  },
+  {
+    "_id": "Paul Leni",
+    "count": 1
+  },
+  {
+    "_id": "Stefan Holtz",
+    "count": 1
+  },
+  {
+    "_id": "Rasmus A. Sivertsen",
+    "count": 1
+  },
+  {
+    "_id": "Ivo Caprino",
+    "count": 1
+  },
+  {
+    "_id": "Oskar Fischinger",
+    "count": 1
+  },
+  {
+    "_id": "Alberto Suarez",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Lynn",
+    "count": 1
+  },
+  {
+    "_id": "M.D. Aliff",
+    "count": 1
+  },
+  {
+    "_id": "Jim Field Smith",
+    "count": 1
+  },
+  {
+    "_id": "Han Hsiang Li",
+    "count": 1
+  },
+  {
+    "_id": "Daisaku Kimura",
+    "count": 1
+  },
+  {
+    "_id": "John Strickland",
+    "count": 1
+  },
+  {
+    "_id": "Alice Colomer-Kang",
+    "count": 1
+  },
+  {
+    "_id": "Benjamin Young Hart",
+    "count": 1
+  },
+  {
+    "_id": "Te Arepa Kahi",
+    "count": 1
+  },
+  {
+    "_id": "P.J. Hogan",
+    "count": 1
+  },
+  {
+    "_id": "Mira Jargil",
+    "count": 1
+  },
+  {
+    "_id": "Marina Mylona",
+    "count": 1
+  },
+  {
+    "_id": "Ryan Birmingham",
+    "count": 1
+  },
+  {
+    "_id": "Pablo Carrero",
+    "count": 1
+  },
+  {
+    "_id": "Shane Dean",
+    "count": 1
+  },
+  {
+    "_id": "John L Matthews",
+    "count": 1
+  },
+  {
+    "_id": "Suzanne Wagner",
+    "count": 1
+  },
+  {
+    "_id": "Dejan Zecevic",
+    "count": 1
+  },
+  {
+    "_id": "Vladimir Kasa",
+    "count": 1
+  },
+  {
+    "_id": "Gëzim Erebara",
+    "count": 1
+  },
+  {
+    "_id": "Fatmir Koçi",
+    "count": 1
+  },
+  {
+    "_id": "Muharrem Fejzo",
+    "count": 1
+  },
+  {
+    "_id": "João Pinto Nogueira",
+    "count": 1
+  },
+  {
+    "_id": "Mats Nyström, Albert Svanberg",
+    "count": 1
+  },
+  {
+    "_id": "Robert Agro-Melina",
+    "count": 1
+  },
+  {
+    "_id": "Adrian Bethea",
+    "count": 1
+  },
+  {
+    "_id": "Henri-Georges Clouzot",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Luc Godard",
+    "count": 1
+  },
+  {
+    "_id": "Tzu-Ping Lin, Steve Woo",
+    "count": 1
+  },
+  {
+    "_id": "Gonçalo Nuno de Souza",
+    "count": 1
+  },
+  {
+    "_id": "Esat Musliu",
+    "count": 1
+  },
+  {
+    "_id": "Jennifer Stocks",
+    "count": 1
+  },
+  {
+    "_id": "Eon-hie Lee",
+    "count": 1
+  },
+  {
+    "_id": "Doug Bresler",
+    "count": 1
+  },
+  {
+    "_id": "Mike Rubenstein",
+    "count": 1
+  },
+  {
+    "_id": "Luke Hanson, Alex Roberts",
+    "count": 1
+  },
+  {
+    "_id": "Michael Thelin",
+    "count": 1
+  },
+  {
+    "_id": "Dan T. Hall",
+    "count": 1
+  },
+  {
+    "_id": "Bradford Stevens",
+    "count": 1
+  },
+  {
+    "_id": "William Wyler",
+    "count": 1
+  },
+  {
+    "_id": "Dita Deren",
+    "count": 1
+  },
+  {
+    "_id": "Christian Nilsson",
+    "count": 1
+  },
+  {
+    "_id": "Chris Ward",
+    "count": 1
+  },
+  {
+    "_id": "Ian Shen",
+    "count": 1
+  },
+  {
+    "_id": "Minh Tuan Do",
+    "count": 1
+  },
+  {
+    "_id": "Bob Odenkirk",
+    "count": 1
+  },
+  {
+    "_id": "Orqe Muevesz",
+    "count": 1
+  },
+  {
+    "_id": "Nick Riedell",
+    "count": 1
+  },
+  {
+    "_id": "Mark Romanek",
+    "count": 1
+  },
+  {
+    "_id": "Erich Lyttle",
+    "count": 1
+  },
+  {
+    "_id": "Kamal K.M.",
+    "count": 1
+  },
+  {
+    "_id": "Byron Paul",
+    "count": 1
+  },
+  {
+    "_id": "Orçun Benli",
+    "count": 1
+  },
+  {
+    "_id": "George Kuchar",
+    "count": 1
+  },
+  {
+    "_id": "Christian E. Christiansen",
+    "count": 1
+  },
+  {
+    "_id": "Chris Evans",
+    "count": 1
+  },
+  {
+    "_id": "Philip Davis",
+    "count": 1
+  },
+  {
+    "_id": "Sandra J. Payne",
+    "count": 1
+  },
+  {
+    "_id": "Claude Sautet",
+    "count": 1
+  },
+  {
+    "_id": "Kyi Soe Tun",
+    "count": 1
+  },
+  {
+    "_id": "Alexandros Chantzis",
+    "count": 1
+  },
+  {
+    "_id": "Bostjan Vrhovec",
+    "count": 1
+  },
+  {
+    "_id": "Yuri Rutman, John Stecenko",
+    "count": 1
+  },
+  {
+    "_id": "Alastair McGibbon",
+    "count": 1
+  },
+  {
+    "_id": "Joe Camp",
+    "count": 1
+  },
+  {
+    "_id": "Matthew Fults",
+    "count": 1
+  },
+  {
+    "_id": "Lee H. Katzin",
+    "count": 1
+  },
+  {
+    "_id": "Bill Fishman, Aaron Marquette",
+    "count": 1
+  },
+  {
+    "_id": "Richard Attenborough",
+    "count": 1
+  },
+  {
+    "_id": "Munindra",
+    "count": 1
+  },
+  {
+    "_id": "Javier Poggi",
+    "count": 1
+  },
+  {
+    "_id": "Abdulrahman Algharabally",
+    "count": 1
+  },
+  {
+    "_id": "Hatsuki Tsuji",
+    "count": 1
+  },
+  {
+    "_id": "Carl Reiner",
+    "count": 1
+  },
+  {
+    "_id": "Des Doyle",
+    "count": 1
+  },
+  {
+    "_id": "Umesh Shukla",
+    "count": 1
+  },
+  {
+    "_id": "Edward Trent Robinson",
+    "count": 1
+  },
+  {
+    "_id": "Fatos Hoti",
+    "count": 1
+  },
+  {
+    "_id": "Shannon Hart",
+    "count": 1
+  },
+  {
+    "_id": "Nikolai Petrov",
+    "count": 1
+  },
+  {
+    "_id": "Guy Smith",
+    "count": 1
+  },
+  {
+    "_id": "Philippe Le Guay",
+    "count": 1
+  },
+  {
+    "_id": "Paul Bogart",
+    "count": 1
+  },
+  {
+    "_id": "Brandon Bassham, Pete Schultz",
+    "count": 1
+  },
+  {
+    "_id": "Todd Richard Lewis",
+    "count": 1
+  },
+  {
+    "_id": "Charles Robert Carner",
+    "count": 1
+  },
+  {
+    "_id": "Masaki Kobayashi",
+    "count": 1
+  },
+  {
+    "_id": "David Eady",
+    "count": 1
+  },
+  {
+    "_id": "Enrique Rovira",
+    "count": 1
+  },
+  {
+    "_id": "Peter Tabern",
+    "count": 1
+  },
+  {
+    "_id": "Vladimír Slavínský",
+    "count": 1
+  },
+  {
+    "_id": "Robert Emenegger, Allan Sandler",
+    "count": 1
+  },
+  {
+    "_id": "Danny Patrick",
+    "count": 1
+  },
+  {
+    "_id": "Guy Crawford",
+    "count": 1
+  },
+  {
+    "_id": "Vaughan Arnell",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Ian Nicholas",
+    "count": 1
+  },
+  {
+    "_id": "Koto Nagata",
+    "count": 1
+  },
+  {
+    "_id": "Walter Schneider",
+    "count": 1
+  },
+  {
+    "_id": "Migel Delgado, Jon Jacobs",
+    "count": 1
+  },
+  {
+    "_id": "Walter Jerven",
+    "count": 1
+  },
+  {
+    "_id": "Helke Sander",
+    "count": 1
+  },
+  {
+    "_id": "Marco La Villa, Mauro La Villa",
+    "count": 1
+  },
+  {
+    "_id": "Pavel Sanaev",
+    "count": 1
+  },
+  {
+    "_id": "Claudio Malaponti",
+    "count": 1
+  },
+  {
+    "_id": "So Yong Kim",
+    "count": 1
+  },
+  {
+    "_id": "György Révész",
+    "count": 1
+  },
+  {
+    "_id": "Pankaj Parashar",
+    "count": 1
+  },
+  {
+    "_id": "Zivorad 'Zika' Mitrovic",
+    "count": 1
+  },
+  {
+    "_id": "Kostas Kapetanidis, Giannis Mikros",
+    "count": 1
+  },
+  {
+    "_id": "Daniels",
+    "count": 1
+  },
+  {
+    "_id": "Arjun Sablok",
+    "count": 1
+  },
+  {
+    "_id": "Bille August",
+    "count": 1
+  },
+  {
+    "_id": "Miguel Arteta",
+    "count": 1
+  },
+  {
+    "_id": "Jerry Cope",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Hiller",
+    "count": 1
+  },
+  {
+    "_id": "Guillaume Canet",
+    "count": 1
+  },
+  {
+    "_id": "Pablo José Meza",
+    "count": 1
+  },
+  {
+    "_id": "Carin Goeijers",
+    "count": 1
+  },
+  {
+    "_id": "Alain Berliner",
+    "count": 1
+  },
+  {
+    "_id": "Scott Hicks",
+    "count": 1
+  },
+  {
+    "_id": "Ethan Coen, Joel Coen",
+    "count": 1
+  },
+  {
+    "_id": "Mike Leigh",
+    "count": 1
+  },
+  {
+    "_id": "Ingrid Franchi",
+    "count": 1
+  },
+  {
+    "_id": "Denis Marti",
+    "count": 1
+  },
+  {
+    "_id": "Steven Bognar, Julia Reichert",
+    "count": 1
+  },
+  {
+    "_id": "Ringo Lam",
+    "count": 1
+  },
+  {
+    "_id": "John Dangolli",
+    "count": 1
+  },
+  {
+    "_id": "Craig Hung, Chris Pierick",
+    "count": 1
+  },
+  {
+    "_id": "N. Linguswamy",
+    "count": 1
+  },
+  {
+    "_id": "J. Royal",
+    "count": 1
+  },
+  {
+    "_id": "Milo Djukanovic",
+    "count": 1
+  },
+  {
+    "_id": "Brian Brennan",
+    "count": 1
+  },
+  {
+    "_id": "Kim Sherman",
+    "count": 1
+  },
+  {
+    "_id": "Trish Campbell, Dan Hunt",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Gura",
+    "count": 1
+  },
+  {
+    "_id": "Ann Hui",
+    "count": 1
+  },
+  {
+    "_id": "Hayato Ikeda",
+    "count": 1
+  },
+  {
+    "_id": "Jay Karas",
+    "count": 1
+  },
+  {
+    "_id": "Ehteshamul Haq",
+    "count": 1
+  },
+  {
+    "_id": "Bára Kopecká",
+    "count": 1
+  },
+  {
+    "_id": "Nikolay Yeriomin",
+    "count": 1
+  },
+  {
+    "_id": "Beth McCarthy-Miller",
+    "count": 1
+  },
+  {
+    "_id": "Morten Lorentzen",
+    "count": 1
+  },
+  {
+    "_id": "Ulla Boje Rasmussen",
+    "count": 1
+  },
+  {
+    "_id": "David C. Lettieri",
+    "count": 1
+  },
+  {
+    "_id": "An Bose",
+    "count": 1
+  },
+  {
+    "_id": "Tassos Boulmetis",
+    "count": 1
+  },
+  {
+    "_id": "Eldar Salavatov",
+    "count": 1
+  },
+  {
+    "_id": "Yuen Chor",
+    "count": 1
+  },
+  {
+    "_id": "Taisuke Kawamura",
+    "count": 1
+  },
+  {
+    "_id": "Phillip Ko",
+    "count": 1
+  },
+  {
+    "_id": "Craig Baldwin",
+    "count": 1
+  },
+  {
+    "_id": "Evgeniy Shelyakin",
+    "count": 1
+  },
+  {
+    "_id": "Siu-Hung Leung",
+    "count": 1
+  },
+  {
+    "_id": "Yilmaz Erdogan",
+    "count": 1
+  },
+  {
+    "_id": "Priyadarshan",
+    "count": 1
+  },
+  {
+    "_id": "Seth Green",
+    "count": 1
+  },
+  {
+    "_id": "James Runcie",
+    "count": 1
+  },
+  {
+    "_id": "Brian Trenchard-Smith",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Collins",
+    "count": 1
+  },
+  {
+    "_id": "Yuri Grymov",
+    "count": 1
+  },
+  {
+    "_id": "Jacinto Lucas Pires",
+    "count": 1
+  },
+  {
+    "_id": "Agnès Varda",
+    "count": 1
+  },
+  {
+    "_id": "Nghiem Dang Tuan Nguyen",
+    "count": 1
+  },
+  {
+    "_id": "Seiji Chiba",
+    "count": 1
+  },
+  {
+    "_id": "Matheus Souza",
+    "count": 1
+  },
+  {
+    "_id": "Wei Tung",
+    "count": 1
+  },
+  {
+    "_id": "Brian Chagnon",
+    "count": 1
+  },
+  {
+    "_id": "Richard LaGravenese",
+    "count": 1
+  },
+  {
+    "_id": "Alan Parker",
+    "count": 1
+  },
+  {
+    "_id": "Vicente Villanueva",
+    "count": 1
+  },
+  {
+    "_id": "Carl Jørgen Kiønig",
+    "count": 1
+  },
+  {
+    "_id": "Arindam Chowdhuri",
+    "count": 1
+  },
+  {
+    "_id": "Per Wennick",
+    "count": 1
+  },
+  {
+    "_id": "Ivars Vilums",
+    "count": 1
+  },
+  {
+    "_id": "Ian Denyer",
+    "count": 1
+  },
+  {
+    "_id": "Marisa DeVonish",
+    "count": 1
+  },
+  {
+    "_id": "Michael Sorvino",
+    "count": 1
+  },
+  {
+    "_id": "Sándor Reisenbüchler",
+    "count": 1
+  },
+  {
+    "_id": "'Bill' William Sollner",
+    "count": 1
+  },
+  {
+    "_id": "Eric Rochant",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Jacques Zilbermann",
+    "count": 1
+  },
+  {
+    "_id": "Chia Yung Liu",
+    "count": 1
+  },
+  {
+    "_id": "Morey Kammerman",
+    "count": 1
+  },
+  {
+    "_id": "Satyanarayana E.V.V.",
+    "count": 1
+  },
+  {
+    "_id": "Mason",
+    "count": 1
+  },
+  {
+    "_id": "Noam Murro",
+    "count": 1
+  },
+  {
+    "_id": "Hyun-seung Lee",
+    "count": 1
+  },
+  {
+    "_id": "Kay Pollak",
+    "count": 1
+  },
+  {
+    "_id": "Doo-yong Lee",
+    "count": 1
+  },
+  {
+    "_id": "Greg Berlanti",
+    "count": 1
+  },
+  {
+    "_id": "Isaac Feder",
+    "count": 1
+  },
+  {
+    "_id": "Bill Couturié",
+    "count": 1
+  },
+  {
+    "_id": "Mike Newell",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Marks",
+    "count": 1
+  },
+  {
+    "_id": "Jay Gira",
+    "count": 1
+  },
+  {
+    "_id": "Cristina Ionescu",
+    "count": 1
+  },
+  {
+    "_id": "David Flores",
+    "count": 1
+  },
+  {
+    "_id": "Jonas Grosch",
+    "count": 1
+  },
+  {
+    "_id": "Edoardo Gabbriellini",
+    "count": 1
+  },
+  {
+    "_id": "Coline Serreau",
+    "count": 1
+  },
+  {
+    "_id": "Billy Kent",
+    "count": 1
+  },
+  {
+    "_id": "Ella Lemhagen",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Wong, Brandy Yuen",
+    "count": 1
+  },
+  {
+    "_id": "Wilson Chin",
+    "count": 1
+  },
+  {
+    "_id": "Curtis Hanson",
+    "count": 1
+  },
+  {
+    "_id": "Thaha",
+    "count": 1
+  },
+  {
+    "_id": "Danniel Danniel",
+    "count": 1
+  },
+  {
+    "_id": "David Dhawan",
+    "count": 1
+  },
+  {
+    "_id": "Max Ophüls",
+    "count": 1
+  },
+  {
+    "_id": "Santiago Segura",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Paul Rappeneau",
+    "count": 1
+  },
+  {
+    "_id": "Sheri Elwood",
+    "count": 1
+  },
+  {
+    "_id": "Claude Berri",
+    "count": 1
+  },
+  {
+    "_id": "Luis Buñuel",
+    "count": 1
+  },
+  {
+    "_id": "Rudolf Del Zopp",
+    "count": 1
+  },
+  {
+    "_id": "Bianchini Floriani",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Davis",
+    "count": 1
+  },
+  {
+    "_id": "Marcus Baldini",
+    "count": 1
+  },
+  {
+    "_id": "Ferenc Kardos",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Luc Brunet",
+    "count": 1
+  },
+  {
+    "_id": "Gerald Thomas",
+    "count": 1
+  },
+  {
+    "_id": "Irving Pichel",
+    "count": 1
+  },
+  {
+    "_id": "JD Lawrence",
+    "count": 1
+  },
+  {
+    "_id": "Matt Piedmont",
+    "count": 1
+  },
+  {
+    "_id": "Shigenori Kageyama",
+    "count": 1
+  },
+  {
+    "_id": "Ettore Biondo",
+    "count": 1
+  },
+  {
+    "_id": "Johanna Hald",
+    "count": 1
+  },
+  {
+    "_id": "Michael Feifer",
+    "count": 1
+  },
+  {
+    "_id": "Nenad Puhovski",
+    "count": 1
+  },
+  {
+    "_id": "Richard Ayoade",
+    "count": 1
+  },
+  {
+    "_id": "Jim Goddard",
+    "count": 1
+  },
+  {
+    "_id": "Gordon Chan",
+    "count": 1
+  },
+  {
+    "_id": "King Vidor",
+    "count": 1
+  },
+  {
+    "_id": "Justin Chadwick",
+    "count": 1
+  },
+  {
+    "_id": "Louis C.K., Shannon Hartman",
+    "count": 1
+  },
+  {
+    "_id": "Erik Van Looy",
+    "count": 1
+  },
+  {
+    "_id": "Anand K.V.",
+    "count": 1
+  },
+  {
+    "_id": "Down Chung",
+    "count": 1
+  },
+  {
+    "_id": "Manuel Poirier",
+    "count": 1
+  },
+  {
+    "_id": "Hong-ik Kim",
+    "count": 1
+  },
+  {
+    "_id": "Daniel Gimelberg",
+    "count": 1
+  },
+  {
+    "_id": "Lynn Booth",
+    "count": 1
+  },
+  {
+    "_id": "Eddie Deirmenjian",
+    "count": 1
+  },
+  {
+    "_id": "Wim Verstappen",
+    "count": 1
+  },
+  {
+    "_id": "Roman Cortez",
+    "count": 1
+  },
+  {
+    "_id": "Leonard Katzman",
+    "count": 1
+  },
+  {
+    "_id": "Eeshwar Nivas",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Gorham",
+    "count": 1
+  },
+  {
+    "_id": "Britt Olofsson",
+    "count": 1
+  },
+  {
+    "_id": "Erkko Kivikoski",
+    "count": 1
+  },
+  {
+    "_id": "David Boyer",
+    "count": 1
+  },
+  {
+    "_id": "Shinji Aramaki",
+    "count": 1
+  },
+  {
+    "_id": "Dan Pita",
+    "count": 1
+  },
+  {
+    "_id": "Michael Clift",
+    "count": 1
+  },
+  {
+    "_id": "Lindsay Anderson",
+    "count": 1
+  },
+  {
+    "_id": "Gayle Thomas",
+    "count": 1
+  },
+  {
+    "_id": "Zabou Breitman",
+    "count": 1
+  },
+  {
+    "_id": "Göran Graffman",
+    "count": 1
+  },
+  {
+    "_id": "Robert Z. Leonard",
+    "count": 1
+  },
+  {
+    "_id": "Jim Sharman",
+    "count": 1
+  },
+  {
+    "_id": "Stefan Vermeulen",
+    "count": 1
+  },
+  {
+    "_id": "Bobby Tan, Geoff Ross",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Michael Conner",
+    "count": 1
+  },
+  {
+    "_id": "Antonio Hernández",
+    "count": 1
+  },
+  {
+    "_id": "Ma Wu",
+    "count": 1
+  },
+  {
+    "_id": "Mamat Khalid",
+    "count": 1
+  },
+  {
+    "_id": "Adam Badlotto",
+    "count": 1
+  },
+  {
+    "_id": "Dylan Yanez",
+    "count": 1
+  },
+  {
+    "_id": "Yannick Delhaye",
+    "count": 1
+  },
+  {
+    "_id": "Ramin Bahrani",
+    "count": 1
+  },
+  {
+    "_id": "Peter Dalle",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Piddington",
+    "count": 1
+  },
+  {
+    "_id": "Martin Ritt",
+    "count": 1
+  },
+  {
+    "_id": "Danilo Cabreira",
+    "count": 1
+  },
+  {
+    "_id": "Alison Klayman",
+    "count": 1
+  },
+  {
+    "_id": "Pablo A. Quiroga",
+    "count": 1
+  },
+  {
+    "_id": "Richard Pryor",
+    "count": 1
+  },
+  {
+    "_id": "Eva Stefani",
+    "count": 1
+  },
+  {
+    "_id": "Esben Tønnesen",
+    "count": 1
+  },
+  {
+    "_id": "Delbert Mann",
+    "count": 1
+  },
+  {
+    "_id": "Benny Chan, Jackie Chan",
+    "count": 1
+  },
+  {
+    "_id": "Donnie Sacueza",
+    "count": 1
+  },
+  {
+    "_id": "Luc David",
+    "count": 1
+  },
+  {
+    "_id": "Rakeysh Omprakash Mehra",
+    "count": 1
+  },
+  {
+    "_id": "Tefari Esequiel Abel Casas",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Alender, Christopher Alender",
+    "count": 1
+  },
+  {
+    "_id": "Andy Heck Boyd",
+    "count": 1
+  },
+  {
+    "_id": "Ricardo Mehedff",
+    "count": 1
+  },
+  {
+    "_id": "Ricardo Becher",
+    "count": 1
+  },
+  {
+    "_id": "Peter Schankowitz",
+    "count": 1
+  },
+  {
+    "_id": "Jason J. Tomaric",
+    "count": 1
+  },
+  {
+    "_id": "Mateo Gutiérrez",
+    "count": 1
+  },
+  {
+    "_id": "Evan Jacobs",
+    "count": 1
+  },
+  {
+    "_id": "Andoy Ranay",
+    "count": 1
+  },
+  {
+    "_id": "George Sherman",
+    "count": 1
+  },
+  {
+    "_id": "Steve Kemsley",
+    "count": 1
+  },
+  {
+    "_id": "Lidiya Bobrova",
+    "count": 1
+  },
+  {
+    "_id": "Shun Nakahara",
+    "count": 1
+  },
+  {
+    "_id": "Lejla Panjeta",
+    "count": 1
+  },
+  {
+    "_id": "Alexander Eik",
+    "count": 1
+  },
+  {
+    "_id": "King Chu Lee",
+    "count": 1
+  },
+  {
+    "_id": "Francisco Manso",
+    "count": 1
+  },
+  {
+    "_id": "Michael Campbell",
+    "count": 1
+  },
+  {
+    "_id": "Julian Wolff",
+    "count": 1
+  },
+  {
+    "_id": "Chan-wook Park",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Daniels",
+    "count": 1
+  },
+  {
+    "_id": "Wen Yi",
+    "count": 1
+  },
+  {
+    "_id": "Chuck Parello",
+    "count": 1
+  },
+  {
+    "_id": "C. Thaddeus Banks",
+    "count": 1
+  },
+  {
+    "_id": "Alain Corneau",
+    "count": 1
+  },
+  {
+    "_id": "Alen Simic",
+    "count": 1
+  },
+  {
+    "_id": "John Huston",
+    "count": 1
+  },
+  {
+    "_id": "Masato Harada",
+    "count": 1
+  },
+  {
+    "_id": "Rinaldo Gaspari",
+    "count": 1
+  },
+  {
+    "_id": "Arun Kumar",
+    "count": 1
+  },
+  {
+    "_id": "Andy Anderson",
+    "count": 1
+  },
+  {
+    "_id": "A.J. Lambert",
+    "count": 1
+  },
+  {
+    "_id": "Juan Felipe Orozco",
+    "count": 1
+  },
+  {
+    "_id": "Zbigniew Kuzminski",
+    "count": 1
+  },
+  {
+    "_id": "Dagmar Wagner",
+    "count": 1
+  },
+  {
+    "_id": "Lisa Krueger",
+    "count": 1
+  },
+  {
+    "_id": "Dusan Vukotic",
+    "count": 1
+  },
+  {
+    "_id": "Guddu Dhanoa",
+    "count": 1
+  },
+  {
+    "_id": "Hamid Ali Khan",
+    "count": 1
+  },
+  {
+    "_id": "David Haynes",
+    "count": 1
+  },
+  {
+    "_id": "Seiji Maruyama",
+    "count": 1
+  },
+  {
+    "_id": "Sinan Çetin",
+    "count": 1
+  },
+  {
+    "_id": "Mao Mao",
+    "count": 1
+  },
+  {
+    "_id": "Peter Segal",
+    "count": 1
+  },
+  {
+    "_id": "Maurizio Nichetti",
+    "count": 1
+  },
+  {
+    "_id": "Brittany Blockman, Josephine Decker",
+    "count": 1
+  },
+  {
+    "_id": "Johnathon Proctor",
+    "count": 1
+  },
+  {
+    "_id": "Philip Hunt",
+    "count": 1
+  },
+  {
+    "_id": "Hafiz Akbarov",
+    "count": 1
+  },
+  {
+    "_id": "Garry Marshall",
+    "count": 1
+  },
+  {
+    "_id": "Miguel M. Delgado",
+    "count": 1
+  },
+  {
+    "_id": "Abdolreza Kahani",
+    "count": 1
+  },
+  {
+    "_id": "Juliette Fairley",
+    "count": 1
+  },
+  {
+    "_id": "Chema de la Peña",
+    "count": 1
+  },
+  {
+    "_id": "Jon Woods",
+    "count": 1
+  },
+  {
+    "_id": "Gérard Lauzier",
+    "count": 1
+  },
+  {
+    "_id": "Satish Kaushik",
+    "count": 1
+  },
+  {
+    "_id": "Michael Blackwood",
+    "count": 1
+  },
+  {
+    "_id": "Bingjian Liu",
+    "count": 1
+  },
+  {
+    "_id": "Daisuke Kobayashi",
+    "count": 1
+  },
+  {
+    "_id": "Seth Kramer, Daniel A. Miller, Jeremy Newberger",
+    "count": 1
+  },
+  {
+    "_id": "Pedro Lazaga",
+    "count": 1
+  },
+  {
+    "_id": "Martin Pickles",
+    "count": 1
+  },
+  {
+    "_id": "Otis Turner",
+    "count": 1
+  },
+  {
+    "_id": "Luciano Berriatúa",
+    "count": 1
+  },
+  {
+    "_id": "Danny Antonucci",
+    "count": 1
+  },
+  {
+    "_id": "Ed De Priest",
+    "count": 1
+  },
+  {
+    "_id": "Hal Ashby",
+    "count": 1
+  },
+  {
+    "_id": "Rajesh Mapuskar",
+    "count": 1
+  },
+  {
+    "_id": "Daniel Cohen",
+    "count": 1
+  },
+  {
+    "_id": "Tasciotti",
+    "count": 1
+  },
+  {
+    "_id": "Eric Dionysius, Eric Mistler",
+    "count": 1
+  },
+  {
+    "_id": "Allan A. Goldstein",
+    "count": 1
+  },
+  {
+    "_id": "José Luis Viloria",
+    "count": 1
+  },
+  {
+    "_id": "Omiros Efstratiadis",
+    "count": 1
+  },
+  {
+    "_id": "Alejandro Jodorowsky",
+    "count": 1
+  },
+  {
+    "_id": "Roger Christian",
+    "count": 1
+  },
+  {
+    "_id": "Anthony Anderson, Gary Binkow",
+    "count": 1
+  },
+  {
+    "_id": "Robert Altman",
+    "count": 1
+  },
+  {
+    "_id": "Robbe De Hert",
+    "count": 1
+  },
+  {
+    "_id": "William Michael Barbee",
+    "count": 1
+  },
+  {
+    "_id": "Lars Becker",
+    "count": 1
+  },
+  {
+    "_id": "Stefan Jarl",
+    "count": 1
+  },
+  {
+    "_id": "Ilias Mylonakos",
+    "count": 1
+  },
+  {
+    "_id": "Hayao Miyazaki",
+    "count": 1
+  },
+  {
+    "_id": "Antoine Fuqua",
+    "count": 1
+  },
+  {
+    "_id": "Yen-Ping Chu",
+    "count": 1
+  },
+  {
+    "_id": "Ryan Haysom",
+    "count": 1
+  },
+  {
+    "_id": "Kostas Karagiannis",
+    "count": 1
+  },
+  {
+    "_id": "Sotiris Goritsas",
+    "count": 1
+  },
+  {
+    "_id": "Robert Scheerer",
+    "count": 1
+  },
+  {
+    "_id": "Steve Rash",
+    "count": 1
+  },
+  {
+    "_id": "Dinos Dimopoulos",
+    "count": 1
+  },
+  {
+    "_id": "Cuk Fk",
+    "count": 1
+  },
+  {
+    "_id": "Paul Feig",
+    "count": 1
+  },
+  {
+    "_id": "Man Kei Chin",
+    "count": 1
+  },
+  {
+    "_id": "Bo Welch",
+    "count": 1
+  },
+  {
+    "_id": "Robert Kirk",
+    "count": 1
+  },
+  {
+    "_id": "Terrence Malick",
+    "count": 1
+  },
+  {
+    "_id": "Tamás Sas",
+    "count": 1
+  },
+  {
+    "_id": "John Landis, Jeffrey A. Okun",
+    "count": 1
+  },
+  {
+    "_id": "John Turturro",
+    "count": 1
+  },
+  {
+    "_id": "Raymond J. Roman",
+    "count": 1
+  },
+  {
+    "_id": "Amy Berg",
+    "count": 1
+  },
+  {
+    "_id": "Masatoshi Kurakata",
+    "count": 1
+  },
+  {
+    "_id": "Amy Stone",
+    "count": 1
+  },
+  {
+    "_id": "Jack Uppling",
+    "count": 1
+  },
+  {
+    "_id": "Ben Stiller",
+    "count": 1
+  },
+  {
+    "_id": "George Young, Paul Becher, Derek Burbidge, Eric Dionysius, Paul Drane, David Mallet, Eric Mistler, Russell Mulcahy, Brian Ward",
+    "count": 1
+  },
+  {
+    "_id": "Terry Jones",
+    "count": 1
+  },
+  {
+    "_id": "Sanjay M. Khanduri",
+    "count": 1
+  },
+  {
+    "_id": "Nabeel Qureshi",
+    "count": 1
+  },
+  {
+    "_id": "Milan Karadzic",
+    "count": 1
+  },
+  {
+    "_id": "Gus Van Sant",
+    "count": 1
+  },
+  {
+    "_id": "Jeffrey Reiner",
+    "count": 1
+  },
+  {
+    "_id": "Paul W.S. Anderson",
+    "count": 1
+  },
+  {
+    "_id": "Ruby Lewis, Zoezita Holifield",
+    "count": 1
+  },
+  {
+    "_id": "Jerome Robbins, Robert Wise",
+    "count": 1
+  },
+  {
+    "_id": "Scott Spiegel",
+    "count": 1
+  },
+  {
+    "_id": "Bryant Jackson",
+    "count": 1
+  },
+  {
+    "_id": "Breno Silveira",
+    "count": 1
+  },
+  {
+    "_id": "Drew Glick, Ray Persaud, Antonio Joyner",
+    "count": 1
+  },
+  {
+    "_id": "Georgi Djulgerov, Svetoslav Ovtcharov",
+    "count": 1
+  },
+  {
+    "_id": "Roberto Benigni",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Sprinkles",
+    "count": 1
+  },
+  {
+    "_id": "Ang Lee",
+    "count": 1
+  },
+  {
+    "_id": "Giannis Dalianidis",
+    "count": 1
+  },
+  {
+    "_id": "Wolfgang Petersen",
+    "count": 1
+  },
+  {
+    "_id": "April A. Wilson",
+    "count": 1
+  },
+  {
+    "_id": "Steve Gethers",
+    "count": 1
+  },
+  {
+    "_id": "Jim Gunn, Zack Thomas",
+    "count": 1
+  },
+  {
+    "_id": "Ulrike Grote",
+    "count": 1
+  },
+  {
+    "_id": "Marie-Louise De Geer Bergenstråhle",
+    "count": 1
+  },
+  {
+    "_id": "Min-ji Oh",
+    "count": 1
+  },
+  {
+    "_id": "John Lasseter, Ash Brannon, Lee Unkrich",
+    "count": 1
+  },
+  {
+    "_id": "Shane Black",
+    "count": 1
+  },
+  {
+    "_id": "James Gray",
+    "count": 1
+  },
+  {
+    "_id": "David Slade",
+    "count": 1
+  },
+  {
+    "_id": "Peter Zhmutski",
+    "count": 1
+  },
+  {
+    "_id": "Michael Apted",
+    "count": 1
+  },
+  {
+    "_id": "Chan Wei Lin",
+    "count": 1
+  },
+  {
+    "_id": "Michael Preece",
+    "count": 1
+  },
+  {
+    "_id": "Muffett Kaufman",
+    "count": 1
+  },
+  {
+    "_id": "Alan Taylor",
+    "count": 1
+  },
+  {
+    "_id": "Terry Gilliam",
+    "count": 1
+  },
+  {
+    "_id": "David DeCoteau",
+    "count": 1
+  },
+  {
+    "_id": "Christopher McQuarrie",
+    "count": 1
+  },
+  {
+    "_id": "Jon Turteltaub",
+    "count": 1
+  },
+  {
+    "_id": "Shinichirô Watanabe, Hiroyuki Okiura",
+    "count": 1
+  },
+  {
+    "_id": "Paul A. Kaufman",
+    "count": 1
+  },
+  {
+    "_id": "Michelangelo Antonioni",
+    "count": 1
+  },
+  {
+    "_id": "Joshua Harris",
+    "count": 1
+  },
+  {
+    "_id": "Jake Jacobs",
+    "count": 1
+  },
+  {
+    "_id": "Rajkumar Kohli",
+    "count": 1
+  },
+  {
+    "_id": "Donay Kinard, Micah Lorick, George McPherson",
+    "count": 1
+  },
+  {
+    "_id": "Roman Polanski",
+    "count": 1
+  },
+  {
+    "_id": "Catherine Breillat",
+    "count": 1
+  },
+  {
+    "_id": "David Miller",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Lubin",
+    "count": 1
+  },
+  {
+    "_id": "Prakash Mehra",
+    "count": 1
+  },
+  {
+    "_id": "Mike Jonathan",
+    "count": 1
+  },
+  {
+    "_id": "Julio Bracho",
+    "count": 1
+  },
+  {
+    "_id": "Gregg Champion",
+    "count": 1
+  },
+  {
+    "_id": "Bobby Farrelly, Peter Farrelly",
+    "count": 1
+  },
+  {
+    "_id": "Carmine Gallone",
+    "count": 1
+  },
+  {
+    "_id": "Luciano Salce",
+    "count": 1
+  },
+  {
+    "_id": "Marcus Nispel",
+    "count": 1
+  },
+  {
+    "_id": "Bengt Lagerkvist",
+    "count": 1
+  },
+  {
+    "_id": "Tony Au",
+    "count": 1
+  },
+  {
+    "_id": "Ryûta Miyake",
+    "count": 1
+  },
+  {
+    "_id": "Shinji Takamatsu",
+    "count": 1
+  },
+  {
+    "_id": "Federico Moccia",
+    "count": 1
+  },
+  {
+    "_id": "Maruthi Dasari",
+    "count": 1
+  },
+  {
+    "_id": "Manoel de Oliveira",
+    "count": 1
+  },
+  {
+    "_id": "James Gattuso",
+    "count": 1
+  },
+  {
+    "_id": "Robert Schwartzman",
+    "count": 1
+  },
+  {
+    "_id": "Óskar Thór Axelsson",
+    "count": 1
+  },
+  {
+    "_id": "Troy Nixey",
+    "count": 1
+  },
+  {
+    "_id": "Rahul Rawail",
+    "count": 1
+  },
+  {
+    "_id": "Matt Reeves",
+    "count": 1
+  },
+  {
+    "_id": "Sam Peckinpah",
+    "count": 1
+  },
+  {
+    "_id": "Hans Trommer",
+    "count": 1
+  },
+  {
+    "_id": "Chi Lo",
+    "count": 1
+  },
+  {
+    "_id": "Spike Lee",
+    "count": 1
+  },
+  {
+    "_id": "Victor Lustosa, Dedé Santana",
+    "count": 1
+  },
+  {
+    "_id": "Irvin Kershner",
+    "count": 1
+  },
+  {
+    "_id": "Takashi Miike",
+    "count": 1
+  },
+  {
+    "_id": "Alain Chabat",
+    "count": 1
+  },
+  {
+    "_id": "João Botelho",
+    "count": 1
+  },
+  {
+    "_id": "Gregg Araki",
+    "count": 1
+  },
+  {
+    "_id": "Shion Sono",
+    "count": 1
+  },
+  {
+    "_id": "Anthony Liechti",
+    "count": 1
+  },
+  {
+    "_id": "Drew Pearce",
+    "count": 1
+  },
+  {
+    "_id": "Thor Freudenthal",
+    "count": 1
+  },
+  {
+    "_id": "Colin Trevorrow",
+    "count": 1
+  },
+  {
+    "_id": "Søren Kragh-Jacobsen",
+    "count": 1
+  },
+  {
+    "_id": "Dalton Trumbo",
+    "count": 1
+  },
+  {
+    "_id": "David O. Russell",
+    "count": 1
+  },
+  {
+    "_id": "Jehangir Surti",
+    "count": 1
+  },
+  {
+    "_id": "Anna Boden, Ryan Fleck",
+    "count": 1
+  },
+  {
+    "_id": "Pierre Morel",
+    "count": 1
+  },
+  {
+    "_id": "Ben Rock",
+    "count": 1
+  },
+  {
+    "_id": "Çagan Irmak",
+    "count": 1
+  },
+  {
+    "_id": "Axel von Ambesser",
+    "count": 1
+  },
+  {
+    "_id": "Shinobu Yaguchi",
+    "count": 1
+  },
+  {
+    "_id": "Rex Bloomstein",
+    "count": 1
+  },
+  {
+    "_id": "Kannan Iyer",
+    "count": 1
+  },
+  {
+    "_id": "Harold Ramis",
+    "count": 1
+  },
+  {
+    "_id": "Paulo César Fajardo",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Kanew",
+    "count": 1
+  },
+  {
+    "_id": "Guru Dutt",
+    "count": 1
+  },
+  {
+    "_id": "Timofei Levchuk",
+    "count": 1
+  },
+  {
+    "_id": "John McNaughton",
+    "count": 1
+  },
+  {
+    "_id": "Margaret Tait",
+    "count": 1
+  },
+  {
+    "_id": "Arnaldo Jabor",
+    "count": 1
+  },
+  {
+    "_id": "Shimit Amin",
+    "count": 1
+  },
+  {
+    "_id": "Gerard Martí",
+    "count": 1
+  },
+  {
+    "_id": "Mark Dindal",
+    "count": 1
+  },
+  {
+    "_id": "Luis Mandoki",
+    "count": 1
+  },
+  {
+    "_id": "Sean Anders",
+    "count": 1
+  },
+  {
+    "_id": "Stanley Ferrera, Smiley Johnson",
+    "count": 1
+  },
+  {
+    "_id": "Esteban Corzo",
+    "count": 1
+  },
+  {
+    "_id": "Sirus Alvand",
+    "count": 1
+  },
+  {
+    "_id": "Dimitar Kotzev",
+    "count": 1
+  },
+  {
+    "_id": "Philip Swift",
+    "count": 1
+  },
+  {
+    "_id": "Aamir Khan, Amole Gupte",
+    "count": 1
+  },
+  {
+    "_id": "Péter Gothár",
+    "count": 1
+  },
+  {
+    "_id": "Jaco Van Dormael",
+    "count": 1
+  },
+  {
+    "_id": "Anthony C. Ferrante",
+    "count": 1
+  },
+  {
+    "_id": "Jonny Campbell",
+    "count": 1
+  },
+  {
+    "_id": "Joshi",
+    "count": 1
+  },
+  {
+    "_id": "Charles Laughton, Robert Mitchum, Terry Sanders",
+    "count": 1
+  },
+  {
+    "_id": "Glenn Ficarra, John Requa",
+    "count": 1
+  },
+  {
+    "_id": "Alfons Schön",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Hanlon",
+    "count": 1
+  },
+  {
+    "_id": "Osmond Karim",
+    "count": 1
+  },
+  {
+    "_id": "Robert Redford",
+    "count": 1
+  },
+  {
+    "_id": "James Watkins",
+    "count": 1
+  },
+  {
+    "_id": "Charles Correll",
+    "count": 1
+  },
+  {
+    "_id": "Fred M. Wilcox",
+    "count": 1
+  },
+  {
+    "_id": "Albert Hanan Kaminski",
+    "count": 1
+  },
+  {
+    "_id": "Marie-Christine Camus",
+    "count": 1
+  },
+  {
+    "_id": "Harald Sicheritz",
+    "count": 1
+  },
+  {
+    "_id": "Lloyd Kaufman",
+    "count": 1
+  },
+  {
+    "_id": "Balázs Hatvani",
+    "count": 1
+  },
+  {
+    "_id": "Keith Truesdell",
+    "count": 1
+  },
+  {
+    "_id": "Joel Coen, Ethan Coen",
+    "count": 1
+  },
+  {
+    "_id": "Vishal Bhardwaj",
+    "count": 1
+  },
+  {
+    "_id": "Anthony Wonke",
+    "count": 1
+  },
+  {
+    "_id": "Roberto A. Morales",
+    "count": 1
+  },
+  {
+    "_id": "Kenichi Maejima",
+    "count": 1
+  },
+  {
+    "_id": "Mervyn LeRoy",
+    "count": 1
+  },
+  {
+    "_id": "Antony Hoffman",
+    "count": 1
+  },
+  {
+    "_id": "Ben Turbett",
+    "count": 1
+  },
+  {
+    "_id": "Hamid Nematollah",
+    "count": 1
+  },
+  {
+    "_id": "Bradly Schulz",
+    "count": 1
+  },
+  {
+    "_id": "Sarah Elbert",
+    "count": 1
+  },
+  {
+    "_id": "Olivier Dahan",
+    "count": 1
+  },
+  {
+    "_id": "George Sidney",
+    "count": 1
+  },
+  {
+    "_id": "Brad Peyton",
+    "count": 1
+  },
+  {
+    "_id": "Anvar Sadik",
+    "count": 1
+  },
+  {
+    "_id": "Erik Leijonborg",
+    "count": 1
+  },
+  {
+    "_id": "Graham Baker",
+    "count": 1
+  },
+  {
+    "_id": "Roger Donaldson",
+    "count": 1
+  },
+  {
+    "_id": "Oskar Roehler",
+    "count": 1
+  },
+  {
+    "_id": "William A. Wellman",
+    "count": 1
+  },
+  {
+    "_id": "Firdavs Zajnutdinov",
+    "count": 1
+  },
+  {
+    "_id": "Fredrik Egerstrand, Kalle Gustafsson Jerneholm",
+    "count": 1
+  },
+  {
+    "_id": "Raga Oktay",
+    "count": 1
+  },
+  {
+    "_id": "Jan Verheyen",
+    "count": 1
+  },
+  {
+    "_id": "Nikola Rudarov",
+    "count": 1
+  },
+  {
+    "_id": "Richard Schenkman",
+    "count": 1
+  },
+  {
+    "_id": "Mez Tharatorn",
+    "count": 1
+  },
+  {
+    "_id": "Baran bo Odar",
+    "count": 1
+  },
+  {
+    "_id": "James L. Brooks",
+    "count": 1
+  },
+  {
+    "_id": "Kelvin Kyung Kun Park",
+    "count": 1
+  },
+  {
+    "_id": "Anjan Dutt",
+    "count": 1
+  },
+  {
+    "_id": "Cash Michaels",
+    "count": 1
+  },
+  {
+    "_id": "Fred Helm",
+    "count": 1
+  },
+  {
+    "_id": "Spiros Rasidakis",
+    "count": 1
+  },
+  {
+    "_id": "Peter Bogdanovich",
+    "count": 1
+  },
+  {
+    "_id": "Miao Wang",
+    "count": 1
+  },
+  {
+    "_id": "Franklin J. Schaffner",
+    "count": 1
+  },
+  {
+    "_id": "Wim Wenders",
+    "count": 1
+  },
+  {
+    "_id": "Julius LeFlore",
+    "count": 1
+  },
+  {
+    "_id": "Sampath Nandi",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Stéphane Bron",
+    "count": 1
+  },
+  {
+    "_id": "Ashutosh Gowariker",
+    "count": 1
+  },
+  {
+    "_id": "Kacper Czubak",
+    "count": 1
+  },
+  {
+    "_id": "Martín Salinas",
+    "count": 1
+  },
+  {
+    "_id": "Michael D. Stern",
+    "count": 1
+  },
+  {
+    "_id": "Rawson Marshall Thurber",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Hopkins",
+    "count": 1
+  },
+  {
+    "_id": "Willard Carroll",
+    "count": 1
+  },
+  {
+    "_id": "Matthew Amos",
+    "count": 1
+  },
+  {
+    "_id": "Lui Farias",
+    "count": 1
+  },
+  {
+    "_id": "Enki Bilal",
+    "count": 1
+  },
+  {
+    "_id": "Joel Salaysay",
+    "count": 1
+  },
+  {
+    "_id": "Mel Crow",
+    "count": 1
+  },
+  {
+    "_id": "Ceociea Naomi",
+    "count": 1
+  },
+  {
+    "_id": "René Sampaio",
+    "count": 1
+  },
+  {
+    "_id": "Peter Darchuk",
+    "count": 1
+  },
+  {
+    "_id": "Harjit Singh",
+    "count": 1
+  },
+  {
+    "_id": "Gürcan Yurt",
+    "count": 1
+  },
+  {
+    "_id": "Mimi Leder",
+    "count": 1
+  },
+  {
+    "_id": "Artie Mandelberg",
+    "count": 1
+  },
+  {
+    "_id": "Alex Garland",
+    "count": 1
+  },
+  {
+    "_id": "PES",
+    "count": 1
+  },
+  {
+    "_id": "Bert Haanstra",
+    "count": 1
+  },
+  {
+    "_id": "Siu Ming Tsui",
+    "count": 1
+  },
+  {
+    "_id": "J. Lee Thompson",
+    "count": 1
+  },
+  {
+    "_id": "Nikita Mikhalkov",
+    "count": 1
+  },
+  {
+    "_id": "Peter Fleischmann",
+    "count": 1
+  },
+  {
+    "_id": "Jan Halldoff",
+    "count": 1
+  },
+  {
+    "_id": "Oliver Torr, Matt Zeremes",
+    "count": 1
+  },
+  {
+    "_id": "Mark S. Manos",
+    "count": 1
+  },
+  {
+    "_id": "Eva Isaksen",
+    "count": 1
+  },
+  {
+    "_id": "Andreas Johnsen",
+    "count": 1
+  },
+  {
+    "_id": "James Bridges",
+    "count": 1
+  },
+  {
+    "_id": "Robert Schwentke",
+    "count": 1
+  },
+  {
+    "_id": "Wade Randolph",
+    "count": 1
+  },
+  {
+    "_id": "Barry Levinson",
+    "count": 1
+  },
+  {
+    "_id": "Milton Rosmer",
+    "count": 1
+  },
+  {
+    "_id": "Dan Peters, Andre Renner, Ricki Wilde",
+    "count": 1
+  },
+  {
+    "_id": "Luigi Cozzi",
+    "count": 1
+  },
+  {
+    "_id": "Ryan Cavalline",
+    "count": 1
+  },
+  {
+    "_id": "Umberto Lenzi",
+    "count": 1
+  },
+  {
+    "_id": "Robert Schwartz",
+    "count": 1
+  },
+  {
+    "_id": "Judith G. Levy",
+    "count": 1
+  },
+  {
+    "_id": "Shakun Batra",
+    "count": 1
+  },
+  {
+    "_id": "Charles Chaplin",
+    "count": 1
+  },
+  {
+    "_id": "Jan Bosdriesz",
+    "count": 1
+  },
+  {
+    "_id": "Kei Fujiwara",
+    "count": 1
+  },
+  {
+    "_id": "Yôjirô Takita",
+    "count": 1
+  },
+  {
+    "_id": "Sara Koppel",
+    "count": 1
+  },
+  {
+    "_id": "Wiktor Ericsson",
+    "count": 1
+  },
+  {
+    "_id": "Sriram Raghavan",
+    "count": 1
+  },
+  {
+    "_id": "Richard Benjamin",
+    "count": 1
+  },
+  {
+    "_id": "Joe Ma",
+    "count": 1
+  },
+  {
+    "_id": "Lukas Moodysson",
+    "count": 1
+  },
+  {
+    "_id": "Anthony Mann",
+    "count": 1
+  },
+  {
+    "_id": "Hiroaki Gôda",
+    "count": 1
+  },
+  {
+    "_id": "Chi-Leung Law",
+    "count": 1
+  },
+  {
+    "_id": "Russell Mulcahy",
+    "count": 1
+  },
+  {
+    "_id": "Catherine Tatge",
+    "count": 1
+  },
+  {
+    "_id": "John Madden",
+    "count": 1
+  },
+  {
+    "_id": "Colin Nutley",
+    "count": 1
+  },
+  {
+    "_id": "Sam Ritzenberg",
+    "count": 1
+  },
+  {
+    "_id": "Oxide Chun Pang",
+    "count": 1
+  },
+  {
+    "_id": "Kun Hao Chen",
+    "count": 1
+  },
+  {
+    "_id": "Alberto Santana",
+    "count": 1
+  },
+  {
+    "_id": "John Cameron Mitchell",
+    "count": 1
+  },
+  {
+    "_id": "Alejandro Goldschtein Casariego",
+    "count": 1
+  },
+  {
+    "_id": "Manmohan Singh",
+    "count": 1
+  },
+  {
+    "_id": "Elisabeta Bostan",
+    "count": 1
+  },
+  {
+    "_id": "John Dahl",
+    "count": 1
+  },
+  {
+    "_id": "Walter Lang",
+    "count": 1
+  },
+  {
+    "_id": "Keith McBride",
+    "count": 1
+  },
+  {
+    "_id": "Piro Milkani",
+    "count": 1
+  },
+  {
+    "_id": "Gillian Armstrong",
+    "count": 1
+  },
+  {
+    "_id": "Pascale Pouzadoux",
+    "count": 1
+  },
+  {
+    "_id": "Fulvio Bernasconi, Christian Davi, Nadia Fares, Wageh George, Kamal Musale, Thomas Thümena, Stina Werenfels",
+    "count": 1
+  },
+  {
+    "_id": "Zako Heskiya",
+    "count": 1
+  },
+  {
+    "_id": "Delmer Daves",
+    "count": 1
+  },
+  {
+    "_id": "Basil Dearden",
+    "count": 1
+  },
+  {
+    "_id": "John Maclean",
+    "count": 1
+  },
+  {
+    "_id": "Suzana Purkovic",
+    "count": 1
+  },
+  {
+    "_id": "Ute Wieland",
+    "count": 1
+  },
+  {
+    "_id": "Shashanka Ghosh",
+    "count": 1
+  },
+  {
+    "_id": "Toby MacDonald",
+    "count": 1
+  },
+  {
+    "_id": "M. Night Shyamalan",
+    "count": 1
+  },
+  {
+    "_id": "Mark Henderson, Emily Knight",
+    "count": 1
+  },
+  {
+    "_id": "Su-jin Lee",
+    "count": 1
+  },
+  {
+    "_id": "Chusheng Cai",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Cvitkovic",
+    "count": 1
+  },
+  {
+    "_id": "Cal Brunker",
+    "count": 1
+  },
+  {
+    "_id": "Siddharth Anand",
+    "count": 1
+  },
+  {
+    "_id": "Tom Tykwer",
+    "count": 1
+  },
+  {
+    "_id": "Helge Schneider, Andrea Schumacher",
+    "count": 1
+  },
+  {
+    "_id": "Tom McGowan",
+    "count": 1
+  },
+  {
+    "_id": "Marvin J. Chomsky",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Chow, Chi-kin Kwok",
+    "count": 1
+  },
+  {
+    "_id": "Giorgos Papakostas",
+    "count": 1
+  },
+  {
+    "_id": "Todd Stevens",
+    "count": 1
+  },
+  {
+    "_id": "Peter Keglevic",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Szacka-Marier",
+    "count": 1
+  },
+  {
+    "_id": "Di Dang Phan",
+    "count": 1
+  },
+  {
+    "_id": "Eduardo Mendoza de Echave",
+    "count": 1
+  },
+  {
+    "_id": "Steve Pink",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Frears",
+    "count": 1
+  },
+  {
+    "_id": "Helmuth M. Backhaus",
+    "count": 1
+  },
+  {
+    "_id": "Ejaz Gulab",
+    "count": 1
+  },
+  {
+    "_id": "Igor Veichtaguin",
+    "count": 1
+  },
+  {
+    "_id": "Nathalie Lasselin",
+    "count": 1
+  },
+  {
+    "_id": "Jon Alpert, Matthew O'Neill",
+    "count": 1
+  },
+  {
+    "_id": "Aleksandar Davic",
+    "count": 1
+  },
+  {
+    "_id": "Yuji Tanno",
+    "count": 1
+  },
+  {
+    "_id": "Cecil B. DeMille",
+    "count": 1
+  },
+  {
+    "_id": "Alala Kurosawa",
+    "count": 1
+  },
+  {
+    "_id": "Campbell Ex",
+    "count": 1
+  },
+  {
+    "_id": "Roy McCray",
+    "count": 1
+  },
+  {
+    "_id": "Edward D. Wood Jr.",
+    "count": 1
+  },
+  {
+    "_id": "Lewis Milestone",
+    "count": 1
+  },
+  {
+    "_id": "Renny Harlin",
+    "count": 1
+  },
+  {
+    "_id": "Spike Jonze",
+    "count": 1
+  },
+  {
+    "_id": "Ron Howard",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Frakes",
+    "count": 1
+  },
+  {
+    "_id": "Alex Ferrari",
+    "count": 1
+  },
+  {
+    "_id": "Clint Eastwood",
+    "count": 1
+  },
+  {
+    "_id": "Kung-Lok Lee, Ching-Po Wong",
+    "count": 1
+  },
+  {
+    "_id": "Robert Sahakyants",
+    "count": 1
+  },
+  {
+    "_id": "Raoul Walsh, Louis R. Loeffler",
+    "count": 1
+  },
+  {
+    "_id": "John Lounsbery, Wolfgang Reitherman",
+    "count": 1
+  },
+  {
+    "_id": "César Otero",
+    "count": 1
+  },
+  {
+    "_id": "Don Edmonds",
+    "count": 1
+  },
+  {
+    "_id": "Ermanno Olmi",
+    "count": 1
+  },
+  {
+    "_id": "José Luis Guerín, Jonas Mekas",
+    "count": 1
+  },
+  {
+    "_id": "Jirô Nagae",
+    "count": 1
+  },
+  {
+    "_id": "Dmitriy Korobkin",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Guest",
+    "count": 1
+  },
+  {
+    "_id": "Marc Caro, Jean-Pierre Jeunet",
+    "count": 1
+  },
+  {
+    "_id": "John Schlesinger",
+    "count": 1
+  },
+  {
+    "_id": "Anthony Minghella",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Di Pardo, Aramis Pacitto",
+    "count": 1
+  },
+  {
+    "_id": "John Luessenhop",
+    "count": 1
+  },
+  {
+    "_id": "Ken Loach",
+    "count": 1
+  },
+  {
+    "_id": "Imre Mihályfi",
+    "count": 1
+  },
+  {
+    "_id": "Janica Draisma",
+    "count": 1
+  },
+  {
+    "_id": "Kim Henkel",
+    "count": 1
+  },
+  {
+    "_id": "Mark Illsley",
+    "count": 1
+  },
+  {
+    "_id": "Rohit Jugraj",
+    "count": 1
+  },
+  {
+    "_id": "Alper Ozyurtlu, Caner Özyurtlu",
+    "count": 1
+  },
+  {
+    "_id": "Claudio Araya Silva",
+    "count": 1
+  },
+  {
+    "_id": "Lone Scherfig",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Herek",
+    "count": 1
+  },
+  {
+    "_id": "Hoang Le",
+    "count": 1
+  },
+  {
+    "_id": "Garret Williams",
+    "count": 1
+  },
+  {
+    "_id": "Kody Gibson, David James Ward",
+    "count": 1
+  },
+  {
+    "_id": "Blake Edwards",
+    "count": 1
+  },
+  {
+    "_id": "Ronald Neame, Irwin Allen",
+    "count": 1
+  },
+  {
+    "_id": "Sean Garrity",
+    "count": 1
+  },
+  {
+    "_id": "Robert Guédiguian",
+    "count": 1
+  },
+  {
+    "_id": "Trey Parker",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Niccol",
+    "count": 1
+  },
+  {
+    "_id": "Ludmil Staikov",
+    "count": 1
+  },
+  {
+    "_id": "Jean Renoir",
+    "count": 1
+  },
+  {
+    "_id": "Matthew Diamond",
+    "count": 1
+  },
+  {
+    "_id": "Dwight H. Little",
+    "count": 1
+  },
+  {
+    "_id": "Jp Jacobsen",
+    "count": 1
+  },
+  {
+    "_id": "Maggie Greenwald",
+    "count": 1
+  },
+  {
+    "_id": "Tommy Wirkola",
+    "count": 1
+  },
+  {
+    "_id": "Simon Wells",
+    "count": 1
+  },
+  {
+    "_id": "Gazmend Leka",
+    "count": 1
+  },
+  {
+    "_id": "Nina Normann",
+    "count": 1
+  },
+  {
+    "_id": "John Korty",
+    "count": 1
+  },
+  {
+    "_id": "Sean Penn",
+    "count": 1
+  },
+  {
+    "_id": "Nisha Pahuja",
+    "count": 1
+  },
+  {
+    "_id": "Nick Morris",
+    "count": 1
+  },
+  {
+    "_id": "Spike Brandt, Tony Cervone",
+    "count": 1
+  },
+  {
+    "_id": "Robert Luketic",
+    "count": 1
+  },
+  {
+    "_id": "Jessie Nelson",
+    "count": 1
+  },
+  {
+    "_id": "Linda Chiu-han Lai",
+    "count": 1
+  },
+  {
+    "_id": "Walt Becker",
+    "count": 1
+  },
+  {
+    "_id": "Grete Salomonsen",
+    "count": 1
+  },
+  {
+    "_id": "Frank Oz",
+    "count": 1
+  },
+  {
+    "_id": "Dejan Acimovic",
+    "count": 1
+  },
+  {
+    "_id": "Jan de Bont",
+    "count": 1
+  },
+  {
+    "_id": "Damián Szifrón",
+    "count": 1
+  },
+  {
+    "_id": "Jing Wong",
+    "count": 1
+  },
+  {
+    "_id": "Jaume Collet-Serra",
+    "count": 1
+  },
+  {
+    "_id": "Ignacio F. Iquino",
+    "count": 1
+  },
+  {
+    "_id": "Benh Zeitlin",
+    "count": 1
+  },
+  {
+    "_id": "Achero Mañas",
+    "count": 1
+  },
+  {
+    "_id": "Des McAnuff",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Pierre Dardenne, Luc Dardenne",
+    "count": 1
+  },
+  {
+    "_id": "Thora Tomasdottir",
+    "count": 1
+  },
+  {
+    "_id": "Sébastien Alouf, Xavier Martin",
+    "count": 1
+  },
+  {
+    "_id": "James Cameron",
+    "count": 1
+  },
+  {
+    "_id": "Bob Garner",
+    "count": 1
+  },
+  {
+    "_id": "Ishmael Bernal",
+    "count": 1
+  },
+  {
+    "_id": "Dwight Hemion",
+    "count": 1
+  },
+  {
+    "_id": "Jovan Konjovic",
+    "count": 1
+  },
+  {
+    "_id": "Assal Ghawami",
+    "count": 1
+  },
+  {
+    "_id": "Mike Cahill",
+    "count": 1
+  },
+  {
+    "_id": "Phil Nibbelink, Simon Wells",
+    "count": 1
+  },
+  {
+    "_id": "Jennifer Flackett, Mark Levin",
+    "count": 1
+  },
+  {
+    "_id": "Jorge Blanco, Javier Abad, Marcos Martínez",
+    "count": 1
+  },
+  {
+    "_id": "Gordon Flemyng",
+    "count": 1
+  },
+  {
+    "_id": "Alex Richanbach",
+    "count": 1
+  },
+  {
+    "_id": "Álex de la Iglesia",
+    "count": 1
+  },
+  {
+    "_id": "Eiichi Kudô",
+    "count": 1
+  },
+  {
+    "_id": "Jean Dréville, Titus Vibe-Müller",
+    "count": 1
+  },
+  {
+    "_id": "Andrey Smirnov, Boris Yashin",
+    "count": 1
+  },
+  {
+    "_id": "Obrad Gluscevic",
+    "count": 1
+  },
+  {
+    "_id": "Firdaus F. Bilimoria",
+    "count": 1
+  },
+  {
+    "_id": "Dong-seok Shin",
+    "count": 1
+  },
+  {
+    "_id": "Rachid Bouchareb",
+    "count": 1
+  },
+  {
+    "_id": "Viktor Tourjansky",
+    "count": 1
+  },
+  {
+    "_id": "Håkan Wennberg",
+    "count": 1
+  },
+  {
+    "_id": "Julius Avery",
+    "count": 1
+  },
+  {
+    "_id": "Rishi Kapoor",
+    "count": 1
+  },
+  {
+    "_id": "Andy Wachowski, Lana Wachowski",
+    "count": 1
+  },
+  {
+    "_id": "Kirk De Micco",
+    "count": 1
+  },
+  {
+    "_id": "John Moore",
+    "count": 1
+  },
+  {
+    "_id": "Matty Beckerman",
+    "count": 1
+  },
+  {
+    "_id": "Olivier Assayas, Frédéric Auburtin, Emmanuel Benbihy, Gurinder Chadha, Sylvain Chomet, Ethan Coen, Joel Coen, Isabel Coixet, Wes Craven, Alfonso Cuarón, Gérard Depardieu, Christopher Doyle, Richard LaGravenese, Vincenzo Natali, Alexander Payne, Bruno Podalydès, Walter Salles, Oliver Schmitz, Nobuhiro Suwa, Daniela Thomas, Tom Tykwer, Gus Van Sant",
+    "count": 1
+  },
+  {
+    "_id": "Martin Scorsese",
+    "count": 1
+  },
+  {
+    "_id": "Apoorva Lakhia",
+    "count": 1
+  },
+  {
+    "_id": "Don White",
+    "count": 1
+  },
+  {
+    "_id": "Jared Cohn",
+    "count": 1
+  },
+  {
+    "_id": "Mark Waters",
+    "count": 1
+  },
+  {
+    "_id": "Niels Arden Oplev",
+    "count": 1
+  },
+  {
+    "_id": "Duwayne Dunham",
+    "count": 1
+  },
+  {
+    "_id": "Don Roos",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Gilou",
+    "count": 1
+  },
+  {
+    "_id": "Steven de Jong",
+    "count": 1
+  },
+  {
+    "_id": "Yoshifumi Kondô",
+    "count": 1
+  },
+  {
+    "_id": "Travis Gutiérrez Senger",
+    "count": 1
+  },
+  {
+    "_id": "Hal Sutherland",
+    "count": 1
+  },
+  {
+    "_id": "Lloyd Bacon",
+    "count": 1
+  },
+  {
+    "_id": "Raymond De Felitta",
+    "count": 1
+  },
+  {
+    "_id": "John Frankenheimer, Richard Stanley",
+    "count": 1
+  },
+  {
+    "_id": "Garri Bardin, Vitaliy Peskov",
+    "count": 1
+  },
+  {
+    "_id": "Alfred Cheung",
+    "count": 1
+  },
+  {
+    "_id": "E.J. Gold",
+    "count": 1
+  },
+  {
+    "_id": "Michael Radford",
+    "count": 1
+  },
+  {
+    "_id": "Richard Marquand",
+    "count": 1
+  },
+  {
+    "_id": "David M. Evans",
+    "count": 1
+  },
+  {
+    "_id": "Nate Weaver",
+    "count": 1
+  },
+  {
+    "_id": "Albert Brooks",
+    "count": 1
+  },
+  {
+    "_id": "Scott Derrickson",
+    "count": 1
+  },
+  {
+    "_id": "Bob Clark",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Williamson",
+    "count": 1
+  },
+  {
+    "_id": "Eric Brevig",
+    "count": 1
+  },
+  {
+    "_id": "Robert Wise",
+    "count": 1
+  },
+  {
+    "_id": "Adam Lubkin",
+    "count": 1
+  },
+  {
+    "_id": "Martin Brest",
+    "count": 1
+  },
+  {
+    "_id": "Patrick Dewolf",
+    "count": 1
+  },
+  {
+    "_id": "Tom Harper",
+    "count": 1
+  },
+  {
+    "_id": "Joel Michalak",
+    "count": 1
+  },
+  {
+    "_id": "Oriol Capel",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Wacks",
+    "count": 1
+  },
+  {
+    "_id": "Elizabeth Povinelli",
+    "count": 1
+  },
+  {
+    "_id": "João César Monteiro",
+    "count": 1
+  },
+  {
+    "_id": "Lucky McKee",
+    "count": 1
+  },
+  {
+    "_id": "Amy Heckerling",
+    "count": 1
+  },
+  {
+    "_id": "Sofia Coppola",
+    "count": 1
+  },
+  {
+    "_id": "John Hughes",
+    "count": 1
+  },
+  {
+    "_id": "Carlos Saura",
+    "count": 1
+  },
+  {
+    "_id": "Saimir Kumbaro, Rikard Ljarja",
+    "count": 1
+  },
+  {
+    "_id": "David Kellogg",
+    "count": 1
+  },
+  {
+    "_id": "Lukas DiSparrow",
+    "count": 1
+  },
+  {
+    "_id": "David Perrault",
+    "count": 1
+  },
+  {
+    "_id": "Robert Newton",
+    "count": 1
+  },
+  {
+    "_id": "Joel Zwick",
+    "count": 1
+  },
+  {
+    "_id": "Jane Anderson, Martha Coolidge, Anne Heche",
+    "count": 1
+  },
+  {
+    "_id": "Noam Bleiweiss",
+    "count": 1
+  },
+  {
+    "_id": "Gary Trousdale, Kirk Wise",
+    "count": 1
+  },
+  {
+    "_id": "Saeed Akhtar Mirza",
+    "count": 1
+  },
+  {
+    "_id": "J.C. Chandor",
+    "count": 1
+  },
+  {
+    "_id": "Yimou Zhang, Fengliang Yang",
+    "count": 1
+  },
+  {
+    "_id": "Jesse Vaughan",
+    "count": 1
+  },
+  {
+    "_id": "Kar-wai Wong",
+    "count": 1
+  },
+  {
+    "_id": "Zdenek Podskalský",
+    "count": 1
+  },
+  {
+    "_id": "Chris Marker",
+    "count": 1
+  },
+  {
+    "_id": "Howard Zieff",
+    "count": 1
+  },
+  {
+    "_id": "John Landis",
+    "count": 1
+  },
+  {
+    "_id": "Abe Levitow",
+    "count": 1
+  },
+  {
+    "_id": "Li Kao Yang",
+    "count": 1
+  },
+  {
+    "_id": "Martin Boersma",
+    "count": 1
+  },
+  {
+    "_id": "Tim Spring",
+    "count": 1
+  },
+  {
+    "_id": "Pierre-Alain Meier",
+    "count": 1
+  },
+  {
+    "_id": "Don Hall, Chris Williams",
+    "count": 1
+  },
+  {
+    "_id": "Dezsö Ákos Hamza",
+    "count": 1
+  },
+  {
+    "_id": "Mack Sennett, Charles Bennett",
+    "count": 1
+  },
+  {
+    "_id": "Buster Keaton",
+    "count": 1
+  },
+  {
+    "_id": "Zaza Urushadze",
+    "count": 1
+  },
+  {
+    "_id": "Kihachi Okamoto",
+    "count": 1
+  },
+  {
+    "_id": "Péter Politzer",
+    "count": 1
+  },
+  {
+    "_id": "Witalis Korsak-Gologowski",
+    "count": 1
+  },
+  {
+    "_id": "Ki-hyeon Kim",
+    "count": 1
+  },
+  {
+    "_id": "Milos Radovic",
+    "count": 1
+  },
+  {
+    "_id": "Mads Riisom",
+    "count": 1
+  },
+  {
+    "_id": "Seth MacFarlane",
+    "count": 1
+  },
+  {
+    "_id": "Scott Cooper",
+    "count": 1
+  },
+  {
+    "_id": "K. Ross Gaunt",
+    "count": 1
+  },
+  {
+    "_id": "Ognjen Svilicic",
+    "count": 1
+  },
+  {
+    "_id": "Harald Zwart",
+    "count": 1
+  },
+  {
+    "_id": "Michael Winterbottom",
+    "count": 1
+  },
+  {
+    "_id": "Anders Jacobsson",
+    "count": 1
+  },
+  {
+    "_id": "Ryan Murphy",
+    "count": 1
+  },
+  {
+    "_id": "Bebong Osorio",
+    "count": 1
+  },
+  {
+    "_id": "Jacques Malaterre",
+    "count": 1
+  },
+  {
+    "_id": "Andre Odendaal",
+    "count": 1
+  },
+  {
+    "_id": "Craig Michaelson",
+    "count": 1
+  },
+  {
+    "_id": "Kat Coiro",
+    "count": 1
+  },
+  {
+    "_id": "Teemu Nikki",
+    "count": 1
+  },
+  {
+    "_id": "Arlene Sanford",
+    "count": 1
+  },
+  {
+    "_id": "Jonas Skelterwijk",
+    "count": 1
+  },
+  {
+    "_id": "Raja Gosnell",
+    "count": 1
+  },
+  {
+    "_id": "Kabir Khan",
+    "count": 1
+  },
+  {
+    "_id": "Terry Zwigoff",
+    "count": 1
+  },
+  {
+    "_id": "Michael Curtiz, William Keighley",
+    "count": 1
+  },
+  {
+    "_id": "Peter Webber",
+    "count": 1
+  },
+  {
+    "_id": "Anvar Turayev",
+    "count": 1
+  },
+  {
+    "_id": "Bret Haaland",
+    "count": 1
+  },
+  {
+    "_id": "Richard Bois",
+    "count": 1
+  },
+  {
+    "_id": "Ray Rodriguez",
+    "count": 1
+  },
+  {
+    "_id": "Joshua Reed",
+    "count": 1
+  },
+  {
+    "_id": "Martin Blazicek, Martin Cihak",
+    "count": 1
+  },
+  {
+    "_id": "Lorenzo Del Bianco",
+    "count": 1
+  },
+  {
+    "_id": "Freddy James",
+    "count": 1
+  },
+  {
+    "_id": "Alessandro Pacciani",
+    "count": 1
+  },
+  {
+    "_id": "Santosh Sivan",
+    "count": 1
+  },
+  {
+    "_id": "Sam Mendes",
+    "count": 1
+  },
+  {
+    "_id": "Diego Luna",
+    "count": 1
+  },
+  {
+    "_id": "William F. McGaha",
+    "count": 1
+  },
+  {
+    "_id": "Miloslav Novák",
+    "count": 1
+  },
+  {
+    "_id": "Ty Tyler",
+    "count": 1
+  },
+  {
+    "_id": "Kim Chun",
+    "count": 1
+  },
+  {
+    "_id": "Danis Tanovic",
+    "count": 1
+  },
+  {
+    "_id": "Ryan Storm",
+    "count": 1
+  },
+  {
+    "_id": "George Manney",
+    "count": 1
+  },
+  {
+    "_id": "Artie Mitchell, Jim Mitchell",
+    "count": 1
+  },
+  {
+    "_id": "Maryana Artmenko",
+    "count": 1
+  },
+  {
+    "_id": "Manuel Garcia",
+    "count": 1
+  },
+  {
+    "_id": "Steve Bendelack",
+    "count": 1
+  },
+  {
+    "_id": "Manuel Schapira",
+    "count": 1
+  },
+  {
+    "_id": "Alfred Weidenmann",
+    "count": 1
+  },
+  {
+    "_id": "Mansoor Khan",
+    "count": 1
+  },
+  {
+    "_id": "Robert Wiene",
+    "count": 1
+  },
+  {
+    "_id": "H.C. Potter, Stuart Heisler, William Wyler",
+    "count": 1
+  },
+  {
+    "_id": "Reg Traviss",
+    "count": 1
+  },
+  {
+    "_id": "Romesh Sharma",
+    "count": 1
+  },
+  {
+    "_id": "Sakura Fubuki",
+    "count": 1
+  },
+  {
+    "_id": "Charles Lofton",
+    "count": 1
+  },
+  {
+    "_id": "Rainer Lipski",
+    "count": 1
+  },
+  {
+    "_id": "Péter Fancsikai",
+    "count": 1
+  },
+  {
+    "_id": "Ian Stewart Fowler",
+    "count": 1
+  },
+  {
+    "_id": "Tony Cruz, Ruben Arthur Nicdao",
+    "count": 1
+  },
+  {
+    "_id": "Angelique Ophelia Adell",
+    "count": 1
+  },
+  {
+    "_id": "Max Barbakow",
+    "count": 1
+  },
+  {
+    "_id": "Randal Kleiser",
+    "count": 1
+  },
+  {
+    "_id": "Billy Morrissette",
+    "count": 1
+  },
+  {
+    "_id": "Michael Ryan",
+    "count": 1
+  },
+  {
+    "_id": "Johny Antony",
+    "count": 1
+  },
+  {
+    "_id": "Nahuel Machesich",
+    "count": 1
+  },
+  {
+    "_id": "Birendra Nath Tiwari",
+    "count": 1
+  },
+  {
+    "_id": "João Paulo Cuenca",
+    "count": 1
+  },
+  {
+    "_id": "Antti Raike",
+    "count": 1
+  },
+  {
+    "_id": "Atma Ram",
+    "count": 1
+  },
+  {
+    "_id": "Konstantin Bronzit",
+    "count": 1
+  },
+  {
+    "_id": "Nini Bull Robsahm, Patrik Syversen",
+    "count": 1
+  },
+  {
+    "_id": "R.J. Cutler",
+    "count": 1
+  },
+  {
+    "_id": "Oliver Houston",
+    "count": 1
+  },
+  {
+    "_id": "Jean-François Richet",
+    "count": 1
+  },
+  {
+    "_id": "Robin Benger",
+    "count": 1
+  },
+  {
+    "_id": "Kenneth Olaf Hjellum",
+    "count": 1
+  },
+  {
+    "_id": "Jorge Ceja",
+    "count": 1
+  },
+  {
+    "_id": "Zdravko Velimirovic",
+    "count": 1
+  },
+  {
+    "_id": "Davis Guggenheim",
+    "count": 1
+  },
+  {
+    "_id": "K. Raghavendra Rao",
+    "count": 1
+  },
+  {
+    "_id": "Michael Davis",
+    "count": 1
+  },
+  {
+    "_id": "Rocky Schenck",
+    "count": 1
+  },
+  {
+    "_id": "Arne Sucksdorff",
+    "count": 1
+  },
+  {
+    "_id": "Barbara Bredero",
+    "count": 1
+  },
+  {
+    "_id": "Masayuki Ochiai",
+    "count": 1
+  },
+  {
+    "_id": "Nuredin Çabej",
+    "count": 1
+  },
+  {
+    "_id": "Mari Asato",
+    "count": 1
+  },
+  {
+    "_id": "Michael Mfume",
+    "count": 1
+  },
+  {
+    "_id": "Anand Ranga",
+    "count": 1
+  },
+  {
+    "_id": "Richard W. Haines, Lloyd Kaufman",
+    "count": 1
+  },
+  {
+    "_id": "Bujar Kapexhiu",
+    "count": 1
+  },
+  {
+    "_id": "Eric Louzil, Donald G. Jackson",
+    "count": 1
+  },
+  {
+    "_id": "Samson Madsen",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Lubin, Ralph Ceder",
+    "count": 1
+  },
+  {
+    "_id": "Steven Hilliard Stern",
+    "count": 1
+  },
+  {
+    "_id": "Dirk de Villiers",
+    "count": 1
+  },
+  {
+    "_id": "Jonny Orme",
+    "count": 1
+  },
+  {
+    "_id": "Raimund Huber",
+    "count": 1
+  },
+  {
+    "_id": "John Blanchard",
+    "count": 1
+  },
+  {
+    "_id": "King-wai Cheung",
+    "count": 1
+  },
+  {
+    "_id": "Norman Stone",
+    "count": 1
+  },
+  {
+    "_id": "Felipe Joffily",
+    "count": 1
+  },
+  {
+    "_id": "Dinara Asanova",
+    "count": 1
+  },
+  {
+    "_id": "Jason Sereno",
+    "count": 1
+  },
+  {
+    "_id": "Silvio Tendler",
+    "count": 1
+  },
+  {
+    "_id": "Mike Judge",
+    "count": 1
+  },
+  {
+    "_id": "Sergio Cabrera",
+    "count": 1
+  },
+  {
+    "_id": "Geoffrey Enthoven",
+    "count": 1
+  },
+  {
+    "_id": "Joseph H. Lewis",
+    "count": 1
+  },
+  {
+    "_id": "Andres Austin Bennett",
+    "count": 1
+  },
+  {
+    "_id": "Alejandro Zucco",
+    "count": 1
+  },
+  {
+    "_id": "Frederick Eugene Ives, Jacob Leventhal",
+    "count": 1
+  },
+  {
+    "_id": "Michael Cain, Matt Radecki",
+    "count": 1
+  },
+  {
+    "_id": "Giulio Petroni",
+    "count": 1
+  },
+  {
+    "_id": "Seijun Suzuki",
+    "count": 1
+  },
+  {
+    "_id": "Giannetto De Rossi",
+    "count": 1
+  },
+  {
+    "_id": "Todd Waterman",
+    "count": 1
+  },
+  {
+    "_id": "Ian Lim",
+    "count": 1
+  },
+  {
+    "_id": "Tony Gayton",
+    "count": 1
+  },
+  {
+    "_id": "Ben Proudfoot",
+    "count": 1
+  },
+  {
+    "_id": "Masahiro Shinoda",
+    "count": 1
+  },
+  {
+    "_id": "Jack Bender",
+    "count": 1
+  },
+  {
+    "_id": "Hugh Croise",
+    "count": 1
+  },
+  {
+    "_id": "Anders Østergaard",
+    "count": 1
+  },
+  {
+    "_id": "Iván Fernández",
+    "count": 1
+  },
+  {
+    "_id": "Daniel Johnson",
+    "count": 1
+  },
+  {
+    "_id": "Clarence Yiu-leung Fok",
+    "count": 1
+  },
+  {
+    "_id": "John Logsdon",
+    "count": 1
+  },
+  {
+    "_id": "Marcos Calandrelli",
+    "count": 1
+  },
+  {
+    "_id": "Rob Sepulveda",
+    "count": 1
+  },
+  {
+    "_id": "Blake Johnson",
+    "count": 1
+  },
+  {
+    "_id": "Vivian Dominguez",
+    "count": 1
+  },
+  {
+    "_id": "Olle Hellbom",
+    "count": 1
+  },
+  {
+    "_id": "Seijirô Kôyama",
+    "count": 1
+  },
+  {
+    "_id": "Charles Meurisse",
+    "count": 1
+  },
+  {
+    "_id": "Alireza Izadi",
+    "count": 1
+  },
+  {
+    "_id": "Hussein Ferdowsipour, Lisbeth Jessen",
+    "count": 1
+  },
+  {
+    "_id": "Laurie Collyer",
+    "count": 1
+  },
+  {
+    "_id": "Ryland Walker Knight",
+    "count": 1
+  },
+  {
+    "_id": "Kevin Connor",
+    "count": 1
+  },
+  {
+    "_id": "Errol Morris",
+    "count": 1
+  },
+  {
+    "_id": "Jamie Thraves",
+    "count": 1
+  },
+  {
+    "_id": "Jörg Bundschuh",
+    "count": 1
+  },
+  {
+    "_id": "W.D. Richter",
+    "count": 1
+  },
+  {
+    "_id": "Mac Carter",
+    "count": 1
+  },
+  {
+    "_id": "Mark Schoonmaker",
+    "count": 1
+  },
+  {
+    "_id": "Asger Lindgaard",
+    "count": 1
+  },
+  {
+    "_id": "Richard Curtis",
+    "count": 1
+  },
+  {
+    "_id": "Bertie Brosnan",
+    "count": 1
+  },
+  {
+    "_id": "Mani Moneto",
+    "count": 1
+  },
+  {
+    "_id": "Ove Kant",
+    "count": 1
+  },
+  {
+    "_id": "Norma Bailey",
+    "count": 1
+  },
+  {
+    "_id": "Michael W. Dean, Kenneth Shiffrin",
+    "count": 1
+  },
+  {
+    "_id": "Larry Ferguson",
+    "count": 1
+  },
+  {
+    "_id": "Tyler Lund",
+    "count": 1
+  },
+  {
+    "_id": "Sævar Sigurðsson",
+    "count": 1
+  },
+  {
+    "_id": "Hugo Genes",
+    "count": 1
+  },
+  {
+    "_id": "Griff Furst",
+    "count": 1
+  },
+  {
+    "_id": "Yimou Zhang",
+    "count": 1
+  },
+  {
+    "_id": "Hal Roach Jr., Hal Roach",
+    "count": 1
+  },
+  {
+    "_id": "David Padrusch",
+    "count": 1
+  },
+  {
+    "_id": "Willis H. O'Brien",
+    "count": 1
+  },
+  {
+    "_id": "Vatroslav Mimica",
+    "count": 1
+  },
+  {
+    "_id": "Picha",
+    "count": 1
+  },
+  {
+    "_id": "Michael Ray Rhodes",
+    "count": 1
+  },
+  {
+    "_id": "Zbigniew Rybczynski",
+    "count": 1
+  },
+  {
+    "_id": "Todd Sheets",
+    "count": 1
+  },
+  {
+    "_id": "Kaspars Goba",
+    "count": 1
+  },
+  {
+    "_id": "Eric Martinez",
+    "count": 1
+  },
+  {
+    "_id": "Antônio Calmon",
+    "count": 1
+  },
+  {
+    "_id": "Aurélien Delpoux, Sébastien Ebzant",
+    "count": 1
+  },
+  {
+    "_id": "Luis Pedro Cabrera Nava",
+    "count": 1
+  },
+  {
+    "_id": "Jean Girault",
+    "count": 1
+  },
+  {
+    "_id": "Olive La Torre, Francisco Lizaso",
+    "count": 1
+  },
+  {
+    "_id": "Allen Kaufman",
+    "count": 1
+  },
+  {
+    "_id": "Tsvetalina Pourciau",
+    "count": 1
+  },
+  {
+    "_id": "José Luis Cuerda",
+    "count": 1
+  },
+  {
+    "_id": "Alfonso Sánchez",
+    "count": 1
+  },
+  {
+    "_id": "Lisa Azuelos",
+    "count": 1
+  },
+  {
+    "_id": "Cheh Chang, Ma Wu",
+    "count": 1
+  },
+  {
+    "_id": "Efren Jarlego",
+    "count": 1
+  },
+  {
+    "_id": "Michael Chandler",
+    "count": 1
+  },
+  {
+    "_id": "Branko Baletic",
+    "count": 1
+  },
+  {
+    "_id": "Álvaro Fernández Armero",
+    "count": 1
+  },
+  {
+    "_id": "Gerardo Herrero",
+    "count": 1
+  },
+  {
+    "_id": "Jeremy Grant",
+    "count": 1
+  },
+  {
+    "_id": "Dinh Hac Bui",
+    "count": 1
+  },
+  {
+    "_id": "Arturo Juarez, Sarah Borealis",
+    "count": 1
+  },
+  {
+    "_id": "Herbert Ross",
+    "count": 1
+  },
+  {
+    "_id": "Satyen Bose",
+    "count": 1
+  },
+  {
+    "_id": "Stig Larsson",
+    "count": 1
+  },
+  {
+    "_id": "Oli Regan",
+    "count": 1
+  },
+  {
+    "_id": "Bumpy",
+    "count": 1
+  },
+  {
+    "_id": "Shane Christian Eason",
+    "count": 1
+  },
+  {
+    "_id": "Shakeel Noorani",
+    "count": 1
+  },
+  {
+    "_id": "Don Chaffey",
+    "count": 1
+  },
+  {
+    "_id": "Euthana Mukdasanit",
+    "count": 1
+  },
+  {
+    "_id": "Rowan Joffe",
+    "count": 1
+  },
+  {
+    "_id": "John Read",
+    "count": 1
+  },
+  {
+    "_id": "Will Evans",
+    "count": 1
+  },
+  {
+    "_id": "Staffan Lindberg",
+    "count": 1
+  },
+  {
+    "_id": "Kon Ichikawa",
+    "count": 1
+  },
+  {
+    "_id": "Sotera Tschetter",
+    "count": 1
+  },
+  {
+    "_id": "Stu Segall",
+    "count": 1
+  },
+  {
+    "_id": "Andrea Segre",
+    "count": 1
+  },
+  {
+    "_id": "Stephan Elliott",
+    "count": 1
+  },
+  {
+    "_id": "Gordon Vorster",
+    "count": 1
+  },
+  {
+    "_id": "Timothy A. Chey",
+    "count": 1
+  },
+  {
+    "_id": "Adrian Quihuis",
+    "count": 1
+  },
+  {
+    "_id": "Tatsuya Hagishima",
+    "count": 1
+  },
+  {
+    "_id": "Mario Pagano",
+    "count": 1
+  },
+  {
+    "_id": "Andrzej Bartkowiak",
+    "count": 1
+  },
+  {
+    "_id": "David Chung, Hark Tsui",
+    "count": 1
+  },
+  {
+    "_id": "Corliss Kimmel, Thomas Teallow",
+    "count": 1
+  },
+  {
+    "_id": "Andres Maimik, Rain Tolk",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Shin",
+    "count": 1
+  },
+  {
+    "_id": "Patrick Tam",
+    "count": 1
+  },
+  {
+    "_id": "Frances Dickenson",
+    "count": 1
+  },
+  {
+    "_id": "Taylor Hackford",
+    "count": 1
+  },
+  {
+    "_id": "Sulev Nõmmik",
+    "count": 1
+  },
+  {
+    "_id": "Aarne Tarkas",
+    "count": 1
+  },
+  {
+    "_id": "Imtiaz Ali",
+    "count": 1
+  },
+  {
+    "_id": "Päivi Hartzell, Liisa Helminen",
+    "count": 1
+  },
+  {
+    "_id": "Åke Lindman",
+    "count": 1
+  },
+  {
+    "_id": "Ho Yim",
+    "count": 1
+  },
+  {
+    "_id": "Arne Forchammer",
+    "count": 1
+  },
+  {
+    "_id": "Gil Junger",
+    "count": 1
+  },
+  {
+    "_id": "Hans Georg Andres",
+    "count": 1
+  },
+  {
+    "_id": "Mark Cousins",
+    "count": 1
+  },
+  {
+    "_id": "Rudolf Sporrer",
+    "count": 1
+  },
+  {
+    "_id": "A.C. Abadie",
+    "count": 1
+  },
+  {
+    "_id": "Brian Thomas Barnhart",
+    "count": 1
+  },
+  {
+    "_id": "Chih-Hung Kuei",
+    "count": 1
+  },
+  {
+    "_id": "Brian Nash",
+    "count": 1
+  },
+  {
+    "_id": "Steno",
+    "count": 1
+  },
+  {
+    "_id": "Aleksandr Pavlovskiy",
+    "count": 1
+  },
+  {
+    "_id": "Amie Williams",
+    "count": 1
+  },
+  {
+    "_id": "Michael Hui",
+    "count": 1
+  },
+  {
+    "_id": "Shu-Kai Chung, Patrick Kong, Eric Tsang",
+    "count": 1
+  },
+  {
+    "_id": "Kazuhiko Yamaguchi",
+    "count": 1
+  },
+  {
+    "_id": "Antti Häkli",
+    "count": 1
+  },
+  {
+    "_id": "Philip Martin",
+    "count": 1
+  },
+  {
+    "_id": "Dick Richards",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Dayton, Valerie Faris",
+    "count": 1
+  },
+  {
+    "_id": "Andrew Adamson",
+    "count": 1
+  },
+  {
+    "_id": "Patrice Leconte",
+    "count": 1
+  },
+  {
+    "_id": "Sanjay Leela Bhansali",
+    "count": 1
+  },
+  {
+    "_id": "Scott Z. Burns",
+    "count": 1
+  },
+  {
+    "_id": "Michael Melski",
+    "count": 1
+  },
+  {
+    "_id": "Benjamin de Lajarte",
+    "count": 1
+  },
+  {
+    "_id": "Jabbar Raisani",
+    "count": 1
+  },
+  {
+    "_id": "Károly Makk",
+    "count": 1
+  },
+  {
+    "_id": "Kayleigh O'Connor",
+    "count": 1
+  },
+  {
+    "_id": "Don E. FauntLeRoy",
+    "count": 1
+  },
+  {
+    "_id": "Skye Blue",
+    "count": 1
+  },
+  {
+    "_id": "Peter Spirer",
+    "count": 1
+  },
+  {
+    "_id": "David Aylott",
+    "count": 1
+  },
+  {
+    "_id": "Christopher Loucks",
+    "count": 1
+  },
+  {
+    "_id": "Erich Kober",
+    "count": 1
+  },
+  {
+    "_id": "Tony Y. Reyes",
+    "count": 1
+  },
+  {
+    "_id": "Mario O'Hara",
+    "count": 1
+  },
+  {
+    "_id": "Zena Iese",
+    "count": 1
+  },
+  {
+    "_id": "Pasquale Festa Campanile",
+    "count": 1
+  },
+  {
+    "_id": "Ivo Branco",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Claude Robert",
+    "count": 1
+  },
+  {
+    "_id": "Claus Bjerre",
+    "count": 1
+  },
+  {
+    "_id": "Laurent Bouzereau",
+    "count": 1
+  },
+  {
+    "_id": "Aleksandr Aravin",
+    "count": 1
+  },
+  {
+    "_id": "Tim McKort",
+    "count": 1
+  },
+  {
+    "_id": "Saurabh Varma",
+    "count": 1
+  },
+  {
+    "_id": "Robert Zemeckis",
+    "count": 1
+  },
+  {
+    "_id": "Carl Dietmar, Thomas Förster",
+    "count": 1
+  },
+  {
+    "_id": "Riccardo Freda",
+    "count": 1
+  },
+  {
+    "_id": "Þráinn Bertelsson",
+    "count": 1
+  },
+  {
+    "_id": "Maurice Cloche",
+    "count": 1
+  },
+  {
+    "_id": "Joseph Arnao",
+    "count": 1
+  },
+  {
+    "_id": "Edward Zwick",
+    "count": 1
+  },
+  {
+    "_id": "Silvano Agosti",
+    "count": 1
+  },
+  {
+    "_id": "Mohit Suri",
+    "count": 1
+  },
+  {
+    "_id": "Marc van Uchelen",
+    "count": 1
+  },
+  {
+    "_id": "Odysseas Kosteletos",
+    "count": 1
+  },
+  {
+    "_id": "Josh Bohoskey",
+    "count": 1
+  },
+  {
+    "_id": "Banmei Takahashi",
+    "count": 1
+  },
+  {
+    "_id": "Stefan Faldbakken",
+    "count": 1
+  },
+  {
+    "_id": "Frankie Chan",
+    "count": 1
+  },
+  {
+    "_id": "José Manuel Cravioto",
+    "count": 1
+  },
+  {
+    "_id": "Luis Valdez",
+    "count": 1
+  },
+  {
+    "_id": "Bart van Leemputten",
+    "count": 1
+  },
+  {
+    "_id": "Curtis Craven",
+    "count": 1
+  },
+  {
+    "_id": "Giorgio Testi",
+    "count": 1
+  },
+  {
+    "_id": "Leilani Amour Arenzana, JD Charisma",
+    "count": 1
+  },
+  {
+    "_id": "Johan Nijenhuis",
+    "count": 1
+  },
+  {
+    "_id": "Bert L. Morgan",
+    "count": 1
+  },
+  {
+    "_id": "Richard Etchison, Martin L. Kelley",
+    "count": 1
+  },
+  {
+    "_id": "Jay Chapman",
+    "count": 1
+  },
+  {
+    "_id": "John Hamburg",
+    "count": 1
+  },
+  {
+    "_id": "Scott Smith",
+    "count": 1
+  },
+  {
+    "_id": "Joyce Bernal",
+    "count": 1
+  },
+  {
+    "_id": "Victor Fleming, George Cukor, Mervyn LeRoy, Norman Taurog, King Vidor",
+    "count": 1
+  },
+  {
+    "_id": "Todd Phillips",
+    "count": 1
+  },
+  {
+    "_id": "Patricia Venti",
+    "count": 1
+  },
+  {
+    "_id": "Richard Ryan",
+    "count": 1
+  },
+  {
+    "_id": "Maxwell Heesch",
+    "count": 1
+  },
+  {
+    "_id": "Luis Eduardo Reyes",
+    "count": 1
+  },
+  {
+    "_id": "Umesh Mehra",
+    "count": 1
+  },
+  {
+    "_id": "Vasili Sarana",
+    "count": 1
+  },
+  {
+    "_id": "Jonathan Liebesman",
+    "count": 1
+  },
+  {
+    "_id": "Mart Arjukese",
+    "count": 1
+  },
+  {
+    "_id": "Walter Murch",
+    "count": 1
+  },
+  {
+    "_id": "John Lee Hancock",
+    "count": 1
+  },
+  {
+    "_id": "L. Frank Baum",
+    "count": 1
+  },
+  {
+    "_id": "Cheran",
+    "count": 1
+  },
+  {
+    "_id": "Luca Guadagnino",
+    "count": 1
+  },
+  {
+    "_id": "Kirk R. Thatcher",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Luc Godard, Ugo Gregoretti, Pier Paolo Pasolini, Roberto Rossellini",
+    "count": 1
+  },
+  {
+    "_id": "Charles Lamont",
+    "count": 1
+  },
+  {
+    "_id": "Colin Barr",
+    "count": 1
+  },
+  {
+    "_id": "Rex Miller",
+    "count": 1
+  },
+  {
+    "_id": "Turgut Yasalar",
+    "count": 1
+  },
+  {
+    "_id": "Sharat Katariya",
+    "count": 1
+  },
+  {
+    "_id": "John Ford, Henry Hathaway, George Marshall, Richard Thorpe",
+    "count": 1
+  },
+  {
+    "_id": "J.T.S. Moore",
+    "count": 1
+  },
+  {
+    "_id": "J.B. Tanko",
+    "count": 1
+  },
+  {
+    "_id": "Walter Lima Jr.",
+    "count": 1
+  },
+  {
+    "_id": "Jacques Audiard",
+    "count": 1
+  },
+  {
+    "_id": "José Alvarenga Jr.",
+    "count": 1
+  },
+  {
+    "_id": "Vladimir Zivkovic",
+    "count": 1
+  },
+  {
+    "_id": "Dave C.G. Hare",
+    "count": 1
+  },
+  {
+    "_id": "Florin Serban",
+    "count": 1
+  },
+  {
+    "_id": "Dave Meyers",
+    "count": 1
+  },
+  {
+    "_id": "Ruy Jobim Neto",
+    "count": 1
+  },
+  {
+    "_id": "Alberte Pagán",
+    "count": 1
+  },
+  {
+    "_id": "Adrián Caetano",
+    "count": 1
+  },
+  {
+    "_id": "Arthur Davis",
+    "count": 1
+  },
+  {
+    "_id": "Annie Shizuka Inoh",
+    "count": 1
+  },
+  {
+    "_id": "Yohei Suzuki",
+    "count": 1
+  },
+  {
+    "_id": "Jasmin Cvisic",
+    "count": 1
+  },
+  {
+    "_id": "Gene Deitch",
+    "count": 1
+  },
+  {
+    "_id": "Paolo Genovese",
+    "count": 1
+  },
+  {
+    "_id": "Daniel Porto",
+    "count": 1
+  },
+  {
+    "_id": "Carlos Benpar",
+    "count": 1
+  },
+  {
+    "_id": "Arturo Martínez",
+    "count": 1
+  },
+  {
+    "_id": "Stefan Zagorjan",
+    "count": 1
+  },
+  {
+    "_id": "Aaron Matthews, Richie Sherman",
+    "count": 1
+  },
+  {
+    "_id": "Guido Pieters",
+    "count": 1
+  },
+  {
+    "_id": "Jean-Marie Pallardy",
+    "count": 1
+  },
+  {
+    "_id": "Chandra Siddhartha",
+    "count": 1
+  },
+  {
+    "_id": "Mr. K.C. of England, Mrs. K.C. of England",
+    "count": 1
+  },
+  {
+    "_id": "Eli Elliott",
+    "count": 1
+  },
+  {
+    "_id": "K.M. Chaitanya",
+    "count": 1
+  },
+  {
+    "_id": "Priyadarshan, Kookie V. Gulati",
+    "count": 1
+  },
+  {
+    "_id": "Jerrold Freedman",
+    "count": 1
+  },
+  {
+    "_id": "Mahesh Bhatt",
+    "count": 1
+  },
+  {
+    "_id": "Frank A. Caruso",
+    "count": 1
+  },
+  {
+    "_id": "James O'Brien",
+    "count": 1
+  },
+  {
+    "_id": "Mohana Krishna Indraganti",
+    "count": 1
+  },
+  {
+    "_id": "Danish Aslam",
+    "count": 1
+  },
+  {
+    "_id": "Dusan Szabo",
+    "count": 1
+  },
+  {
+    "_id": "Michal Kolesár",
+    "count": 1
+  },
+  {
+    "_id": "Arun Vaidyanathan",
+    "count": 1
+  },
+  {
+    "_id": "Joseph Rechtman",
+    "count": 1
+  },
+  {
+    "_id": "Ziva Postec",
+    "count": 1
+  },
+  {
+    "_id": "Gary Watson",
+    "count": 1
+  },
+  {
+    "_id": "Jean Yarbrough",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Burr",
+    "count": 1
+  },
+  {
+    "_id": "Emiliano Monaco",
+    "count": 1
+  },
+  {
+    "_id": "Hironori Taniguchi",
+    "count": 1
+  },
+  {
+    "_id": "William K.L. Dickson",
+    "count": 1
+  },
+  {
+    "_id": "Frank Lotito",
+    "count": 1
+  },
+  {
+    "_id": "Erwin C. Dietrich",
+    "count": 1
+  },
+  {
+    "_id": "James T. Hong",
+    "count": 1
+  },
+  {
+    "_id": "Mikheil Antadze",
+    "count": 1
+  },
+  {
+    "_id": "Brian Klein",
+    "count": 1
+  },
+  {
+    "_id": "Ralph Thomas",
+    "count": 1
+  },
+  {
+    "_id": "Tamer Mohsen",
+    "count": 1
+  },
+  {
+    "_id": "Don Bluth, Gary Goldman, Dan Kuenster",
+    "count": 1
+  },
+  {
+    "_id": "Fotis Konstadinidis",
+    "count": 1
+  },
+  {
+    "_id": "Bruce A. Evans",
+    "count": 1
+  },
+  {
+    "_id": "Steve Purcell",
+    "count": 1
+  },
+  {
+    "_id": "Robert Stevenson",
+    "count": 1
+  },
+  {
+    "_id": "Yolanda García Serrano, Juan Luis Iborra",
+    "count": 1
+  },
+  {
+    "_id": "Dale Resteghini",
+    "count": 1
+  },
+  {
+    "_id": "Fede Alvarez",
+    "count": 1
+  },
+  {
+    "_id": "José Sacramento",
+    "count": 1
+  },
+  {
+    "_id": "Travis Betz",
+    "count": 1
+  },
+  {
+    "_id": "Gábor Murai",
+    "count": 1
+  },
+  {
+    "_id": "Maurício Farias",
+    "count": 1
+  },
+  {
+    "_id": "Ashok Kumar",
+    "count": 1
+  },
+  {
+    "_id": "Zoya Akhtar",
+    "count": 1
+  },
+  {
+    "_id": "Kalpana Lajmi",
+    "count": 1
+  },
+  {
+    "_id": "Karl DiPelino, Mark Dury",
+    "count": 1
+  },
+  {
+    "_id": "Blackie Shou Liang Ko",
+    "count": 1
+  },
+  {
+    "_id": "Fernando Montaño",
+    "count": 1
+  },
+  {
+    "_id": "Larry Semon",
+    "count": 1
+  },
+  {
+    "_id": "Michael Goldberg",
+    "count": 1
+  },
+  {
+    "_id": "Mushtaq Pasha",
+    "count": 1
+  },
+  {
+    "_id": "Tim King",
+    "count": 1
+  },
+  {
+    "_id": "Dale Stelly",
+    "count": 1
+  },
+  {
+    "_id": "William Haggar",
+    "count": 1
+  },
+  {
+    "_id": "Arié Ohayon",
+    "count": 1
+  },
+  {
+    "_id": "Christoph Schlingensief",
+    "count": 1
+  },
+  {
+    "_id": "Stan Brakhage",
+    "count": 1
+  },
+  {
+    "_id": "Brian Henson",
+    "count": 1
+  },
+  {
+    "_id": "Travis Mills",
+    "count": 1
+  },
+  {
+    "_id": "Mario Monicelli",
+    "count": 1
+  },
+  {
+    "_id": "Vittorio De Seta",
+    "count": 1
+  },
+  {
+    "_id": "Gilles Ivan, Vitold Krysinsky",
+    "count": 1
+  },
+  {
+    "_id": "Friz Freleng",
+    "count": 1
+  },
+  {
+    "_id": "Rizal Mantovani",
+    "count": 1
+  },
+  {
+    "_id": "Can Togay",
+    "count": 1
+  },
+  {
+    "_id": "Kyle Kelley",
+    "count": 1
+  },
+  {
+    "_id": "Kieron Estrada, JoJo Henrickson",
+    "count": 1
+  },
+  {
+    "_id": "Travis Zariwny",
+    "count": 1
+  },
+  {
+    "_id": "Bob Bennett",
+    "count": 1
+  },
+  {
+    "_id": "Stephen Roberts",
+    "count": 1
+  },
+  {
+    "_id": "Aldo, Giacomo, Giovanni, Massimo Venier",
+    "count": 1
+  },
+  {
+    "_id": "Hervé Bodilis",
+    "count": 1
+  },
+  {
+    "_id": "Yann Samuell",
+    "count": 1
+  },
+  {
+    "_id": "Michael Dowse",
+    "count": 1
+  },
+  {
+    "_id": "James Ivory",
+    "count": 1
+  },
+  {
+    "_id": "William Dear",
+    "count": 1
+  },
+  {
+    "_id": "L. Ron Hubbard",
+    "count": 1
+  },
+  {
+    "_id": "Kamal",
+    "count": 1
+  },
+  {
+    "_id": "Jeph Joseph, Jeff Dandurand",
+    "count": 1
+  },
+  {
+    "_id": "Jaanis Valk",
+    "count": 1
+  },
+  {
+    "_id": "Johnnie To",
+    "count": 1
+  },
+  {
+    "_id": "Steven K. Tsuchida",
+    "count": 1
+  },
+  {
+    "_id": "Darren Lynn Bousman",
+    "count": 1
+  },
+  {
+    "_id": "Matt Williams",
+    "count": 1
+  },
+  {
+    "_id": "Per Åhlin",
+    "count": 1
+  },
+  {
+    "_id": "Lee Tamahori",
+    "count": 1
+  },
+  {
+    "_id": "Christian Frei",
+    "count": 1
+  },
+  {
+    "_id": "Tim Hill",
+    "count": 1
+  },
+  {
+    "_id": "Matt Starr",
+    "count": 1
+  },
+  {
+    "_id": "Gerrard Verhage",
+    "count": 1
+  },
+  {
+    "_id": "Anupam Kher",
+    "count": 1
+  },
+  {
+    "_id": "B. Unnikrishnan",
+    "count": 1
+  },
+  {
+    "_id": "Sean Delgado",
+    "count": 1
+  },
+  {
+    "_id": "John Halas",
+    "count": 1
+  },
+  {
+    "_id": "Aleksandr Strizhenov",
+    "count": 1
+  },
+  {
+    "_id": "Jaume Balagueró, Paco Plaza",
+    "count": 1
+  },
+  {
+    "_id": "Jørgen Roos",
+    "count": 1
+  },
+  {
+    "_id": "Scott Hamilton Kennedy",
+    "count": 1
+  },
+  {
+    "_id": "Robert Sexton",
+    "count": 1
+  },
+  {
+    "_id": "Metodi Andonov",
+    "count": 1
+  },
+  {
+    "_id": "Nathan Williams",
+    "count": 1
+  },
+  {
+    "_id": "Hyeong-yoon Jang",
+    "count": 1
+  },
+  {
+    "_id": "Traude Kogoj, Marcus Marschalek",
+    "count": 1
+  },
+  {
+    "_id": "Jose Poernomo",
+    "count": 1
+  },
+  {
+    "_id": "Johnny Manahan",
+    "count": 1
+  },
+  {
+    "_id": "Nicolas Rossier",
+    "count": 1
+  },
+  {
+    "_id": "Laurent Preyale",
+    "count": 1
+  },
+  {
+    "_id": "César Sandoval",
+    "count": 1
+  },
+  {
+    "_id": "Michel Caputo",
+    "count": 1
+  },
+  {
+    "_id": "Nikolaus Geyrhalter",
+    "count": 1
+  },
+  {
+    "_id": "Evgeny Afineevsky",
+    "count": 1
+  },
+  {
+    "_id": "Metin Erksan",
+    "count": 1
+  },
+  {
+    "_id": "Mitsuaki Kobayashi",
+    "count": 1
+  },
+  {
+    "_id": "Phil Brandt",
+    "count": 1
+  },
+  {
+    "_id": "Po-Cheung Lee",
+    "count": 1
+  },
+  {
+    "_id": "Yuriy Ozerov",
+    "count": 1
+  },
+  {
+    "_id": "F.H. Constantino",
+    "count": 1
+  },
+  {
+    "_id": "Sidney M. Goldin",
+    "count": 1
+  },
+  {
+    "_id": "Samir Karnik",
+    "count": 1
+  },
+  {
+    "_id": "Lenny Epstein",
+    "count": 1
+  },
+  {
+    "_id": "Allen Curtis",
+    "count": 1
+  },
+  {
+    "_id": "Til Schweiger, Lars Gmehling",
+    "count": 1
+  },
+  {
+    "_id": "Duncan Catterall",
+    "count": 1
+  },
+  {
+    "_id": "Kurt Hoffmann",
+    "count": 1
+  },
+  {
+    "_id": "Upendra",
+    "count": 1
+  },
+  {
+    "_id": "Rupert Wyatt",
+    "count": 1
+  },
+  {
+    "_id": "Dominik Graf",
+    "count": 1
+  },
+  {
+    "_id": "Helmer von Lützelburg",
+    "count": 1
+  },
+  {
+    "_id": "Baya Kasmi",
+    "count": 1
+  },
+  {
+    "_id": "Herman Yau",
+    "count": 1
+  },
+  {
+    "_id": "Devin Dehaven",
+    "count": 1
+  },
+  {
+    "_id": "Wei Lo",
+    "count": 1
+  },
+  {
+    "_id": "Chung Wang",
+    "count": 1
+  },
+  {
+    "_id": "Mario J. Ramos",
+    "count": 1
+  },
+  {
+    "_id": "Thomas Helman",
+    "count": 1
+  },
+  {
+    "_id": "Leslie H. Martinson",
+    "count": 1
+  },
+  {
+    "_id": "Ethan Goldwater",
+    "count": 1
+  },
+  {
+    "_id": "Drew Glick",
+    "count": 1
+  },
+  {
+    "_id": "Denis Girisken",
+    "count": 1
+  },
+  {
+    "_id": "Michel Gondry",
+    "count": 1
+  },
+  {
+    "_id": "Bill Brummel",
+    "count": 1
+  },
+  {
+    "_id": "Nando Cicero",
+    "count": 1
+  },
+  {
+    "_id": "George Clooney",
+    "count": 1
+  },
+  {
+    "_id": "Stanley Fung Sui-Fan",
+    "count": 1
+  },
+  {
+    "_id": "Marius Holst",
+    "count": 1
+  },
+  {
+    "_id": "Mick Jackson",
+    "count": 1
+  },
+  {
+    "_id": "Thilo Pohle",
+    "count": 1
+  },
+  {
+    "_id": "Junji Sakamoto",
+    "count": 1
+  },
+  {
+    "_id": "Matt Angel",
+    "count": 1
+  },
+  {
+    "_id": "Andrea Oster",
+    "count": 1
+  },
+  {
+    "_id": "Simon De Selva",
+    "count": 1
+  },
+  {
+    "_id": "Jeff Rosenberg",
+    "count": 1
+  },
+  {
+    "_id": "Brian Ward",
+    "count": 1
+  },
+  {
+    "_id": "Ermanno Alini, Filippo Grilli",
+    "count": 1
+  },
+  {
+    "_id": "William Clemens",
+    "count": 1
+  },
+  {
+    "_id": "Kunitaka Okubo",
+    "count": 1
+  },
+  {
+    "_id": "António-Pedro Vasconcelos",
+    "count": 1
+  },
+  {
+    "_id": "Brandon Vietti",
+    "count": 1
+  },
+  {
+    "_id": "Gore Verbinski",
+    "count": 1
+  },
+  {
+    "_id": "Steve Carr",
+    "count": 1
+  },
+  {
+    "_id": "Robert Fuest",
+    "count": 1
+  },
+  {
+    "_id": "Roy Rutngamlug",
+    "count": 1
+  },
+  {
+    "_id": "Rouben Mamoulian",
+    "count": 1
+  },
+  {
+    "_id": "August Everding",
+    "count": 1
+  },
+  {
+    "_id": "Shashilal K. Nair",
+    "count": 1
+  },
+  {
+    "_id": "Roger Spottiswoode, Buzz Kulik",
+    "count": 1
+  },
+  {
+    "_id": "Edward James",
+    "count": 1
+  },
+  {
+    "_id": "Penny Marshall",
+    "count": 1
+  },
+  {
+    "_id": "Romy Suzara",
+    "count": 1
+  },
+  {
+    "_id": "Kevin Lacy",
+    "count": 1
+  },
+  {
+    "_id": "Szilveszter Siklósi",
+    "count": 1
+  },
+  {
+    "_id": "Pieter Kuijpers",
+    "count": 1
+  },
+  {
+    "_id": "Gary Halvorson",
+    "count": 1
+  },
+  {
+    "_id": "Nick Gomez",
+    "count": 1
+  },
+  {
+    "_id": "Ere Kokkonen",
+    "count": 1
+  },
+  {
+    "_id": "Meng Hua Ho",
+    "count": 1
+  },
+  {
+    "_id": "Noriyuki Abe",
+    "count": 1
+  },
+  {
+    "_id": "Alex Raskin",
+    "count": 1
+  },
+  {
+    "_id": "Luis Alberto Cabrera, Heidnaldo da Silva",
+    "count": 1
+  },
+  {
+    "_id": "B.S. Johnson",
+    "count": 1
+  },
+  {
+    "_id": "Quasarman",
+    "count": 1
+  },
+  {
+    "_id": "Ariel Sebastián Maggi",
+    "count": 1
+  },
+  {
+    "_id": "Jon Burton",
+    "count": 1
+  }
+]

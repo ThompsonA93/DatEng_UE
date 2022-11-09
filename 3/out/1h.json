@@ -1,0 +1,11 @@
+[
+  {
+    "actors": ["Martin Lawrence", "Will Smith", "Jordi Mollà", "Gabrielle Union"],
+    "awards": {
+      "wins": 5,
+      "nominations": 12,
+      "text": "5 wins & 12 nominations."
+    },
+    "title": "Bad Boys II"
+  }
+]
