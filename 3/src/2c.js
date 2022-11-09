@@ -7,16 +7,28 @@ use video;
 // ???
 db.video_movieDetails.find({countries: "France"})
 
-// FIXME
-db.video_movies([{
+// Stackoverflowed++?
+db.video_movies.aggregate([{
     $lookup: {
-        from: "video_movieDetails",
-        let: {
-            movie_title: "$title", movie_country: "$country"
+        from: 'movie_details',
+        foreignField: 'imdb.id',
+        localField: 'imdb',
+        as: 'details'
+    }
+},{
+    $project: {
+        title: 1,
+        countries: {
+            "$arrayElemAt": ["$details.countries", 0]
         },
-        pipeline: [{
-            $match: { $country: "France"}
-        }]
+    }
+},{
+    $match: {
+        "countries": "France"
+    }
+},{ 
+    $project: {
+        title: 1,
+        _id: 0
     }
 }])
-
