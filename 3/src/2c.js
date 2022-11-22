@@ -4,31 +4,57 @@
 
 use video;
 
+
+db.video_movies.find()
+
+db.video_movieDetails.find()
+
 // ???
 db.video_movieDetails.find({countries: "France"})
 
-// Stackoverflowed++?
+// Using lookup
+/*
+{
+   $lookup:
+     {
+       from: <collection to join>,
+       localField: <field from the input documents>,
+       foreignField: <field from the documents of the "from" collection>,
+       as: <output array field>
+     }
+}
+SELECT *, <output array field>
+FROM collection
+WHERE <output array field> IN (
+   SELECT *
+   FROM <collection to join>
+   WHERE <foreignField> = <collection.localField>
+);
+*/
+// Aggregate the Moviedetails
 db.video_movies.aggregate([{
     $lookup: {
-        from: 'movie_details',
-        foreignField: 'imdb.id',
-        localField: 'imdb',
-        as: 'details'
+        localField: "title",
+        from: "video_movieDetails",
+        foreignField: "title",
+        as: "movieDetails_lookup"
     }
-},{
-    $project: {
-        title: 1,
-        countries: {
-            "$arrayElemAt": ["$details.countries", 0]
-        },
-    }
-},{
-    $match: {
-        "countries": "France"
-    }
-},{ 
-    $project: {
-        title: 1,
-        _id: 0
+}])
+
+// Select from aggregated Array where Country = France
+db.video_movies.aggregate([{
+    $lookup: {
+        localField: "title",
+        from: "video_movieDetails",
+        foreignField: "title",
+        as: "movieDetails_lookup",
+        let: { title: "$title", country: "$country"},
+        pipeline: [{
+            $match: {
+                $expr: {
+                    country: "France"
+                }
+            }
+        }]
     }
 }])
