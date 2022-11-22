@@ -108,10 +108,17 @@ CREATE TABLE Studyplan(
     )
 )
 ```
-To transform this data into a snow flake schema, it would be necessary to split up the dimensionalities into even more tables.
+
+**Notes**: 
+- The linking by a common fact table is done in Task 2, over the table ''Grades''.\
+- The surrogate keys ( ...ID ) were deemed too useful to avoid.
+- To transform this data into a snow flake schema, it would be necessary to split up the dimensionalities into even more tables.
+
+![1a_Tables](doc/1a_Tables.png)
 
 - [ ] Load data from the JSON files
 
+It was decided that the data is imported and transmuted within the database's context.
 
 
 
