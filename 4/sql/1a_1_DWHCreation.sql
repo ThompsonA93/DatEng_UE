@@ -1,4 +1,4 @@
-/** 1a_DWHCreation.sql **/
+/** 1a_1_DWHCreation.sql **/
 DROP TABLE IF EXISTS Lecturer;
 DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Time;
@@ -36,7 +36,7 @@ CREATE TABLE Course(
 
 -- Day → Month → Semester → Year
 CREATE TABLE Time(
-    TimeID INT NOT NULL,
+    TimeID SERIAL NOT NULL, -- Serial: Autogenerate key, as we don't have an ID written in JSON
     Day INT NOT NULL,
     Month INT NOT NULL,
     Semester VARCHAR(255), -- No entry matching semester :: Assuming SS/WS

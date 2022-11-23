@@ -1,6 +1,6 @@
 # Assignment 4
 - [ ] Create A DWH
-  - [ ] 1.a
+  - [X] 1.a
   - [ ] 1.b
 - [ ] DWH Querying
 - [ ] Data Integration
@@ -11,7 +11,7 @@
 
     
 ## Task 1 - Create A DWH
-- [ ] Design a suitable DWH schema
+- [X] Design a suitable DWH schema
 
 Given the required layout for the data as follows ...
 ```c
@@ -36,7 +36,6 @@ StudyPlan:
 ... the utilization of a Star Schema makes sense. \
 Reviewing the available JSON-Data, we can assert the following setup.
 ```sql
-/** 1a_DWHCreation.sql **/
 DROP TABLE IF EXISTS Lecturer;
 DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Time;
@@ -115,6 +114,45 @@ CREATE TABLE Studyplan(
 - To transform this data into a snow flake schema, it would be necessary to split up the dimensionalities into even more tables.
 
 ![1a_Tables](doc/1a_Tables.png)
+
+Utilizing a common fact table as proposed in Task 2 (Grades), we construct the DWH Star Schema as such:
+
+```sql
+/* 1a_2_GradesCreation.sql */
+-- Creation of fact table (Grades)
+DROP TABLE IF EXISTS Grades;
+
+-- Needs to correlate to the tables in 1a
+CREATE TABLE Grades(
+    GradeID SERIAL NOT NULL,
+    LecturerKey INT NOT NULL,
+    CourseKey VARCHAR(255) NOT NULL,
+    TimeKey INT NOT NULL,
+    StudentKey INT NOT NULL,
+    StudyplanKey INT NOT NULL,
+    CONSTRAINT PK_Grades PRIMARY KEY(
+        GradeID
+    ),
+    CONSTRAINT FK_Lecturer FOREIGN KEY (LecturerKey)
+        REFERENCES  lecturer(lecturerid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Course FOREIGN KEY (CourseKey)
+        REFERENCES course(courseid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Time FOREIGN KEY (TimeKey)
+        REFERENCES time(timeid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Student FOREIGN KEY (StudentKey)
+        REFERENCES student(studentid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Studyplan FOREIGN KEY (StudyplanKey)
+        REFERENCES studyplan(studyplanid)
+        ON DELETE CASCADE
+);
+```
+
+
+![1a_FactTable](doc/1a_FactTable.png)
 
 - [ ] Load data from the JSON files
 
