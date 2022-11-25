@@ -156,11 +156,12 @@ CREATE TABLE Grades(
 
 - [ ] Load data from the JSON files
 
-Reformatting the data:
-- Typos in resultlist_webtech & resultlist_interop ( Missing ':' )
+Considerations & reformatting of available data:
+- Typos, such as missing ':' (resultlist_webtech, resultlist_interop)
+- Missing Data (Date in resultlist_datenbaken)
+- Arrays of different length indicate incomplete/overfull data collections 
 
-It was decided that the data is imported and transmuted within the database's context.
-
+The data is then loaded into temporary tables for further restructuring (see *1b_1_RawJSONImport.sql*)
 
 
 ## Task 2 - DWH Querying

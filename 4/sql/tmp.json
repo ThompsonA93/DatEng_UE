@@ -1,0 +1,50 @@
+[
+  {
+    "id": "623.254",
+    "ECTS": "3",
+    "type": "VC",
+    "title": "Current Topics in Information Systems Engineering",
+    "lecturer": "772243224",
+    "department": "AINF"
+  },
+  {
+    "id": "624.002",
+    "ECTS": "1",
+    "type": "PV",
+    "title": "Privatissimum für Diplomand/inn/en und Dissertant/inn/en",
+    "lecturer": "772243224",
+    "department": "ISYS"
+  },
+  {
+    "id": "623.250",
+    "ECTS": "4",
+    "type": "VC",
+    "title": "Interoperability",
+    "lecturer": "772243224",
+    "department": "ISYS"
+  },
+  {
+    "id": "623.500",
+    "ECTS": "4",
+    "type": "VC",
+    "title": "Data Engineering",
+    "lecturer": "772243224",
+    "department": "ISYS"
+  },
+  {
+    "id": "623.502",
+    "ECTS": "4",
+    "type": "VC",
+    "title": "Distributed Computing Infrastructures",
+    "lecturer": "2077308266",
+    "department": "ITEC"
+  },
+  {
+    "id": "623.252",
+    "ECTS": "2",
+    "type": "VC",
+    "title": "Process Engineering",
+    "lecturer": "834107405",
+    "department": "ISYS"
+  }
+]
