@@ -156,6 +156,9 @@ CREATE TABLE Grades(
 
 - [ ] Load data from the JSON files
 
+Reformatting the data:
+- Typos in resultlist_webtech & resultlist_interop ( Missing ':' )
+
 It was decided that the data is imported and transmuted within the database's context.
 
 

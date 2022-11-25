@@ -1,0 +1,16 @@
+{
+    "master_study_plans": [
+        {
+            "id": "922",
+            "name": "Wirtschaftsinformatik",
+            "type": "Master",
+            "branch": "Economics"
+        },
+        {
+            "id": "911",
+            "name": "Angewandte Informatik",
+            "type": "Master",
+            "branch": "Technical Studies"
+        }
+    ]
+}

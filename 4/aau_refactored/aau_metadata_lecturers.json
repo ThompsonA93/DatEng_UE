@@ -1,0 +1,24 @@
+{
+  "lecturers": [
+    {
+      "id": "36866626",
+      "name": "Assoc.Prof. Dipl.-Ing. Dr. Klaus Schöffmann",
+      "department": "ITEC"
+    },
+    {
+      "id": "2077308266",
+      "name": "Postdoc-Ass. Dr. Dragi Kimovski",
+      "department": "ITEC"
+    },
+    {
+      "id": "834107405",
+      "name": "O.Univ.-Prof. Dipl.-Ing. Dr. Johann Eder ",
+      "department": "ISYS"
+    },
+    {
+      "id": "772243224",
+      "name": "Assoc.-Prof. DI. Dr. Julius Köpke",
+      "department": "ISYS"
+    }
+  ]
+}

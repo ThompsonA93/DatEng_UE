@@ -1,0 +1,14 @@
+{
+    "bachelor_study_plans": [
+        {
+            "id": "511",
+            "name": "Angewandte Informatik",
+            "branch": "Technical Studies"
+        },
+        {
+            "id": "522",
+            "name": "Wirtschaftsinformatik",
+            "branch": "Economoics"
+        }
+    ]
+}

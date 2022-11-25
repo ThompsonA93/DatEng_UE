@@ -3,7 +3,12 @@
 DROP TABLE IF EXISTS json_aau_corses;
 DROP TABLE IF EXISTS json_aau_metadata;
 
-/* Just failed & kept failing
+/* -- Just failed & kept failing
+[2022-11-23 09:57:43] [22P02] ERROR: invalid input syntax for type json
+[2022-11-23 09:57:43] Detail: The input string ended unexpectedly.
+[2022-11-23 09:57:43] Where: JSON data, line 1: {
+[2022-11-23 09:57:43] COPY json_aau_corses, line 1, column data: "{"
+*/
 CREATE TABLE json_aau_corses(
     data jsonb
 );
@@ -12,16 +17,11 @@ CREATE TABLE json_aau_metadata(
     data jsonb
 );
 
-[2022-11-23 09:57:43] [22P02] ERROR: invalid input syntax for type json
-[2022-11-23 09:57:43] Detail: The input string ended unexpectedly.
-[2022-11-23 09:57:43] Where: JSON data, line 1: {
-[2022-11-23 09:57:43] COPY json_aau_corses, line 1, column data: "{"
 
 COPY json_aau_corses FROM '/home/thompson/Projects/DatEng_UE/4/aau/aau_corses.json';
 COPY json_aau_metadata FROM '/home/thompson/Projects/DatEng_UE/4/aau/aau_metadata.json';
-*/
 
-
+/*
 -- https://blog.sqlizer.io/posts/convert-json-to-sql/ ; honestly doesn't look correct
 CREATE TABLE IF NOT EXISTS json_aau_corses (
     "bachelor_id" NUMERIC(6, 3),
@@ -78,3 +78,5 @@ INSERT INTO json_aau_metadata VALUES
     ('ATEOS1000019137','Alpen-Adria-Universität Klagenfurt','Carinthia','Klagenfurt am Wörthersee','Universitätsstraße 65-67',9020,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2077308266,'Postdoc-Ass. Dr. Dragi Kimovski','ITEC'),
     ('ATEOS1000019137','Alpen-Adria-Universität Klagenfurt','Carinthia','Klagenfurt am Wörthersee','Universitätsstraße 65-67',9020,NULL,NULL,NULL,NULL,NULL,NULL,NULL,834107405,'O.Univ.-Prof. Dipl.-Ing. Dr. Johann Eder ','ISYS'),
     ('ATEOS1000019137','Alpen-Adria-Universität Klagenfurt','Carinthia','Klagenfurt am Wörthersee','Universitätsstraße 65-67',9020,NULL,NULL,NULL,NULL,NULL,NULL,NULL,772243224,'Assoc.-Prof. DI. Dr. Julius Köpke','ISYS');
+
+*/

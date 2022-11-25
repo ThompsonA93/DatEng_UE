@@ -1,0 +1,4 @@
+"{'id': '620.220', 'title': 'Einführung in die strukturierte und objektbasierte Programmierung', 'type': 'VO', 'lecturer': '36866626', 'ECTS': '2', 'department': 'ITEC'}"
+"{'id': '621.900', 'title': 'Web-Technologien', 'type': 'VO', 'lecturer': '772243224', 'ECTS': '2', 'department': 'ISYS'}"
+"{'id': '620.050', 'title': 'Datenbanken', 'type': 'VO', 'lecturer': '772243224', 'ECTS': '2', 'department': 'ISYS'}"
+"{'id': '620.050', 'title': 'Datenbanktechnologie', 'type': 'UE', 'lecturer': '772243224', 'ECTS': '2', 'department': 'ISYS'}"
