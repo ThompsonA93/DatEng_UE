@@ -1,15 +1,18 @@
 /** 1b_2_JSONtoStarSchema.sql **/
-/** Required Fields: **/
--- Corses: courseid, course, type, ects, level, department,
--- Metadata: universityname
+/*************/
+/** COURSES **/
+/*************/
+-- Fetch data from:
+--  Corses: courseid, course, type, ects, level, department,
+--  Metadata: universityname
 
--- Selection from metadata
+-- 1. Testselection from metadata
 SELECT
     aau_metadata.data->'name'
 FROM json_aau_metadata as aau_metadata;
 
 
--- Selection from master corses
+-- 2. Testselection from master corses
 SELECT
     master_data->>'id' id,
     master_data->>'title' title,
@@ -21,15 +24,12 @@ FROM json_aau_corses as masters,
     jsonb_array_elements(masters.data->'master') master_data;
 
 
--- Select Levels for each course
+-- 3. Testselect Levels for each course
 SELECT
     jsonb_object_keys(corses.data) as "Level"
 FROM json_aau_corses as corses;
 
-
--- Merge previous statements and insert into course table
--- INSERT INTO course(courseid, course, "Type", ects, "Level", department, universityname)
--- Select Levels for each course
+-- 4. HOW NOT TO SELECT
 SELECT
     master_data->>'id' id,
     master_data->>'title' title,
@@ -47,6 +47,7 @@ INSERT INTO course(
     courseid, course, "Type", ects, "Level", department, universityname
 )
 */
+-- SELECT ALL DATA AND INSERT INTO COURSES
 INSERT INTO course(
     courseid, course, "Type", ects, "Level", department, universityname
 )
@@ -54,8 +55,7 @@ SELECT
     course_data->>'id' id,
     course_data->>'title' title,
     course_data->>'type' "type",
---    course_data->>'ECTS' ects,
-    CAST(course_data->>'ECTS' AS INT),
+    CAST(course_data->>'ECTS' AS INT),  -- Cast from Text to Int necessary
     levels,
     course_data->>'department' department,
     metadata.data->'name' "universityname"
@@ -63,3 +63,29 @@ FROM json_aau_corses as courses,
      json_aau_metadata as metadata,
      jsonb_object_keys(courses.data) as levels,
      jsonb_array_elements(courses.data->levels) course_data;
+
+
+/*
+INSERT INTO lecturer(
+    lecturerid, "Name", rank, title, department, university
+)
+*/
+SELECT
+    lecturer_data->>'id' id,
+--    lecturer_data->>'name' "name",
+    split_part(lecturer_data->>'name',' ','1') "rank",
+    split_part(lecturer_data->>'name',' ','2') "title",
+    split_part(lecturer_data->>'name',' ','3') "Name",
+    lecturer_data->>'department' department,
+    metadata.data->>'name' university
+FROM json_aau_metadata as metadata,
+     jsonb_array_elements(metadata.data->'lecturers') lecturer_data;
+
+-- FIXME
+-- @Require String separation for Title
+SELECT
+    split_part(lecturer_data->>'name',' ','1') "rank",
+    substring(lecturer_data->>'name' FROM '(Dr.)') "title",
+    substring(lecturer_data->>'name' FROM '\w+ \w+') "name"
+FROM json_aau_metadata as metadata,
+     jsonb_array_elements(metadata.data->'lecturers') lecturer_data;
