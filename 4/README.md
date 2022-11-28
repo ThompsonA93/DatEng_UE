@@ -160,6 +160,7 @@ Considerations & reformatting of available data:
 - Typos, such as missing ':' (resultlist_webtech, resultlist_interop)
 - Missing Data (Date in resultlist_datenbaken)
 - Arrays of different length indicate incomplete/overfull data collections 
+- Multiple unique identifier "Datenbanktechnologien" & "Datenbanken" have both the ID "620.050"
 
 The data is then loaded into temporary tables for further restructuring (see *1b_1_RawJSONImport.sql*)
 

@@ -126,7 +126,7 @@ INSERT INTO json_aau_corses VALUES(
       "department": "ISYS"
     },
     {
-      "id": "620.050",
+      "id": "620.051",
       "title": "Datenbanktechnologie",
       "type": "UE",
       "lecturer": "772243224",

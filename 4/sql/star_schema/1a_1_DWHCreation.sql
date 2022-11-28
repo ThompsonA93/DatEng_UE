@@ -44,7 +44,7 @@ CREATE TABLE Time(
     CONSTRAINT Pk_Time PRIMARY KEY(
         TimeID
     )
-)
+);
 -- Access each dimensionality of Time (D, M, Y) -> Index
 -- https://dba.stackexchange.com/questions/31420/how-to-create-unique-index-for-month-and-year-column
 CREATE UNIQUE INDEX ON Time("Day", "Month", "Year");

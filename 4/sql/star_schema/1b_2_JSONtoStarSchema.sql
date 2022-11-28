@@ -42,6 +42,24 @@ FROM json_aau_corses as masters,
      json_aau_metadata as metadata,
     jsonb_array_elements(masters.data->'master') master_data;
 
-
-
-
+/*
+INSERT INTO course(
+    courseid, course, "Type", ects, "Level", department, universityname
+)
+*/
+INSERT INTO course(
+    courseid, course, "Type", ects, "Level", department, universityname
+)
+SELECT
+    course_data->>'id' id,
+    course_data->>'title' title,
+    course_data->>'type' "type",
+--    course_data->>'ECTS' ects,
+    CAST(course_data->>'ECTS' AS INT),
+    levels,
+    course_data->>'department' department,
+    metadata.data->'name' "universityname"
+FROM json_aau_corses as courses,
+     json_aau_metadata as metadata,
+     jsonb_object_keys(courses.data) as levels,
+     jsonb_array_elements(courses.data->levels) course_data;
