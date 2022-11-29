@@ -1,7 +1,7 @@
 # Assignment 4
-- [ ] Create A DWH
+- [X] Create A DWH
   - [X] 1.a
-  - [ ] 1.b
+  - [X] 1.b
 - [ ] DWH Querying
 - [ ] Data Integration
   - [ ] 3.a
@@ -116,7 +116,6 @@ CREATE TABLE Studyplan(
 ![1a_Tables](doc/1a_Tables.png)
 
 Utilizing a common fact table as proposed in Task 2 (Grades), we construct the DWH Star Schema as such:
-
 ```sql
 /* 1a_2_GradesCreation.sql */
 -- Creation of fact table (Grades)
@@ -154,7 +153,7 @@ CREATE TABLE Grades(
 
 ![1a_FactTable](doc/1a_FactTable.png)
 
-- [ ] Load data from the JSON files
+- [X] Load data from the JSON files
 
 Considerations & reformatting of available data:
 - Typos, such as missing ':' (resultlist_webtech, resultlist_interop)
@@ -162,7 +161,12 @@ Considerations & reformatting of available data:
 - Arrays of different length indicate incomplete/overfull data collections 
 - Multiple unique identifier "Datenbanktechnologien" & "Datenbanken" have both the ID "620.050"
 
-The data is then loaded into temporary tables for further restructuring (see *1b_1_RawJSONImport.sql*)
+The data is read and aggregated using a custom python script (see /py/psql_dwh_creator.py )
+
+Using the library ''psycopg2'', a connection to the PSQL interface is created and queries are executed.
+The idea of the script is to fetch the data from the JSON files (IV.) and temporarily store it into predefined arrays.
+Then the data is commited (V.) to each of the generated tables.
+The final commit (VI.) then writes it consistently to the database.
 
 
 ## Task 2 - DWH Querying

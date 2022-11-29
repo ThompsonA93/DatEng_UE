@@ -15,7 +15,7 @@ SLEEP = False
 SLEEP_DURATION = 4
 PRINT = True
 
-# Var
+# Vars
 DATABASE = "aau_dwh"
 
 # Funcs
@@ -36,10 +36,19 @@ conn = psycopg2.connect(
 conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 cursor = conn.cursor()
 
+
+
+
+
+
 ## II. Create DWH
 # FIXME with try/catch when database already exists
 # createdb = "CREATE DATABASE "+DATABASE+";"
 # cursor.execute(createdb)
+
+
+
+
 
 ## III. Create Tables
 # FIXME Try/catch deletion since dependant on grades
@@ -153,6 +162,7 @@ print("! Scanning for tables:")
 cursor.execute("""SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'""")
 for table in cursor.fetchall():
     print("\t", table)
+
 if(SLEEP): t.sleep(SLEEP_DURATION)
 
 ## IV. Fetch Table information from JSON, aggregate necessities and insert into temporary arrays
@@ -226,18 +236,10 @@ for infile in os.listdir(path):
             student.append(entry)
 
 
-#if(PRINT): printPretty("Courses: ", course)
-#if(SLEEP): t.sleep(SLEEP_DURATION)
-#if(PRINT): printPretty("Lecturer: ", lecturer)
-#if(SLEEP): t.sleep(SLEEP_DURATION)
-#if(PRINT): printPretty("Studyplan: ", studyplan)
-#if(SLEEP): t.sleep(SLEEP_DURATION)
-#if(PRINT): printPretty("Time: ", time)
-#if(SLEEP): t.sleep(SLEEP_DURATION)
-#if(PRINT): printPretty("Student:" ,student)
-#if(SLEEP): t.sleep(SLEEP_DURATION)
 
-# Commit data to DB
+
+
+# V. Commit data to DB
 ## lecturer = []   # Name, Rank, Title, Department, University
 ## course = []     # ID, Course, Type, ECTS, Level, Department, University
 ## time = []       # Day, Month, Semester, Year
@@ -278,7 +280,10 @@ cursor.execute("""SELECT * FROM studyplan;""")
 dtable = cursor.fetchall()  
 printPretty("StudyPlanTable", dtable) #print(dtable)
 
-# Commit & clean up
 
+
+
+
+# VI. Commit & clean up
 conn.commit()
 conn.close()
