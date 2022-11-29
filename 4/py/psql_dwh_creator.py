@@ -9,16 +9,21 @@ import json             # JSON handling
 import os               # Reference Directories and Files
 import pandas           # Just for debugging results
 import time as t        # Sleep, just for showcasing
-SLEEP = True           
+
+# Flags
+SLEEP = False     
 SLEEP_DURATION = 4
 PRINT = True
+
+# Var
 DATABASE = "aau_dwh"
 
+# Funcs
 def listToString(list):
     return ' '.join([str(substr) for substr in list])
 
 def printPretty(tablename, data):
-    print("+-+", tablename, "+-+\n",pandas.DataFrame(data).to_markdown(), "\n")
+    print("+-+", tablename, "+-+\n",pandas.DataFrame(data).to_markdown(index=False), "\n")
 
 #
 # CODE
@@ -87,10 +92,6 @@ CREATE TABLE Time(
         TimeID
     )
 );
--- Access each dimensionality of Time (D, M, Y) -> Index
--- https://dba.stackexchange.com/questions/31420/how-to-create-unique-index-for-month-and-year-column
-CREATE UNIQUE INDEX ON Time("Day", "Month", "Year");
-
 
 -- Name
 CREATE TABLE Student(
@@ -180,7 +181,7 @@ with open("../aau/aau_corses.json", mode='r', encoding='utf-8') as course_json:
             #print("!", rank, title, name)
 
             # Name, Rank, Title, Department, University
-            entry = listToString(name),rank,listToString(title),l['department'],metadata_data['name']
+            entry = l['id'],listToString(name),rank,listToString(title),l['department'],metadata_data['name']
             lecturer.append(entry)
 
         # 2. Courses-Table aggregations
@@ -227,8 +228,8 @@ for infile in os.listdir(path):
 
 #if(PRINT): printPretty("Courses: ", course)
 #if(SLEEP): t.sleep(SLEEP_DURATION)
-if(PRINT): printPretty("Lecturer: ", lecturer)
-if(SLEEP): t.sleep(SLEEP_DURATION)
+#if(PRINT): printPretty("Lecturer: ", lecturer)
+#if(SLEEP): t.sleep(SLEEP_DURATION)
 #if(PRINT): printPretty("Studyplan: ", studyplan)
 #if(SLEEP): t.sleep(SLEEP_DURATION)
 #if(PRINT): printPretty("Time: ", time)
@@ -242,11 +243,42 @@ if(SLEEP): t.sleep(SLEEP_DURATION)
 ## time = []       # Day, Month, Semester, Year
 ## student = []    # Name
 ## studyplan = []  # StudyplanTitle, Degree, Branch
-
 for entry in lecturer:
-    sqlquery = "INSERT INTO course VALUES(%s,%s,%s,%s,%s)" % (entry[0],entry[1],entry[2],entry[3],entry[4])
-    print(sqlquery)
-    cursor.execute(sqlquery)
+    query_skel = """INSERT INTO lecturer(lecturerid, "Name", rank, title, department, university) VALUES (%s,%s,%s,%s,%s,%s)"""
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM lecturer;""")
+dtable = cursor.fetchall()  
+printPretty("LecturerTable", dtable) #print(dtable)
 
-# Close & clean up
+for entry in course:
+    query_skel = """INSERT INTO course(courseid, course, "Type", ects, "Level", department, universityname) VALUES (%s,%s,%s,%s,%s,%s,%s)"""
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM course;""")
+dtable = cursor.fetchall()  
+printPretty("CourseTable", dtable) #print(dtable)
+
+for entry in time:
+    query_skel = """INSERT INTO time("Day", "Month", semester, "Year") VALUES (%s,%s,%s,%s)"""
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM time;""")
+dtable = cursor.fetchall()  
+printPretty("TimeTable", dtable) #print(dtable)
+
+for entry in student:
+    query_skel = """INSERT INTO student(studentid, "Name") VALUES (%s,%s) ON CONFLICT DO NOTHING"""
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM student;""")
+dtable = cursor.fetchall()  
+printPretty("StudentTable", dtable) #print(dtable)
+
+for entry in studyplan:
+    query_skel = """INSERT INTO studyplan(studyplanid, studyplantitle, degree, branch) VALUES (%s,%s,%s,%s)"""
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM studyplan;""")
+dtable = cursor.fetchall()  
+printPretty("StudyPlanTable", dtable) #print(dtable)
+
+# Commit & clean up
+
+conn.commit()
 conn.close()
