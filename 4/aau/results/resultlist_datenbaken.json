@@ -1,6 +1,6 @@
 {"course" : "620.050",
 "examinator" : "772243224",
-"date" : "2022",
+"date" : "2022-06-24",
 "results" : [
 	{"matno" : "9000001", "name":"Hannah Müller", "grade" : "4", "studyplan" : "522"},
 	{"matno" : "9000004", "name":"Leonie Fischer", "grade" : "2", "studyplan" : "511"},

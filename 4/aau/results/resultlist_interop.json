@@ -1,7 +1,7 @@
 {"course" : "623.250",
 "examinator" : "772243224",
 "date" : "2022-01-25",
-"results" [
+"results": [
 	{"matno" : "9000002", "name":"Hanna Schmidt", "grade" : "3", "studyplan" : "911"},
 	{"matno" : "9000003", "name":"Leoni Schneider", "grade" : "3", "studyplan" : "922"},
 	{"matno" : "9000006", "name":"Lea Meyer", "grade" : "2", "studyplan" : "911"},
