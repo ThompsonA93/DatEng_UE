@@ -54,7 +54,8 @@ cursor = conn.cursor()
 # FIXME Try/catch deletion since dependant on grades
 create_tables = """
 /** 1a_1_DWHCreation.sql **/
-DROP TABLE IF EXISTS Grades; -- Temporarily from 2nd script
+DROP TABLE IF EXISTS Grades;    -- Fact table
+DROP TABLE IF EXISTS Exams;     -- Secondary Fact Table
 DROP TABLE IF EXISTS Lecturer;
 DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Time;
@@ -127,7 +128,6 @@ cursor.execute(create_tables)
 create_fact_table = """
 /* 1a_2_GradesCreation.sql */
 -- Creation of fact table (Grades)
-
 -- Needs to correlate to the tables in 1a
 CREATE TABLE Grades(
     GradeID SERIAL NOT NULL,
@@ -155,6 +155,28 @@ CREATE TABLE Grades(
         REFERENCES studyplan(studyplanid)
         ON DELETE CASCADE
 );
+
+-- Creation of secondary fact table
+CREATE TABLE Exam(
+    ExamID VARCHAR(255) NOT NULL,
+    Grade INT NOT NULL,
+    LecturerKey INT NOT NULL,
+    StudentKey INT NOT NULL,
+    StudyplanKey INT NOT NULL,
+    CONSTRAINT PK_Exam PRIMARY KEY(
+        ExamID
+    ),
+    CONSTRAINT FK_Lecturer FOREIGN KEY (LecturerKey)
+        REFERENCES  lecturer(lecturerid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Student FOREIGN KEY (StudentKey)
+        REFERENCES student(studentid)
+        ON DELETE CASCADE,
+    CONSTRAINT FK_Studyplan FOREIGN KEY (StudyplanKey)
+        REFERENCES studyplan(studyplanid)
+        ON DELETE CASCADE
+);
+
 """
 cursor.execute(create_fact_table)
 
@@ -171,6 +193,7 @@ course = []     # ID, Course, Type, ECTS, Level, Department, University
 time = []       # Day, Month, Semester, Year
 student = []    # Name
 studyplan = []  # StudyplanTitle, Degree, Branch
+exams = []      # ExamID, Grade, LecturerKey, StudentKey, StudyplanKey
 
 with open("../aau/aau_corses.json", mode='r', encoding='utf-8') as course_json:
     with open("../aau/aau_metadata.json", mode='r', encoding='utf-8') as metadata_json:
@@ -235,8 +258,9 @@ for infile in os.listdir(path):
             entry = r['matno'], r['name']
             student.append(entry)
 
-
-
+        # 6. Exam-Table
+        # ExamID, Grade, LecturerKey, StudentKey, StudyplanKey
+        # TODO Insert grades WHERE key = fk_key
 
 
 # V. Commit data to DB

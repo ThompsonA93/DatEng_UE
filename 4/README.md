@@ -171,8 +171,16 @@ The final commit (VI.) then writes it consistently to the database.
 
 ## Task 2 - DWH Querying
 - [ ] The data should now be shown as a pivot table with the dimensions of student, StudyPlan, and lecturer showing the average grades.
+
+In order to aggregate over the average of grades, we are required to import this data aswell.
+
+
+
 - [ ] Write a query in SQL returning all required data to fill the pivot table and supporting OLAP
 operations on the pivot table without issuing an additional query.
+
+> https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cube/
+
 - [ ] It is sufficient to only provide the required data in form of an SQL result. You may sketch how the SQL result set relates to the cells of a pivot table. 
 
 ## Task 3 - Data Integration
