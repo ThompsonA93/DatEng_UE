@@ -28,34 +28,36 @@ def printPretty(tablename, data):
 #
 # CODE
 #
-## I. Connect to the PSQL Database
-# FIXME Try catch if database does not exist yet
-conn = psycopg2.connect(
-    user="postgres", password="1q2w3e4r", host='localhost', port='5432', database=DATABASE
-)
-conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
-cursor = conn.cursor()
+## I. Connect or Create+Connect to the PSQL Database
+conn = None
+cursor = None
+print("! Trying to connect to DB")
+try:
+    print("! DB found: %s", DATABASE)
+    conn = psycopg2.connect(
+        user="postgres", password="1q2w3e4r", host='localhost', port='5432', database=DATABASE  
+    )
+    conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+    cursor = conn.cursor()
+except:
+    print("! Database does not exist yet -- Creating and connecting %s", DATABASE)
+    createdb = "CREATE DATABASE "+DATABASE+";"
+    cursor.execute(createdb)
+    conn = psycopg2.connect(
+        user="postgres", password="1q2w3e4r", host='localhost', port='5432', database=DATABASE  
+    )
+    conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+    cursor = conn.cursor()
 
 
 
-
-
-
-## II. Create DWH
-# FIXME with try/catch when database already exists
-# createdb = "CREATE DATABASE "+DATABASE+";"
-# cursor.execute(createdb)
-
-
-
+if(SLEEP): t.sleep(SLEEP_DURATION)
 
 
 ## III. Create Tables
-# FIXME Try/catch deletion since dependant on grades
 create_tables = """
 /** 1a_1_DWHCreation.sql **/
-DROP TABLE IF EXISTS Grades;    -- Fact table
-DROP TABLE IF EXISTS Exams;     -- Secondary Fact Table
+DROP TABLE IF EXISTS Grades;
 DROP TABLE IF EXISTS Lecturer;
 DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Time;
@@ -131,6 +133,7 @@ create_fact_table = """
 -- Needs to correlate to the tables in 1a
 CREATE TABLE Grades(
     GradeID SERIAL NOT NULL,
+    Grade INT NOT NULL, 
     LecturerKey INT NOT NULL,
     CourseKey VARCHAR(255) NOT NULL,
     TimeKey INT NOT NULL,
@@ -155,28 +158,6 @@ CREATE TABLE Grades(
         REFERENCES studyplan(studyplanid)
         ON DELETE CASCADE
 );
-
--- Creation of secondary fact table
-CREATE TABLE Exam(
-    ExamID VARCHAR(255) NOT NULL,
-    Grade INT NOT NULL,
-    LecturerKey INT NOT NULL,
-    StudentKey INT NOT NULL,
-    StudyplanKey INT NOT NULL,
-    CONSTRAINT PK_Exam PRIMARY KEY(
-        ExamID
-    ),
-    CONSTRAINT FK_Lecturer FOREIGN KEY (LecturerKey)
-        REFERENCES  lecturer(lecturerid)
-        ON DELETE CASCADE,
-    CONSTRAINT FK_Student FOREIGN KEY (StudentKey)
-        REFERENCES student(studentid)
-        ON DELETE CASCADE,
-    CONSTRAINT FK_Studyplan FOREIGN KEY (StudyplanKey)
-        REFERENCES studyplan(studyplanid)
-        ON DELETE CASCADE
-);
-
 """
 cursor.execute(create_fact_table)
 
@@ -193,7 +174,7 @@ course = []     # ID, Course, Type, ECTS, Level, Department, University
 time = []       # Day, Month, Semester, Year
 student = []    # Name
 studyplan = []  # StudyplanTitle, Degree, Branch
-exams = []      # ExamID, Grade, LecturerKey, StudentKey, StudyplanKey
+grades = []     # GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
 
 with open("../aau/aau_corses.json", mode='r', encoding='utf-8') as course_json:
     with open("../aau/aau_metadata.json", mode='r', encoding='utf-8') as metadata_json:
@@ -252,16 +233,22 @@ for infile in os.listdir(path):
             semester = 'WS'
         entry = day, month, semester, year
         time.append(entry)
+
         # 4. Student-Table 
         # Name
         for r in results_data['results']:
             entry = r['matno'], r['name']
             student.append(entry)
 
-        # 6. Exam-Table
-        # ExamID, Grade, LecturerKey, StudentKey, StudyplanKey
-        # TODO Insert grades WHERE key = fk_key
-
+        # 7. Grades-Table: GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
+        # To enable later search for TimeKey, we are required to split the date similarly as above.
+        for r in results_data['results']:
+            split_date = results_data['date'].split('-')
+            day = split_date[2]
+            month = split_date[1]
+            year = split_date[0]
+            entry = r['grade'], results_data['examinator'], results_data['course'], r['matno'], r['studyplan'], day, month, year
+            grades.append(entry)
 
 # V. Commit data to DB
 ## lecturer = []   # Name, Rank, Title, Department, University
@@ -305,7 +292,25 @@ dtable = cursor.fetchall()
 printPretty("StudyPlanTable", dtable) #print(dtable)
 
 
+# 7. Grades-Table: GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
+#          entry = r['grade'], results_data['examinator'], results_data['course'], r['matno'], r['studyplan'], day, month, year
+# Working Example:
+#   INSERT INTO grades(grade, lecturerkey, coursekey, timekey, studentkey, studyplankey)
+#   SELECT 2, 772243224, '623.254', timeid, 9000078, 911
+#   FROM time
+#   WHERE time."Day" = 24 AND time."Month" = 06 AND time."Year" = 2022;
 
+for entry in grades:
+    query_skel = """
+    INSERT INTO grades(grade, lecturerkey, coursekey, timekey, studentkey, studyplankey)
+    SELECT %s, %s, %s, timeid, %s, %s
+    FROM time
+    WHERE time."Day" = %s AND time."Month" = %s AND time."Year" = %s;
+    """
+    cursor.execute(query_skel, entry)
+cursor.execute("""SELECT * FROM grades;""")
+dtable = cursor.fetchall()  
+printPretty("GradesTable", dtable) #print(dtable)
 
 
 # VI. Commit & clean up
