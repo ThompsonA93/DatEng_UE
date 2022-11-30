@@ -218,8 +218,21 @@ View /sql/2_OLAPQuery.csv for some exemplary aggregations, which was generated b
 
 
 ## Task 3 - Data Integration
-- [ ] Briefly explain the three main phases of Data Integration 
+- [X] Briefly explain the three main phases of Data Integration 
+
+The three main phases of data integration are
+- Schema Alignment: Using multiple schemas of a singular domain, we create a schema providing a unified view of the different sources which captures the relevant aspects of the domain. This includes 3 Steps:
+    * Mediating the Schema ![3_MediatedSchema](doc/3_MediatedSchema.jpg)
+    * Matching Attributes ![3_AttributeMatching](doc/3_AttributeMatching.jpg)
+    * Schema Mapping ![3_SchemaMapping](doc/3_SchemaMapping.jpg)
+- Record Linkage: Views singular records to identify entities on instance level. ![3_RecordLinkage](doc/3_RecordLinkage.jpg)
+- Data fusion: Utilizes record linkage to merge multiple tables of relational information into a single one ![3_DataFusion](doc/3_DataFusion.jpg)
+
+
 - [ ] Why are Precision and Recall insufficient for assessing matching systems in isolation?
+
+
+
 - [ ] Provide an example for a global as view mapping and a local as view mapping for the
 following schema: 
 ```
@@ -234,7 +247,7 @@ MyPobs (svnr,jobtitle)
 rewriting complexity, change of data sources, and constraints over data sources.
 
 
-# References:
+# References & Links
 - Schema pictures generated using Datagrip
 - OLAP pictures: https://en.wikipedia.org/wiki/OLAP_cube
 - OLAP tutorial: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cube/
