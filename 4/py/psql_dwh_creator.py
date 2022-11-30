@@ -49,10 +49,7 @@ except:
     conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
     cursor = conn.cursor()
 
-
-
 if(SLEEP): t.sleep(SLEEP_DURATION)
-
 
 ## III. Create Tables
 create_tables = """
@@ -184,6 +181,7 @@ with open("../aau/aau_corses.json", mode='r', encoding='utf-8') as course_json:
         #print("! Reading meta-data: ", metadata_data)
 
         # 1. Lecturer-table aggregations
+        # LecturerID, "Name", Rank, Title, Department, University
         for l in metadata_data['lecturers']:            
             # Assume: Generate Title by elimination procedure
             #   1. = Always Rank
@@ -240,7 +238,8 @@ for infile in os.listdir(path):
             entry = r['matno'], r['name']
             student.append(entry)
 
-        # 7. Grades-Table: GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
+        # 7. Grades-Table
+        # GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
         # To enable later search for TimeKey, we are required to split the date similarly as above.
         for r in results_data['results']:
             split_date = results_data['date'].split('-')

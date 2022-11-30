@@ -36,6 +36,7 @@ StudyPlan:
 ... the utilization of a Star Schema makes sense. \
 Reviewing the available JSON-Data, we can assert the following setup.
 ```sql
+DROP TABLE IF EXISTS Grades;
 DROP TABLE IF EXISTS Lecturer;
 DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Time;
@@ -45,7 +46,7 @@ DROP TABLE IF EXISTS Studyplan;
 -- {Name, Rank (Univ Ass, Postdoc-Ass, Prof, Ass Prof, …), Title (DI, DR,…)} → Department → University
 CREATE TABLE Lecturer(
     LecturerID INT NOT NULL,
-    Name VARCHAR(255) NOT NULL,
+    "Name" VARCHAR(255) NOT NULL,
     Rank VARCHAR(255) NOT NULL,
     Title VARCHAR(255) NOT NULL,
     Department VARCHAR(255) NOT NULL,
@@ -55,46 +56,42 @@ CREATE TABLE Lecturer(
         -- Benefit: Names the primary key
         LecturerID
     )
-)
+);
 
 -- {Course, Type (VO, VC, UE,…), ECTS, Level} → Department* → UniversityName
 CREATE TABLE Course(
     CourseID VARCHAR(255) NOT NULL, -- "ID listed as XXX.XXX" :: Assuming Varchar due to '.'
     Course VARCHAR(255) NOT NULL,
-    Type VARCHAR(255) NOT NULL,
-    ECTS INT NOT NULL, 
-    Level VARCHAR(255) NOT NULL,
+    "Type" VARCHAR(255) NOT NULL,
+    ECTS INT NOT NULL,
+    "Level" VARCHAR(255) NOT NULL,
     Department VARCHAR(255) NOT NULL,
     UniversityName VARCHAR(255) NOT NULL,
     CONSTRAINT PK_Course PRIMARY KEY (
         CourseID
     )
-)
+);
 
 -- Day → Month → Semester → Year
 CREATE TABLE Time(
-    TimeID INT NOT NULL,
-    Day INT NOT NULL,
-    Month INT NOT NULL,
+    TimeID SERIAL NOT NULL, -- Serial: Autogenerate key, as we don't have an ID written in JSON
+    "Day" INT NOT NULL,
+    "Month" INT NOT NULL,
     Semester VARCHAR(255), -- No entry matching semester :: Assuming SS/WS
-    Year INT NOT NULL,
+    "Year" INT NOT NULL,
     CONSTRAINT Pk_Time PRIMARY KEY(
         TimeID
     )
-)
--- Access each dimensionality of Time (D, M, Y) -> Index
--- https://dba.stackexchange.com/questions/31420/how-to-create-unique-index-for-month-and-year-column
-CREATE UNIQUE INDEX ON Time(Day, Month, Year);
-
+);
 
 -- Name
 CREATE TABLE Student(
     StudentID INT NOT NULL, -- 9,xxx,xxx < 2,147,483,647 (Max INT)
-    Name VARCHAR(255),
+    "Name" VARCHAR(255),
     CONSTRAINT PK_STUDENT PRIMARY KEY(
         StudentID
     )
-)
+);
 
 -- {StudyplanTitle, Degree (Bachelor/Master), Branch (Technical Studies/Economics)}
 CREATE TABLE Studyplan(
@@ -105,12 +102,12 @@ CREATE TABLE Studyplan(
     CONSTRAINT PK_Studyplan PRIMARY KEY(
         StudyplanID
     )
-)
+);
 ```
 
 **Notes**: 
 - The linking by a common fact table is done in Task 2, over the table ''Grades''.\
-- The surrogate keys ( ...ID ) were deemed too useful to avoid.
+- Some surrogate keys ( ...ID ) were deemed too useful to avoid.
 - To transform this data into a snow flake schema, it would be necessary to split up the dimensionalities into even more tables.
 
 ![1a_Tables](doc/1a_Tables.png)
@@ -119,11 +116,10 @@ Utilizing a common fact table as proposed in Task 2 (Grades), we construct the D
 ```sql
 /* 1a_2_GradesCreation.sql */
 -- Creation of fact table (Grades)
-DROP TABLE IF EXISTS Grades;
-
 -- Needs to correlate to the tables in 1a
 CREATE TABLE Grades(
     GradeID SERIAL NOT NULL,
+    Grade INT NOT NULL, 
     LecturerKey INT NOT NULL,
     CourseKey VARCHAR(255) NOT NULL,
     TimeKey INT NOT NULL,
@@ -161,27 +157,65 @@ Considerations & reformatting of available data:
 - Arrays of different length indicate incomplete/overfull data collections 
 - Multiple unique identifier "Datenbanktechnologien" & "Datenbanken" have both the ID "620.050"
 
-The data is read and aggregated using a custom python script (see /py/psql_dwh_creator.py )
+The data is read and aggregated using a custom python script.
+View /py/psql_dwh_creator.py. Refer to the comments within the script for explanations:
 
-Using the library ''psycopg2'', a connection to the PSQL interface is created and queries are executed.
-The idea of the script is to fetch the data from the JSON files (IV.) and temporarily store it into predefined arrays.
-Then the data is commited (V.) to each of the generated tables.
-The final commit (VI.) then writes it consistently to the database.
 
 
 ## Task 2 - DWH Querying
-- [ ] The data should now be shown as a pivot table with the dimensions of student, StudyPlan, and lecturer showing the average grades.
-
-In order to aggregate over the average of grades, we are required to import this data aswell.
-
-
-
-- [ ] Write a query in SQL returning all required data to fill the pivot table and supporting OLAP
+- [X] The data should now be shown as a pivot table with the dimensions of student, StudyPlan, and lecturer showing the average grades. Write a query in SQL returning all required data to fill the pivot table and supporting OLAP
 operations on the pivot table without issuing an additional query.
 
-> https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cube/
+A pivot-table displays relational information via multiple dimensions, similar to cube-like structures.
 
-- [ ] It is sufficient to only provide the required data in form of an SQL result. You may sketch how the SQL result set relates to the cells of a pivot table. 
+![2_Datacube.PNG](doc/2_Datacube.PNG)
+
+In order to query from such a cube, we need to utilize the OLAP operations.
+
+### Slicing
+![2_Datacube.PNG](doc/2_OLAP_slicing_en.png)
+
+Slice is the act of picking a rectangular subset of a cube by choosing a single value for one of its dimensions, creating a new cube with one fewer dimension
+
+### Dicing
+![2_Datacube.PNG](doc/2_OLAP_dicing_en.png)
+
+The dice operation produces a subcube by allowing the analyst to pick specific values of multiple dimensions.
+
+### Drilling Down/Up
+![2_Datacube.PNG](doc/2_OLAP_drill_up&down_en.png)
+
+Drill Down/Up allows the user to navigate among levels of data ranging from the most summarized (up) to the most detailed (down).
+
+### Rollup/Pivoting
+![2_Datacube.PNG](doc/2_OLAP_pivoting_en.png)
+
+A roll-up involves summarizing the data along a dimension. The summarization rule might be an aggregate function, such as computing totals along a hierarchy or applying a set of formulas such as "profit = sales - expenses". General aggregation functions may be costly to compute when rolling up: if they cannot be determined from the cells of the cube, they must be computed from the base data, either computing them online (slow) or precomputing them for possible rollouts (large space). 
+
+To query such operations, we utilize "GROUPING" within the SQL-Query.
+```sql
+SELECT avg(g.grade) as "avg_grade",
+       s.studentid, s."Name",
+       l.lecturerid, l."Name", l.rank, l.title, l.university,
+       s2.studyplanid, s2.studyplantitle, s2.branch, s2.degree
+FROM grades g
+JOIN lecturer l on g.lecturerkey = l.lecturerid
+JOIN student s on g.studentkey = s.studentid
+JOIN studyplan s2 on g.studyplankey = s2.studyplanid
+GROUP BY GROUPING SETS (
+    (s.studentid, s."Name"), (s.studentid),
+    (l.lecturerid, l."Name", l.rank, l.title, l.university), (l.lecturerid, l."Name", l.rank, l.title), (l.lecturerid, l."Name", l.rank), (l.lecturerid, l."Name"), (l.lecturerid),
+    (s2.studyplanid, s2.studyplantitle, s2.branch, s2.degree), (s2.studyplanid, s2.studyplantitle, s2.branch), (s2.studyplanid, s2.studyplantitle), (s2.studyplanid),
+    (s."Name", s2.studyplantitle, l."Name")
+)
+```
+
+- [X] It is sufficient to only provide the required data in form of an SQL result. You may sketch how the SQL result set relates to the cells of a pivot table. 
+
+View /sql/2_OLAPQuery.csv for some exemplary aggregations, which was generated by the SQL-Query above.
+
+
+
 
 ## Task 3 - Data Integration
 - [ ] Briefly explain the three main phases of Data Integration 
@@ -199,3 +233,8 @@ MyPobs (svnr,jobtitle)
 - [ ] Discuss the benefits and drawbacks of local as view vs global as view regarding
 rewriting complexity, change of data sources, and constraints over data sources.
 
+
+# References:
+- Schema pictures generated using Datagrip
+- OLAP pictures: https://en.wikipedia.org/wiki/OLAP_cube
+- OLAP tutorial: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cube/
