@@ -44,5 +44,5 @@ GROUP BY GROUPING SETS (
     (s.studentid, s."Name"), (s.studentid),
     (l.lecturerid, l."Name", l.rank, l.title, l.university), (l.lecturerid, l."Name", l.rank, l.title), (l.lecturerid, l."Name", l.rank), (l.lecturerid, l."Name"), (l.lecturerid),
     (s2.studyplanid, s2.studyplantitle, s2.branch, s2.degree), (s2.studyplanid, s2.studyplantitle, s2.branch), (s2.studyplanid, s2.studyplantitle), (s2.studyplanid),
-    (s."Name", s2.studyplantitle, l."Name")
+    (s."Name", l."Name", s2.studyplantitle)
 )

@@ -11,8 +11,8 @@ import pandas           # Just for debugging results
 import time as t        # Sleep, just for showcasing
 
 # Flags
-SLEEP = False     
-SLEEP_DURATION = 4
+SLEEP = True     
+SLEEP_DURATION = 5
 PRINT = True
 
 # Vars
@@ -33,16 +33,24 @@ conn = None
 cursor = None
 print("! Trying to connect to DB")
 try:
-    print("! DB found: %s", DATABASE)
+    print("! DB found: ", DATABASE)
     conn = psycopg2.connect(
         user="postgres", password="1q2w3e4r", host='localhost', port='5432', database=DATABASE  
     )
     conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
     cursor = conn.cursor()
 except:
-    print("! Database does not exist yet -- Creating and connecting %s", DATABASE)
+    print("! Database does not exist yet -- Creating and connecting ", DATABASE)
+    conn = psycopg2.connect(
+        user="postgres", password="1q2w3e4r", host='localhost', port='5432'
+    )
+    conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+    cursor = conn.cursor()
+    
     createdb = "CREATE DATABASE "+DATABASE+";"
     cursor.execute(createdb)
+    
+    print("! DB found: ", DATABASE)
     conn = psycopg2.connect(
         user="postgres", password="1q2w3e4r", host='localhost', port='5432', database=DATABASE  
     )
@@ -197,8 +205,8 @@ with open("../aau/aau_corses.json", mode='r', encoding='utf-8') as course_json:
             lecturer.append(entry)
 
         # 2. Courses-Table aggregations
-        for c in course_data:
-            for recs in course_data[c]:
+        for c in course_data: # Master / Bachelor
+            for recs in course_data[c]: # Data of singular course
                 # ID, Course, Type, ECTS, Level, Department, University
                 entry = recs['id'],recs['title'],recs['type'],recs['ECTS'],c,recs['department'],metadata_data['name']
                 course.append(entry)
@@ -226,9 +234,9 @@ for infile in os.listdir(path):
         day = split_date[2]
         month = split_date[1]
         year = split_date[0]
-        semester = 'SS'
-        if int(month) >= 6:
-            semester = 'WS'
+        semester = 'WS'
+        if int(month) <= 3 and int(month) <= 7:
+            semester = 'SS'
         entry = day, month, semester, year
         time.append(entry)
 
@@ -262,12 +270,16 @@ cursor.execute("""SELECT * FROM lecturer;""")
 dtable = cursor.fetchall()  
 printPretty("LecturerTable", dtable) #print(dtable)
 
+if(SLEEP): t.sleep(SLEEP_DURATION)
+
 for entry in course:
     query_skel = """INSERT INTO course(courseid, course, "Type", ects, "Level", department, universityname) VALUES (%s,%s,%s,%s,%s,%s,%s)"""
     cursor.execute(query_skel, entry)
 cursor.execute("""SELECT * FROM course;""")
 dtable = cursor.fetchall()  
 printPretty("CourseTable", dtable) #print(dtable)
+
+if(SLEEP): t.sleep(SLEEP_DURATION)
 
 for entry in time:
     query_skel = """INSERT INTO time("Day", "Month", semester, "Year") VALUES (%s,%s,%s,%s)"""
@@ -276,12 +288,16 @@ cursor.execute("""SELECT * FROM time;""")
 dtable = cursor.fetchall()  
 printPretty("TimeTable", dtable) #print(dtable)
 
+if(SLEEP): t.sleep(SLEEP_DURATION)
+
 for entry in student:
     query_skel = """INSERT INTO student(studentid, "Name") VALUES (%s,%s) ON CONFLICT DO NOTHING"""
     cursor.execute(query_skel, entry)
 cursor.execute("""SELECT * FROM student;""")
 dtable = cursor.fetchall()  
 printPretty("StudentTable", dtable) #print(dtable)
+
+if(SLEEP): t.sleep(SLEEP_DURATION)
 
 for entry in studyplan:
     query_skel = """INSERT INTO studyplan(studyplanid, studyplantitle, degree, branch) VALUES (%s,%s,%s,%s)"""
@@ -290,9 +306,11 @@ cursor.execute("""SELECT * FROM studyplan;""")
 dtable = cursor.fetchall()  
 printPretty("StudyPlanTable", dtable) #print(dtable)
 
+if(SLEEP): t.sleep(SLEEP_DURATION)
 
-# 7. Grades-Table: GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
-#          entry = r['grade'], results_data['examinator'], results_data['course'], r['matno'], r['studyplan'], day, month, year
+# 7. Grades-Table: 
+# TABLE: GradeID, Grade, LecturerKey, CourseKey, TimeKey, StudentKey, StudyplanKey
+# ENTRY[] = r['grade'], results_data['examinator'], results_data['course'], r['matno'], r['studyplan'], day, month, year
 # Working Example:
 #   INSERT INTO grades(grade, lecturerkey, coursekey, timekey, studentkey, studyplankey)
 #   SELECT 2, 772243224, '623.254', timeid, 9000078, 911
@@ -310,7 +328,6 @@ for entry in grades:
 cursor.execute("""SELECT * FROM grades;""")
 dtable = cursor.fetchall()  
 printPretty("GradesTable", dtable) #print(dtable)
-
 
 # VI. Commit & clean up
 conn.commit()
