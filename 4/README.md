@@ -2,11 +2,11 @@
 - [X] Create A DWH
   - [X] 1.a
   - [X] 1.b
-- [ ] DWH Querying
-- [ ] Data Integration
-  - [ ] 3.a
-  - [ ] 3.b
-  - [ ] 3.c
+- [X] DWH Querying
+- [X] Data Integration
+  - [X] 3.a
+  - [X] 3.b
+  - [X] 3.c
   - [ ] 3.d
 
     
@@ -231,9 +231,39 @@ The three main phases of data integration are
 
 - [ ] Why are Precision and Recall insufficient for assessing matching systems in isolation?
 
+Precision is a measure to identify what proportion of hits was correct, formulated as $$Precision = \frac{TP}{TP + FP}$$
+
+.. whereas recall (also known as true positive rate or sensitivity) is a measure to identify how many actual hits were identified correctly, formulated as $$Recall = \frac{TP}{TP+FP}$$
+
+![3_PrecisionRecall](doc/3_PrecisionRecall.png)
+
+### Example
+![3_Example](doc/3_Example.jpg)
+
+Assuming this result of an dataset, we can assess the following rates for the class 'Apple':
+| Apple | |
+| --|--|
+| TP | 7 |
+| TN | 8 |
+| FP | 17|
+| FN | 4 |
+
+As such, we can calculate Precision and Recall s.t.
+
+$$Precision = \frac{7}{7+17} = 0,29$$
+$$Recall = \frac{7}{7+4} = 0,64$$
+
+i.e.: 29% (7 out of 24) of positive sample identifications was correct (precision) while 64% (7 out of 11) of actual positives samples were identified correctly.
+
+### Why precision and Recall may be insufficient
+- Precision: perfect score of 1 is achieved if every result is relevan, but doesn´t say whether all relevant results are received. Can be seen as quality measurement.
+- Recall: perfect score of 1 is achieved if all relevant results are received, but it doesn´t say how many are irrelevant. Can be seen as quantity measurement.
+
+In case of precision there might be results missing, even if the score is high. In case of recall there might be entries that are irrelevant.
+Hence, we require additional or combinations of measurements.
 
 
-- [ ] Provide an example for a global as view mapping and a local as view mapping for the
+- [X] Provide an example for a global as view mapping and a local as view mapping for the
 following schema: 
 ```
 Global Schema (PK, FK):
@@ -243,11 +273,30 @@ Local Schema (PK, FK):
 MyPerson(svnr, givenName, lastName, age)
 MyPobs (svnr,jobtitle)
 ```
-- [ ] Discuss the benefits and drawbacks of local as view vs global as view regarding
-rewriting complexity, change of data sources, and constraints over data sources.
+
+```sql
+-- Gav 
+Create view Person as
+  (select svnr as id, givenName, lastName, age from MyPerson)
+  Union
+  (select svnr as id, jobtitle as job from MyPobs)
+
+-- Lav
+Create view MyPerson as
+  Select id as svnr, givenName, lastName, age from person
+Create view myPobs as
+  Select id as svnr, job as jobtitle from person
+```
+
+
+- [ ] Discuss the benefits and drawbacks of local as view vs global as view regarding rewriting complexity, change of data sources, and constraints over data sources.
 
 
 # References & Links
 - Schema pictures generated using Datagrip
 - OLAP pictures: https://en.wikipedia.org/wiki/OLAP_cube
 - OLAP tutorial: https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-cube/
+- Data Engineering lecture slides
+- Artificial Intelligence & Machine learning slides
+- Precision and Recall picture: https://en.wikipedia.org/wiki/Precision_and_recall
+- Precision & Recall example: https://towardsdatascience.com/confusion-matrix-for-your-multi-class-machine-learning-model-ff9aa3bf7826
