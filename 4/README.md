@@ -7,7 +7,7 @@
   - [X] 3.a
   - [X] 3.b
   - [X] 3.c
-  - [ ] 3.d
+  - [X] 3.d
 
     
 ## Task 1 - Create A DWH
@@ -229,7 +229,7 @@ The three main phases of data integration are
 - Data fusion: Utilizes record linkage to merge multiple tables of relational information into a single one ![3_DataFusion](doc/3_DataFusion.jpg)
 
 
-- [ ] Why are Precision and Recall insufficient for assessing matching systems in isolation?
+- [X] Why are Precision and Recall insufficient for assessing matching systems in isolation?
 
 Precision is a measure to identify what proportion of hits was correct, formulated as $$Precision = \frac{TP}{TP + FP}$$
 
@@ -280,16 +280,19 @@ Create view Person as
   (select svnr as id, givenName, lastName, age from MyPerson)
   Union
   (select svnr as id, jobtitle as job from MyPobs)
+```
+Benefit: Easy to expand, since new data just needs to be union'ed
 
+```sql
 -- Lav
 Create view MyPerson as
   Select id as svnr, givenName, lastName, age from person
 Create view myPobs as
   Select id as svnr, job as jobtitle from person
 ```
+Not executable right away; meant for mapping
 
-
-- [ ] Discuss the benefits and drawbacks of local as view vs global as view regarding rewriting complexity, change of data sources, and constraints over data sources.
+- [X] Discuss the benefits and drawbacks of local as view vs global as view regarding rewriting complexity, change of data sources, and constraints over data sources.
 
 
 # References & Links

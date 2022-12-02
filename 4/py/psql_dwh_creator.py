@@ -4,7 +4,7 @@
 # Install requirements using
 # ~$ pip3 install psycopg2-binary pandas
 import psycopg2         # PSQL-Connection
-from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT # FIXME Avoid this, this writes every little things instantly. Write commit() more often
 import json             # JSON handling
 import os               # Reference Directories and Files
 import pandas           # Just for debugging results
@@ -59,7 +59,7 @@ except:
 
 if(SLEEP): t.sleep(SLEEP_DURATION)
 
-## III. Create Tables
+## II. Create Tables
 create_tables = """
 /** 1a_1_DWHCreation.sql **/
 DROP TABLE IF EXISTS Grades;
@@ -264,7 +264,8 @@ for infile in os.listdir(path):
 ## student = []    # Name
 ## studyplan = []  # StudyplanTitle, Degree, Branch
 for entry in lecturer:
-    query_skel = """INSERT INTO lecturer(lecturerid, "Name", rank, title, department, university) VALUES (%s,%s,%s,%s,%s,%s)"""
+    query_skel = """INSERT INTO lecturer(lecturerid, "Name", 
+    rank, title, department, university) VALUES (%s,%s,%s,%s,%s,%s)"""
     cursor.execute(query_skel, entry)
 cursor.execute("""SELECT * FROM lecturer;""")
 dtable = cursor.fetchall()  
