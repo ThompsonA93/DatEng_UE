@@ -293,6 +293,9 @@ Create view myPobs as
 Not executable right away; meant for mapping
 
 - [X] Discuss the benefits and drawbacks of local as view vs global as view regarding rewriting complexity, change of data sources, and constraints over data sources.
+**Lav** -- Source data is specified as view over mediated schema. Complex query answering. New sources can be easily added. Constraints over sources can be expressed in mappings, even if what we look for isn´t part of the source. Good support for constraints on local schema.
+
+**Gav**: Mediated schema is defined as views over data sources. Queries over the mediated schema can be executed easily over the source schema (query answering is very easy). Global view must be modified if we want to add new data. (Hard to add new sources) Very limited support for constraints on local schema. 
 
 
 # References & Links
