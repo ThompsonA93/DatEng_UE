@@ -1,5 +1,5 @@
 #!/bin/bash
-su -c hadoop
+su hadoop
 start-dfs.sh
 start-yarn.sh
 jps

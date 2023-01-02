@@ -8,3 +8,7 @@ count
 and
 count
 words
+and
+or
+but
+hello
