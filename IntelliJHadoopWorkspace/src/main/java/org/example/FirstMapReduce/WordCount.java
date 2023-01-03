@@ -32,6 +32,7 @@ public class WordCount
       FileInputFormat.addInputPath(wcJob, new Path(pathArgs[i]));
     }
     FileOutputFormat.setOutputPath(wcJob, new Path(pathArgs[pathArgs.length - 1]));
-    System.exit(wcJob.waitForCompletion(true) ? 0 : 1);
+    int result = wcJob.waitForCompletion(true) ? 0 : 1;
+    System.exit(result);
   }
 }
